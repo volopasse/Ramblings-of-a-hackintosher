@@ -12,7 +12,7 @@ I am not a "professional" hackintosher in any way. I know how to make one and I 
 * [Post-Install](../master/Post-Install.md)
 * [Tips](../master/Tips.md)
 * [Troubleshooting](../master/Troubleshooting.md)
-* [Credits/Acknowledgements](../master/Credit,md)
+* [Credits/Acknowledgements](../master/Credit.md)
 
 # Some questions
 
