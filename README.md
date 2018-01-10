@@ -5,7 +5,7 @@ level of ease hackintoshing wise).
 
 # Disclaimer
 
-I am not a "professional" hackintosher in any way. I know how to make one and I would like to spread my knowledge.
+We are not "professional" hackintoshers in any way. We know how to get a hackintosh working and I would like to spread my knowledge.
 
 # Table of contents
 * [Pre-Install](../master/Pre-Install.md)
