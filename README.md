@@ -8,7 +8,11 @@ level of ease hackintoshing wise).
 I am not a "professional" hackintosher in any way. I know how to make one and I would like to spread my knowledge.
 
 # Table of contents
-
+* [Pre-Install](../master/Pre-Install.md)
+* [Post-Install](../master/Post-Install.md)
+* [Tips](../master/Tips.md)
+* [Troubleshooting] (../master/Troubleshooting.md)
+* [Credits/Acknowledgements](../master/Credit,md)
 
 # Some questions
 
