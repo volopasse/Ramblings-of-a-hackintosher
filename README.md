@@ -22,7 +22,7 @@ More info can be found [here](https://www.lifewire.com/what-is-hackintosh-832719
 
 You will need a list of your computer's specifications, a general idea of how an operating system works and a high pain tolerance.
 
-More instructions [here](../blob/master/Pre-Install).
+More instructions [here](../blob/master/Pre-Install.md).
 
 ## Will you guide me through every single step personally?
 
@@ -30,4 +30,4 @@ I will not do this, please don't ask anyone but a good friend to do this for you
 
 ## Something broke/ isn't working (correctly)! What do I do?
 
-I recommend you check out this page [here](.../blob/master/Troubleshooting).
+I recommend you check out this page [here](.../blob/master/Troubleshooting,md).
