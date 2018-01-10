@@ -11,7 +11,7 @@ I am not a "professional" hackintosher in any way. I know how to make one and I 
 * [Pre-Install](../master/Pre-Install.md)
 * [Post-Install](../master/Post-Install.md)
 * [Tips](../master/Tips.md)
-* [Troubleshooting] (../master/Troubleshooting.md)
+* [Troubleshooting](../master/Troubleshooting.md)
 * [Credits/Acknowledgements](../master/Credit,md)
 
 # Some questions
