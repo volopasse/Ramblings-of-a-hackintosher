@@ -56,7 +56,7 @@ CloverEFI
 ```
 
 ## Step 3 - Downloading Kexts
-Mount the EFI partition of your USB (howto [here](../blob/master/Tips.md))
+Mount the EFI partition of your USB (howto [here](../master/Tips.md))
 
 We are now going to install some kernel extensions (often referred to as "kexts") necessary for booting at all. These include the following:
 * FakeSMC
