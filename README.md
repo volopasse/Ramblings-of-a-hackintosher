@@ -30,4 +30,4 @@ I will not do this, please don't ask anyone but a good friend to do this for you
 
 ## Something broke/ isn't working (correctly)! What do I do?
 
-I recommend you check out this page [here](../master/Troubleshooting,md).
+I recommend you check out this page [here](../master/Troubleshooting.md).
