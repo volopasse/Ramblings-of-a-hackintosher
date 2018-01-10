@@ -1,7 +1,7 @@
 # Install High Sierra on a hackintosh
 
-You've read it, this guide/repo will guide you on how to install High Sierra to your desktop computer (laptop could work too, I am not going to do that in this guide though sine Laptops aren't in the general 
-level of ease hackintoshing wise).
+You've read it, this guide/repo will guide you on how to install High Sierra to your desktop computer (laptop could work too, I am not going to do that in this guide though since laptops aren't in the general 
+level of difficulty hackintoshing wise).
 
 # Disclaimer
 

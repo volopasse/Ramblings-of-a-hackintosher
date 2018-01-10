@@ -76,3 +76,16 @@ For ease of use, we are going to download [Clover Configurator](http://mackie100
 * In GUI, under Mouse, set Double Click to 500 and Speed to 8. Under scan, select Custom, Entries and Tool.
 * In SMBIOS, click the dropdown button and select [a SMBIOS that corresponds with your system](../master/Tips.md#choosing-a-smbios).
 * If you have an Intel CPU with an iGPU, click the drop-down menu under ig-platform-id and select an id that matches your iGPU.
+* Under Kernel and Kext Patches, check Apple RTC, AppleIntelCPUPM and KernelPM. Also create a new KextsToPatch entry that looks like this:
+```
+Name: AppleUSBXHCIPCI
+Find: 837d8c10
+Replace: 837d8c1b
+Comment: Change 15 port limit to 24 in XHCI kext 10.13
+```
+* In System Paremeters, set Inject Kexts to Yes, check Inject System ID and click Generate New next to Custom UUID. Copy the generated UUID and paste it into smUUID in the SMBIOS section.
+* In Rt Variables, click Generate, set BooterConfig to 0x28 and CSRActiveConfig to 0x3E7.
+
+All done! You can now boot into macOS.
+
+If you get an error while booting, check [troubleshooting](../master/Trobleshooting.md).
