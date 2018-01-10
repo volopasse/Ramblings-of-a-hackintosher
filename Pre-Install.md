@@ -56,7 +56,7 @@ CloverEFI
 ```
 
 ## Step 3 - Downloading Kexts
-Mount the EFI partition of your USB (howto [here](../master/Tips.md))
+Mount the EFI partition of your USB (howto [here](../master/Tips.md#how-to-mount-efi))
 
 We are now going to install some kernel extensions (often referred to as "kexts") necessary for booting at all. These include the following:
 * FakeSMC
@@ -71,3 +71,8 @@ All can be downloaded from [here] (https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cw
 ## Step 4 - Setting up the config.plist
 For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. You can also use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php).
 
+* In Boot: select Verbose (-v) and debug=0x100.
+* In Devices, under USB, select Inject, Add ClockID and FixOwnership. 
+* In GUI, under Mouse, set Double Click to 500 and Speed to 8. Under scan, select Custom, Entries and Tool.
+* In SMBIOS, click the dropdown button and select [a SMBIOS that corresponds with your system](../master/Tips.md#choosing-a-smbios).
+* If you have an Intel CPU with an iGPU, click the drop-down menu under ig-platform-id and select an id that matches your iGPU.
