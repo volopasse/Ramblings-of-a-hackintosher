@@ -27,3 +27,9 @@ Because of the way how vanilla iMacs work, a small piece of a kernel extension t
 * MacPro6,1
 
 You do not have to manually modify anything inside of the kext that causes this issue since [lvs1974](https://sourceforge.net/projects/nvidiagraphicsfixup/) made a kext, called NvidiaGraphicsFixup, to patch this issue. You will need to install Lilu and NvidiaGraphicsFixup to apply this patch. You can download NvidiaGraphicsFixup and Lilu [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ).
+
+NvidiaGraphicsFixup can do a lot of things:
+* Adds the AGDP fix to iMac15,1;, iMac17,1;, iMac18,x and MacPro6,1 SMBIOSes to prevent a black screen after boot.
+* Modifies macOS to recognize NVIDIA's web drivers as platform binaries. This resolves the issue with transparent windows without content, which appear for applications that use Metal and have Library Validation enabled. Common affected applications are iBooks and Little Snitch Network Monitor, though this patch is universal and fixes them all.
+* Injects IOVARendererID into GPU properties (required for Shiki-based solution for non-freezing Intel and/or any discrete GPU)
+* Allows to use ports HDMI, DP, Digital DVI with audio (Injects @0connector-type - @5connector-type properties into GPU)
