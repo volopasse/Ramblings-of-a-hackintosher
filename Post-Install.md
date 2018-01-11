@@ -58,6 +58,6 @@ If you do not have an SMBIOS listed [here](../master/Tips.md#nvidiagraphicsfixup
 If you have an AMD GPU, make sure to get `WhateverGreen.kext` and Lilu. 
 (Disclaimer: This works on some cards. There are often extra steps that need to take place for you to get full graphics acceleration.)
 
-If you have the iMac15,1 or up (iMac17,1, iMac18,x) or MacPro6,1 SMBIOS, you will need to follow the instructions [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained).
+If you have the iMac15,1 and up (iMac17,1, iMac18,x) or MacPro6,1 SMBIOS, you will need to follow the instructions [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained).
 
 ## Step 3 - Config
