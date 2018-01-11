@@ -12,43 +12,51 @@ Right click (or CMD+click) on the package and click Open, you will get a prompt 
 
 Click Continue, Continue, Agree and Agree. Now, click Customize and select the following for booting Clover UEFI:
 ```
-Install Clover for UEFI booting only
-Install Clover to the ESP
-Drivers64UEFI
-    OsxAptioFix2Drv-64
-    apfs
-    PartitionDxe-64
+    Install Clover for UEFI booting only
+    Install Clover to the ESP
+    Drivers64UEFI
+        OsxAptioFix2Drv-64
+        apfs
+        PartitionDxe-64
 ```
 
 For booting Legacy:
 ```
-Install Clover to the ESP
-Bootloader
-    Install boot0ss in MBR
-CloverEFI
-    CloverEFI 64-bits SATA
+    Install Clover to the ESP
+    Bootloader
+        Install boot0ss in MBR
+    CloverEFI
+        CloverEFI 64-bits SATA
 ```
+
+Select your USB drive and click Install.
 
 ## Step 2 - Kexts
 Now we're going to install more kexts (kernel extensions), just like we did in the [Pre-Install](../master/Pre-Install.md).
 
-First of all copy over the kexts from your `USB > Clover > Kexts > Other` to `Hackintosh > Clover > Kexts > Other`
-To make this process easier read the [tips](../master/Tips.md#how-to-mount-efi)
+First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk you installed High Sierra on.
 
-Once you've done that there are a few more kexts to install, as we still need Internet, Audio and some other fixups.
+### Here are some general kexts you will definitely need:
+* FakeSMC (This is needed to boot **any** hackintosh.)
+* Lilu
+* AppleALC
+* USBInjectAll
+* A LAN kext (we will go into more detail about this later.)
 
-Check your motherboard specifications and look for the LAN Chipset.
-* 
-* 
-* 
+You can find the latest compiled kexts [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)
 
-Now find the corresponding kext from the [kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
+### LAN Kext
+Check your motherboard specifications and look for the LAN Chipset. This could be one of the following:
+* Intel® GbE LAN chip
+* Realtek RTL8111
+* Realtek RTL8100
+* Something else (check the kext repo for a fitting kext)
 
-
+### Graphics Kexts
+If you do not have an SMBIOS listed [here]() or do not have an AMD gpu, skip this step.
 
 If you have an AMD GPU, make sure to get `WhateverGreen.kext` as well. If you have an NVIDIA GPU you'll have to worry about that later.
 
 Drag all the kexts over to `Hackintosh > Clover > Kexts > Other`
-All kexts mentioned above can be downloaded from [here] (https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 
 ## Step 3 - Config
