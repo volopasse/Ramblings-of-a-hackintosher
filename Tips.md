@@ -23,7 +23,7 @@ There are a lot of SMBIOSes, you need to pick the correct one for your hardware.
 
 ## NvidiaGraphicsFixup and some SMBIOSes explained
 Because of the way how vanilla iMacs work, a small piece of a kernel extension that comes with macOS needs to be modified to prevent a black screen on some SMBIOSes after booting. Here is the list of affected SMBIOSes:
-* iMac15,1 and up (iMac17,1;, iMac18,x)
+* iMac15,1 and up (iMac17,1, iMac18,x)
 * MacPro6,1
 
 You do not have to manually modify anything inside of the kext that causes this issue since [lvs1974](https://sourceforge.net/projects/nvidiagraphicsfixup/) made a kext, called NvidiaGraphicsFixup, to patch this issue. You will need to install Lilu and NvidiaGraphicsFixup to apply this patch.

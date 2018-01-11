@@ -32,7 +32,7 @@ For booting Legacy:
 Select your USB drive and click Install.
 
 ## Step 2 - Kexts
-Now we're going to install more kexts (kernel extensions), just like we did in the [Pre-Install](../master/Pre-Install.md).
+Now we're going to install our kexts (kernel extensions), just like we did in the [Pre-Install](../master/Pre-Install.md#step-3---downloading-kexts).
 
 First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk you installed High Sierra on.
 
@@ -53,10 +53,11 @@ Check your motherboard specifications and look for the LAN Chipset. This could b
 * Something else (check the kext repo for a fitting kext)
 
 ### Graphics Kexts
-If you do not have an SMBIOS listed [here]() or do not have an AMD gpu, skip this step.
+If you do not have an SMBIOS listed [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained) or  if you do not have an AMD gpu, skip this step.
 
-If you have an AMD GPU, make sure to get `WhateverGreen.kext` as well. If you have an NVIDIA GPU you'll have to worry about that later.
+If you have an AMD GPU, make sure to get `WhateverGreen.kext` and Lilu. 
+(Disclaimer: This works on some cards. There are often extra steps that need to take place for you to get full graphics acceleration.)
 
-Drag all the kexts over to `Hackintosh > Clover > Kexts > Other`
+If you have an SMBIOS that needs the NvidiaGraphicsFixup kext, follow the instructions [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained).
 
 ## Step 3 - Config
