@@ -25,7 +25,7 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 * [Kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 * [Kext spreadsheet](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
 * [Latest Clover](https://github.com/Dids/clover-builder/releases/latest)
-* [Nvidia Web Drivers](https://cookiemonster.pro/latest_nvidia_table)
+* [Nvidia Web Drivers](https://cookiemonster.pro/nvidia_driver_table)
 
 # Some questions
 
