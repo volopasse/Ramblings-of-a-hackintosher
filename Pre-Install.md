@@ -62,9 +62,11 @@ We are now going to install some kernel extensions (often referred to as "kexts"
 * FakeSMC
 * USBInjectAll
 
-If you have a Z97/H97, Sky/Kaby/Coffee lake or X99 chipset, you also want:
+If you have the iMac15,1;, iMac17,1;, iMac18,x or MacPro6,1, you also want:
 * Lilu
 * NvidiaGraphicsFixup
+
+More info on that [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained),
 
 All can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). Full kext spreadsheet [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/).
 
