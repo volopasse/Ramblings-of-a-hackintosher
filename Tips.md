@@ -25,10 +25,10 @@ There are a lot of SMBIOSes, you need to pick the correct one for your hardware.
 * iMac14,2 for Haswell (ix-4xxx) systems **with** a dgpu.
 * iMac15,1 for Z97 motherboads.
 * iMac17,1 for Skylake (ix-6xxx).
-* iMac18,2 for Kaby-Lake (ix-7xxx) systems **without** a dgpu.
-* iMac18,3 for Kaby-Lake (ix-7xxx) systems **with** a dgpu.
-* iMac18,2 for Coffee-Lake (ix-8xxx) systems **without** a dgpu.
-* iMac18,3 for Coffee-Lake (ix-8xxx) systems **with** a dgpu.
+* iMac18,2 for Kaby-Lake i5s (i5-7xxx) systems.
+* iMac18,3 for Kaby-Lake i7s (i7-7xxx) systems.
+* iMac18,2 for Coffee-Lake i5s (i5-8xxx) systems **without** a dgpu.
+* iMac18,3 for Coffee-Lake i7s (i7-8xxx) systems **with** a dgpu.
 * MacPro6,1 for X99, X299, X399 motherboards.
 
 ## NvidiaGraphicsFixup and some SMBIOSes explained
