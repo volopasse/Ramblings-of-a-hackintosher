@@ -1,4 +1,4 @@
-**How to fix iMessage & FaceTime**
+***How to fix iMessage & FaceTime***
 
 **Requirement:**
 
@@ -9,9 +9,8 @@
 
 Open Terminal, run this command (run one command and type pw, then run the rest)
 
-sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
-
-sudo rm -rf /Library/Preferences/SystemConfiguration/preferences.plist
+- sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
+- sudo rm -rf /Library/Preferences/SystemConfiguration/preferences.plist
 
 By now, OS X (macOS) should re-discover all your Network Interfaces and rebuild the network configuration files, hopefully now with the correct BSD names. If the BSD names are still not correct and you have additional add-on PCI or USB NIC's then try removing them and delete the two files again, reboot and let OS X assign the 'built-in' NIC's first, then re-install your add-on NIC's one by one.
 
