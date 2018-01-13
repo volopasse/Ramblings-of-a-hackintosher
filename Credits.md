@@ -9,3 +9,5 @@
 * [Meize](https://github.com/Mieze) for [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet), [RealtekRTL8100](https://github.com/Mieze/RealtekRTL8100), [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) and [AtherosE2200](https://github.com/Mieze/AtherosE2200Ethernet).
 
 * [CorpNewt](https://github.com/corpnewt) for a [really good audio guide](https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/) which [ours](../master/Audio.md) is based off.
+
+* [CodeRobe] for his [license](https://github.com/coderobe/AzulPatcher4600/blob/master/LICENSE.txt)
