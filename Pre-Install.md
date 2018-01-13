@@ -102,6 +102,7 @@ Change the following settings before boot into macOS installer:
 * Fast Boot : Disabled
 * OS Type: Other OS
 * Wake on LAN : Disabled
+
 Based on  the GPU you’re using change the following settings:
 - Dedicated graphics card:
 * Integrated Graphics : Disabled 
