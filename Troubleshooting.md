@@ -46,20 +46,18 @@ But first, let try to check your system first.
 
 Open the terminal and do the following one line at a time:
 
-`sudo -s
-
+```
+sudo -s
 nvram -c
-
 nvram myvar=test
-
-exit`
+exit
+```
 
 Now reboot. After than open terminal and run this nvram -p | grep -i myvar
 
 If you get any output from that last command (after a reboot) then your NVRAM works!
 
 If not you have to emulate NVRAM by install EmuVariableUefi-64.efi and RC scripts via Clover Bootloader installer
-
 
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
