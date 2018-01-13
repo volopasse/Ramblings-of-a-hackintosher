@@ -69,7 +69,7 @@ If you have a Z97/H97, Sky/Kaby/Coffee lake or X99 chipset, you also want:
 All can be downloaded from [here] (https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 
 ## Step 4 - Setting up the config.plist
-For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. You can also use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php).
+For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. You can also use [Clover Configurator Cloud (it's little outdated but still good)](http://cloudclovereditor.altervista.org/cce/index.php). 
 
 * In Boot: select Verbose (-v) and debug=0x100.
 * In Devices, under USB, select Inject, Add ClockID and FixOwnership. 
@@ -85,6 +85,35 @@ Comment: Change 15 port limit to 24 in XHCI kext 10.13
 ```
 * In System Paremeters, set Inject Kexts to Yes, check Inject System ID and click Generate New next to Custom UUID. Copy the generated UUID and paste it into smUUID in the SMBIOS section.
 * In Rt Variables, click Generate, set BooterConfig to 0x28 and CSRActiveConfig to 0x3E7.
+
+## Step 5 - BIOS/UEFI settings
+
+Change the following settings:
+
+Virtualization : Enabled
+VT-d : Disabled
+XHCI Hand-Off : Enabled
+Legacy USB Support: Auto/Enabled
+IO SerialPort : Disabled
+Network Stack : Disabled
+XMP Profile :  Auto / Profile 1/Enabled
+UEFI Booting set to Enabled and set Priority over Legacy
+Secure Boot : Disabled
+Fast Boot : Disabled
+OS Type: Other OS
+Wake on LAN : Disabled
+Based on  the GPU you’re using change the following settings:
+
+Dedicated graphics card:
+
+Integrated Graphics : Disabled 
+Graphics: PEG/PCIe Slot 1
+Initial Display Output : PCIe 1 Slot
+Intel iGPU:
+
+Integrated Graphics : Enabled
+Graphics: IGD/Integrated/iGPU/CPU Graphics
+DVMT Pre-Allocated : 128M
 
 All done! You can now boot into macOS.
 
