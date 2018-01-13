@@ -34,7 +34,7 @@ Because of the way how vanilla iMacs work, a small piece of a kernel extension t
 * iMac15,1 and up (iMac17,1, iMac18,x)
 * MacPro6,1
 
-You do not have to manually modify anything inside of the kext that causes this issue since [lvs1974](https://sourceforge.net/projects/nvidiagraphicsfixup/) made a kext, called NvidiaGraphicsFixup, to patch this issue. You will need to install Lilu and NvidiaGraphicsFixup to apply this patch. You can download NvidiaGraphicsFixup and Lilu [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ).
+You do not have to manually modify anything inside of the kext that causes this issue since [lvs1974](https://github.com/lvs1974) made a kext, called [NvidiaGraphicsFixup](https://github.com/lvs1974/NvidiaGraphicsFixup), to patch this issue. You will need to install Lilu and NvidiaGraphicsFixup to apply this patch. You can download NvidiaGraphicsFixup and Lilu [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ).
 
 NvidiaGraphicsFixup can do a lot of things:
 * Adds the AGDP fix to iMac15,1;, iMac17,1;, iMac18,x and MacPro6,1 SMBIOSes to prevent a black screen after boot.
@@ -60,6 +60,8 @@ You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5
 This kext injects all available USB ports to the OS. This is absolutely necessary when installing, you will get the `Still waiting for root device...` hang otherwise.
 
 Only Intel controllers are currently supported and the most commonly used SMBIOS model identifiers are in the kext.
+
+[link to repo](https://github.com/RehabMan/OS-X-USB-Inject-All)
 
 Patches needed:
 - Port limit patch (raw XML)

@@ -1,0 +1,5 @@
+[Apple](https://apple.com) for [Mac OS X/macOS](https://www.apple.com/macos/high-sierra/)
+[vit9696](https://github.com/vit9696) for [Lilu](https://github.com/vit9696/Lilu) and [AppleALC](https://github.com/vit9696/AppleALC)
+[BarbaraPalvin](https://github.com/BarbaraPalvin) for [IntelGraphicsDVMTFixup](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup)
+[RehabMan](https://github.com/RehabMan) for [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) and [DSDT and Kext patches](https://github.com/RehabMan/OS-X-USB-Inject-All/blob/master/config_patches.plist)
+[lvs1974](https://github.com/lvs1974) for [NvidiaGraphicsFixup](https://github.com/lvs1974/NvidiaGraphicsFixup)
