@@ -87,7 +87,7 @@ Replace: 837d8c1b
 ```
 
 DSDT Patches (All of these are Clover Configurator friendly, raw patches [here](https://github.com/RehabMan/OS-X-USB-Inject-All/blob/master/config_patches.plist#L8-L53)):
-(DISCLAIMER: These patches should only be used when they are needed. More info [here](../master/Tips.md#how-to-know-if-you-need-to-hot---patch-dsdt))
+(DISCLAIMER: These patches should only be used when they are needed. More info [here](../master/Tips.md#how-to-know-if-you-need-to-hot-patch-dsdt))
 
 ```
 Comment: change _OSI to XOSI
