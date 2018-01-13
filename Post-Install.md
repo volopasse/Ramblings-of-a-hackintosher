@@ -38,9 +38,9 @@ First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk
 
 ### Here are some general kexts you will definitely need:
 * FakeSMC (This is needed to boot **any** hackintosh.)
-* Lilu 
-* AppleALC 
-* USBInjectAll (macOS will not able find any installer file if you can't inject USB so...)
+* Lilu ()
+* AppleALC (For audio)
+* USBInjectAll (More info [here])
 * A LAN kext (we will go into more detail about this later.)
 
 You can find the latest compiled kexts in [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)

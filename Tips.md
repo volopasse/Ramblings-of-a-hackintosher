@@ -9,6 +9,14 @@ A small disclaimer first, please try to inject kexts whenever you can. There is 
 
 To inject a kext, [mount your EFI]((../master/Tips.md#how-to-mount-efi)) and go to /EFI/EFI/Clover/kexts/Other and place your kext(s) in there. Also make sure that `InjectKexts` is set to `Yes` inside of your config.plist.
 
+## How to know if you need to hot-patch DSDT
+Download [IOREG](http://mac.softpedia.com/get/System-Utilities/IORegistryExplorer.shtml) and search for what a patch tells you to replace in it's comment.
+
+- Example:
+So let's say you want to rename HDAS to HDEF, please search if you even have HDEF first and if you do, this patch is not needed. If you do not have HDEF, apply the patch and reboot. You should now see HDEF in your IOREG
+
+Be **very** careful while entering the patching info.
+
 ## Choosing a SMBIOS
 There are a lot of SMBIOSes, you need to pick the correct one for your hardware. Here are some examples:
 * iMac14,1 for Haswell (ix-4xxx) systems **without** a dgpu.
@@ -47,3 +55,66 @@ This kext features the following:
 * Fixes the need for "FakeID = 0x12345678" in the config.plist.
 
 You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). How to install [here](../master/Tips.md#how-to-install-kexts)
+
+## USBInjectAll
+This kext injects all available USB ports to the OS. This is absolutely necessary when installing, you will get the `Still waiting for root device...` hang otherwise.
+
+Only Intel controllers are currently supported and the most commonly used SMBIOS model identifiers are in the kext.
+
+Patches needed:
+- Port limit patch (raw XML)
+```plist
+<dict>
+    <key>Comment</key>
+    <string>change 15 port limit to 26 in XHCI kext</string>
+    <key>MatchOS</key>
+    <string>10.13.x</string>
+    <key>Name</key>
+    <string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
+    <key>Find</key>
+    <data>g32MEA==</data>
+    <key>Replace</key>
+    <data>g32MGw==</data>
+</dict>
+```
+
+- Clover configurator friendly:
+```
+Comment: change 15 port limit to 26 in XHCI kext
+Name:    com.apple.driver.usb.AppleUSBXHCIPCI
+Find:    837d8c10
+Replace: 837d8c1b
+```
+
+DSDT Patches (All of these are Clover Configurator friendly, raw patches [here](https://github.com/RehabMan/OS-X-USB-Inject-All/blob/master/config_patches.plist#L8-L53)):
+(DISCLAIMER: These patches should only be used when they are needed. More info [here](../master/Tips.md# how-to-know-if-you-need-to-hot---patch-dsdt))
+
+```
+Comment: change _OSI to XOSI
+Find:    5f4f5349
+Replace: 584f5349
+```
+
+```
+Comment: change EHC1 to EH01
+Find:    45484331
+Replace: 45483031
+```
+
+```
+Comment: change EHC2 to EH02
+Find:    45484332
+Replace: 45483032
+```
+
+```
+Comment: change XHCI to XHC
+Find:    58484349
+Replace: 5848435f
+```
+
+```
+Comment: change XHC1 to XHC
+Find:    58484331
+Replace: 5848435f
+```
