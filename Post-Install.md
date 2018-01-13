@@ -6,7 +6,7 @@
 ## Step 1 - Installing clover to disk
 This process is pretty similar to installing clover to the bootable usb in the pre-install section
 
-Download the latest version of clover from [here](https://github.com/Dids/clover-builder/releases/tag/v2.4k_r4370) (click `Clover_vx.x_rxxxx.pkg`, should be ~18mb)
+Download the latest version of clover from [here](https://github.com/Dids/clover-builder/releases/) (click `Clover_vx.x_rxxxx.pkg`, should be ~18mb)
 
 Right click (or CMD+click) on the package and click Open, you will get a prompt telling you that the software is from an unidentified developer instead. ([how to disable this](http://osxdaily.com/2016/09/27/allow-apps-from-anywhere-macos-gatekeeper/))
 
@@ -38,12 +38,13 @@ First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk
 
 ### Here are some general kexts you will definitely need:
 * FakeSMC (This is needed to boot **any** hackintosh.)
-* Lilu
-* AppleALC
-* USBInjectAll
+* Lilu 
+* AppleALC 
+* USBInjectAll (macOS will not able find any installer file if you can't inject USB so...)
 * A LAN kext (we will go into more detail about this later.)
 
-You can find the latest compiled kexts [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)
+You can find the latest compiled kexts in [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)
+Or you can find official compiled by kext owner in [here](https://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
 
 ### LAN Kext
 Check your motherboard specifications and look for the LAN Chipset. This could be one of the following:
