@@ -69,14 +69,6 @@ If you don't see any audio devices at all. Download [IOREG](http://mac.softpedia
 
 If you get a result with either, go to the ACPI section and click the `List Of Patches` dropdown button. Select either `change AZAL to HDEF` or `change HDAS to HDEF`. Reboot and see if audio devices are present and audio output is working.
 
-If you have a X99 board, search for ALZA in IOREG. If you get a result, add the following DSDT patch in Clover Configurator:
-
-```
-Comment: change ALZA to HDEF
-Find:    414c5a41
-Replace: 48444546
-```
-
 Reboot and check if you have audio.
 
 If you cannot have audio, contact me (camiel) on the hackintosh server. My mention is `@camiel#9084`.
