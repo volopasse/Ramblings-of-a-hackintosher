@@ -21,7 +21,7 @@ So there's 2 ways to fix Power Management.
 
     Enable PluginType in config.plist - ACPI - SSDT - Generate - PluginType
 
-    https://i.imgur.com/0ut6Ule.png
+    [PluginType](https://i.imgur.com/0ut6Ule.png)
 
 - **Notes**
 
