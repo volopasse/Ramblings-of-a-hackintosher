@@ -68,3 +68,7 @@ Now save your settings and reboot. After that try to login to iMessage
 
 - If you getting Customer Code after a failed login then try everything from step 1 again
 - If you getting failed to login error then check your BSD name, try to login again few more times or try everything from step 1 again
+
+
+
+Credit: This guide is based from [jaymonkey guide](https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/)
