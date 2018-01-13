@@ -13,6 +13,7 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 * [Tips](../master/Tips.md)
 * [iMessage/Facetime](../master/iMessage.md)
 * [Audio](../master/Audio.md)
+* [Speedstep](../master/Speedstep.md)
 * [Troubleshooting](../master/Troubleshooting.md)
 * [Credits/Acknowledgements](../master/Credit.md)
 
