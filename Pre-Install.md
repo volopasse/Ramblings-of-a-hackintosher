@@ -103,7 +103,7 @@ Change the following settings before you boot into the macOS installer:
 * OS Type: Other OS
 * Wake on LAN : Disabled
 
-Based on  the GPU you’re using change the following settings:
+Based on the GPU you’re using, change the following settings:
 - Dedicated graphics card:
 * Integrated Graphics : Disabled 
 * Graphics: PEG/PCIe Slot 1
