@@ -36,9 +36,9 @@ NvidiaGraphicsFixup can do a lot of things:
 
 ## IntelGraphicsDVMTFixup
 Quoted from [the IntelGraphicsDVMTFixup Github repo](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup):
-```
+`
 A common problem with Broadwell/Skylake/KabyLake is relatively small DVMT-prealloc setting by PC OEMs. The Apple framebuffer kexts generally assume 64mb or larger, and most PC OEMs use only 32mb. And often, there is no way to change it easily due to limited BIOS, locked down BIOS, etc.
-```
+`
 
 In other words, this kext is meant for users who have now ay to change the pre-allocated DVMT.
 
