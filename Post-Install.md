@@ -69,7 +69,11 @@ Yet again, for ease of use you'll have to install [Clover Configurator](http://m
 
 First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the install media and the disk you installed High Sierra on.
 
-Now let's copy over the config.plist we used on our install media.
+Now let's copy over the config.plist we used on your install media.
+
+* In boot you can now remove Verbose (-v) and debug=0x100
+
+Practically you should be set up on this part.
 
 ## Step 4 - USB setup
 If you're on a 200-series mobo you want to get [XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-200-series-injector.kext/Contents)
@@ -83,3 +87,7 @@ We need to replace `837d8c10` with `837d8c1b` for more info [click here](../mast
 If you're still experiencing USB 3.0/3.1 conflicts
 
 NOTE: all these steps should be taken in combination with having the [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) kext.
+
+## Step 5 - Install graphics drivers
+If you're using an AMD GPU you can skip this step.
+
