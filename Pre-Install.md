@@ -73,7 +73,7 @@ For ease of use, we are going to download [Clover Configurator](http://mackie100
 
 * In Boot: select Verbose (-v) and debug=0x100.
 * In Devices, under USB, select Inject, Add ClockID and FixOwnership. 
-* In GUI, under Mouse, set Double Click to 500 and Speed to 8. Under scan, select Custom, Entries and Tool.
+* In GUI, under Scan, select Custom, Entries and Tool.
 * In SMBIOS, click the dropdown button and select [a SMBIOS that corresponds with your system](../master/Tips.md#choosing-a-smbios).
 * If you have an Intel CPU with an iGPU, click the drop-down menu under ig-platform-id and select an id that matches your iGPU.
 * Under Kernel and Kext Patches, check Apple RTC, AppleIntelCPUPM and KernelPM. Also create a new KextsToPatch entry that looks like this:
