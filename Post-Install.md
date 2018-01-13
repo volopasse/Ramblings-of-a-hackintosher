@@ -72,8 +72,8 @@ First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the inst
 Now let's copy over the config.plist we used on our install media.
 
 ## Step 4 - USB setup
-If you're on a Kaby Lake system you want to get [XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-200-series-injector.kext/Contents)
-If you're on a X79/X99 you want to get [XHCI-x99-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-x99-injector.kext/Contents)
+If you're on a 200-series mobo you want to get [XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-200-series-injector.kext/Contents)
+If you're on a X79/X99 mobo you want to get [XHCI-x99-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-x99-injector.kext/Contents)
 
 ### KernelAndKextPatches
 To make all the USB ports on your build function, you need to apply a certain patch.
