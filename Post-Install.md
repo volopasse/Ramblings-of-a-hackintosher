@@ -65,7 +65,7 @@ If you have the iMac15,1 and up (iMac17,1, iMac18,x) or MacPro6,1 SMBIOS, you wi
 All kexts can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 
 ## Step 3 - Setting up the config.plist
-Yet again, for ease of use you'll have to install [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. Again you can also use [Clover Configurator Cloud (it's little outdated but still good)](http://cloudclovereditor.altervista.org/cce/index.php). 
+Yet again, for ease of use you'll have to install [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. Again you can also use [Clover Configurator Cloud (it's a little outdated but still functional)](http://cloudclovereditor.altervista.org/cce/index.php). 
 
 First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the install media and the disk you installed High Sierra on.
 
