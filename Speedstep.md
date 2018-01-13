@@ -45,28 +45,28 @@ Piker Alpha's [ssdtPRGen](https://github.com/Piker-Alpha/ssdtPRGen.sh) script wi
 
   2. Open Terminal and download Piker Alpha's ssdtPRGen.sh by this command
 
-  3. ```
+     ```
      curl -o ~/ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh
      ```
 
-  4. This will download ssdtPRGen.sh to your home directory (~) and the next step is to change the permissions of the file (add +x) so that it can be run.
+  3. This will download ssdtPRGen.sh to your home directory (~) and the next step is to change the permissions of the file (add +x) so that it can be run.
 
-  5. ```
+     ```
      chmod +x ~/ssdtPRGen.sh
      ```
 
-  6. For default SSDT generation, run this command
+  4. For default SSDT generation, run this command
 
-  7. ```
+     ```
      sudo ~/ssdtPRGen.sh
      ```
 
-  8. If ssdtPRGen.sh ask you to open SSDT, press No
+  5. If ssdtPRGen.sh ask you to open SSDT, press No
 
-  9. Use Finder and find ~/Library/ssdtPRGen/SSDT.aml
+  6. Use Finder and find ~/Library/ssdtPRGen/SSDT.aml
 
-  10. Now [mount your EFI partition](https://github.com/camielverdult/Ramblings-of-a-hackintosher-High-Sierra/blob/master/Tips.md#how-to-mount-efi), and copy SSDT.aml to /EFI/Clover/ACPI/patched
+  7. Now [mount your EFI partition](https://github.com/camielverdult/Ramblings-of-a-hackintosher-High-Sierra/blob/master/Tips.md#how-to-mount-efi), and copy SSDT.aml to /EFI/Clover/ACPI/patched
 
-      NOTE: The Power Management SSDT should always be SSDT.aml. If you have an SSDT.aml there already, rename it SSDT-1.aml, etc...
+     NOTE: The Power Management SSDT should always be SSDT.aml. If you have an SSDT.aml there already, rename it SSDT-1.aml, etc...
 
-  11. Reboot
+  8. Reboot
