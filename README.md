@@ -14,6 +14,10 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 * [Troubleshooting](../master/Troubleshooting.md)
 * [Credits/Acknowledgements](../master/Credit.md)
 
+# Useful links
+* [Kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
+* [Kext spreadsheet](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
+
 # Some questions
 
 ## What is a hackintosh?
