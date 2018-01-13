@@ -90,30 +90,29 @@ Comment: Change 15 port limit to 24 in XHCI kext 10.13
 
 Change the following settings:
 
-Virtualization : Enabled
-VT-d : Disabled
-XHCI Hand-Off : Enabled
-Legacy USB Support: Auto/Enabled
-IO SerialPort : Disabled
-Network Stack : Disabled
-XMP Profile :  Auto / Profile 1/Enabled
-UEFI Booting set to Enabled and set Priority over Legacy
-Secure Boot : Disabled
-Fast Boot : Disabled
-OS Type: Other OS
-Wake on LAN : Disabled
-Based on  the GPU you’re using change the following settings:
+* Virtualization : Enabled
+* VT-d : Disabled
+* XHCI Hand-Off : Enabled
+* Legacy USB Support: Auto/Enabled
+* IO SerialPort : Disabled
+* Network Stack : Disabled
+* XMP Profile :  Auto / Profile 1/Enabled
+* UEFI Booting set to Enabled and set Priority over Legacy
+* Secure Boot : Disabled
+* Fast Boot : Disabled
+* OS Type: Other OS
+* Wake on LAN : Disabled
+* Based on  the GPU you’re using change the following settings:
 
 Dedicated graphics card:
+* Integrated Graphics : Disabled 
+* Graphics: PEG/PCIe Slot 1
+* Initial Display Output : PCIe 1 Slot
 
-Integrated Graphics : Disabled 
-Graphics: PEG/PCIe Slot 1
-Initial Display Output : PCIe 1 Slot
 Intel iGPU:
-
-Integrated Graphics : Enabled
-Graphics: IGD/Integrated/iGPU/CPU Graphics
-DVMT Pre-Allocated : 128M
+* Integrated Graphics : Enabled
+* Graphics: IGD/Integrated/iGPU/CPU Graphics
+* DVMT Pre-Allocated : 128M
 
 All done! You can now boot into macOS.
 
