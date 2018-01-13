@@ -113,4 +113,4 @@ If your WebDrivers are not working (you can see this by clicking the nvidia driv
 * Reboot
 * Open Terminal and do `nvram -p | grep -i myvar`
 
-If you don't get any output, install EmuVariableUefi-64.efi and the RC Scripts via the [latest clover install package](https://github.com/Dids/clover-builder/releases/latest/).
+If you don't get any output fromt the last command, install EmuVariableUefi-64.efi and the RC Scripts via the [latest clover install package](https://github.com/Dids/clover-builder/releases/latest/).

@@ -5,6 +5,8 @@ level of difficulty hackintoshing wise).
 
 # Disclaimer
 
+This guide is meant for desktop pcs, you could follow the same steps for laptops but most laptops will require extra patches and fixes.
+
 We are not "professional" hackintoshers in any way. We know how to get a hackintosh working and I would like to spread my knowledge.
 
 # Table of contents
