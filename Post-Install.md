@@ -103,17 +103,8 @@ If you have an Nvidia Card, you need the Nvidia Webdrivers for Graphics Accelera
 
 Install the driver and open your config.plist in Clover Configurator. Go to System Parameters and check NvidiaWeb, save and reboot.
 
-If your WebDrivers are not working (you can see this by clicking the nvidia driver button in the top bar), you  need to check if your NVRAM is working the way it should be by doing the following:
+If your WebDrivers are not working (you can see this by clicking the nvidia driver button in the top bar), you  need to check if your NVRAM is working the way it should be. You can do this [here](../master/Tips,md#nvidia-web-drivers-not-kicking-in).
 
-* Open Terminal and do the following one line at a time:
-    * `sudo -s`
-    * `nvram -c`
-    * `nvram myvar=test`
-    * `exit`
-* Reboot
-* Open Terminal and do `nvram -p | grep -i myvar`
-
-If you don't get any output fromt the last command, install EmuVariableUefi-64.efi and the RC Scripts via the [latest clover install package](https://github.com/Dids/clover-builder/releases/latest/).
 
 ## Step 6 - Audio
 Check out the guide we made on audio [here](../master/Audio.md).

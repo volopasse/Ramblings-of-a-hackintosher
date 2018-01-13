@@ -122,3 +122,16 @@ Comment: change XHC1 to XHC
 Find:    58484331
 Replace: 5848435f
 ```
+
+## Nvidia Web drivers not kicking in
+If you have NvidiaWeb checked in your config and webdrivers are still not working, try the following:
+
+* Open Terminal and do the following one line at a time:
+    * `sudo -s`
+    * `nvram -c`
+    * `nvram myvar=test`
+    * `exit`
+* Reboot
+* Open Terminal and do `nvram -p | grep -i myvar`
+
+If you don't get any output fromt the last command, install EmuVariableUefi-64.efi and the RC Scripts via the [latest clover install package](https://github.com/Dids/clover-builder/releases/latest/).
