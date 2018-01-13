@@ -61,7 +61,7 @@ Piker Alpha's [ssdtPRGen](https://github.com/Piker-Alpha/ssdtPRGen.sh) script wi
      sudo ~/ssdtPRGen.sh
      ```
 
-  5. If ssdtPRGen.sh ask you to open SSDT, press No
+  5. If ssdtPRGen.sh ask you to open SSDT, enter N
 
   6. Use Finder and find ~/Library/ssdtPRGen/SSDT.aml
 
