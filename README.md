@@ -12,6 +12,7 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 * [Post-Install](../master/Post-Install.md)
 * [Tips](../master/Tips.md)
 * [iMessage/Facetime](../master/iMessage.md)
+* [Audio](../master/Audio.md)
 * [Troubleshooting](../master/Troubleshooting.md)
 * [Credits/Acknowledgements](../master/Credit.md)
 
