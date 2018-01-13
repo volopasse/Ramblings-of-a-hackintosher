@@ -88,7 +88,7 @@ Comment: Change 15 port limit to 24 in XHCI kext 10.13
 
 ## Step 5 - BIOS/UEFI settings
 
-Change the following settings before boot into macOS installer:
+Change the following settings before you boot into the macOS installer:
 
 * Virtualization : Enabled
 * VT-d : Disabled
@@ -112,7 +112,7 @@ Based on  the GPU you’re using change the following settings:
 - Intel iGPU:
 * Integrated Graphics : Enabled
 * Graphics: IGD/Integrated/iGPU/CPU Graphics
-* DVMT Pre-Allocated : 128M
+* DVMT Pre-Allocated : 128M (If you cannot change this, check out the info [here](../master/Tips,md#intelgraphicsdvmtfixup))
 
 All done! You can now boot into macOS.
 

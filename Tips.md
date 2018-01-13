@@ -33,3 +33,17 @@ NvidiaGraphicsFixup can do a lot of things:
 * Modifies macOS to recognize NVIDIA's web drivers as platform binaries. This resolves the issue with transparent windows without content, which appear for applications that use Metal and have Library Validation enabled. Common affected applications are iBooks and Little Snitch Network Monitor, though this patch is universal and fixes them all.
 * Injects IOVARendererID into GPU properties (required for Shiki-based solution for non-freezing Intel and/or any discrete GPU)
 * Allows to use ports HDMI, DP, Digital DVI with audio (Injects @0connector-type - @5connector-type properties into GPU)
+
+## IntelGraphicsDVMTFixup
+Quoted from [the IntelGraphicsDVMTFixup Github repo](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup):
+```
+A common problem with Broadwell/Skylake/KabyLake is relatively small DVMT-prealloc setting by PC OEMs. The Apple framebuffer kexts generally assume 64mb or larger, and most PC OEMs use only 32mb. And often, there is no way to change it easily due to limited BIOS, locked down BIOS, etc.
+```
+
+In other words, this kext is meant for users who have now ay to change the pre-allocated DVMT.
+
+This kext features the following:
+* Fixes an issue related to a DVMT panic when entering the installation screen.
+* Fixes the need for "FakeID = 0x12345678" in the config.plist.
+
+You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). Howto install [here](../master/Tips.md#how-to-install-kexts)
