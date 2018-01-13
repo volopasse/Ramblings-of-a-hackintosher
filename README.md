@@ -19,7 +19,7 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 * [Audio](../master/Audio.md)
 * [Power Management](../master/Speedstep.md)
 * [Troubleshooting](../master/Troubleshooting.md)
-* [Credits/Acknowledgements](../master/Credit.md)
+* [Credits/Acknowledgements](../master/Credits.md)
 
 # Useful links
 * [Kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
