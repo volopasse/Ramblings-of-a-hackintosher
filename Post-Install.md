@@ -117,5 +117,3 @@ If you don't get any output fromt the last command, install EmuVariableUefi-64.e
 
 ## Step 6 - Audio
 Check out the guide we made on audio [here](../master/Audio.md).
-
-## St
