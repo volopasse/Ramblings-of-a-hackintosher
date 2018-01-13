@@ -2,8 +2,8 @@
 
 **Requirement:**
 
-- - Clover Bootloader only
-  - Clover Configurator: <http://mackie100projects.altervista.org>
+- Clover Bootloader only
+- Clover Configurator: <http://mackie100projects.altervista.org>
 
 **Step 1: Set correct BSD name**
 
@@ -27,35 +27,21 @@ Before commencing you should logout of **all** Apple iCloud services and disconn
 
 Open Terminal, run this command (run one command and type pw, then run the rest)
 
-sudo rm -rf /StartupDrive/Users/~Username/Library/Caches/com.apple.iCloudHelper*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Caches/com.apple.Messages*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Caches/com.apple.imfoundation.IMRemoteURLConnectionAgent*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.iChat*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.icloud*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imagent*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imessage*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imservice*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.ids.service*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.madrid.plist*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imessage.bag.plist*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.identityserviced*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.ids.service*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.security*
-
-sudo rm -rf /StartupDrive/Users/~Username/Library/Messages
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Caches/com.apple.iCloudHelper*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Caches/com.apple.Messages*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Caches/com.apple.imfoundation.IMRemoteURLConnectionAgent*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.iChat*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.icloud*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imagent*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imessage*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imservice*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.ids.service*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.madrid.plist*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.imessage.bag.plist*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.identityserviced*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.ids.service*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Preferences/com.apple.security*
+- sudo rm -rf /StartupDrive/Users/~Username/Library/Messages
 
 StartupDrive is your name of macOS partition
 
