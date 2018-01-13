@@ -66,7 +66,7 @@ If you have a Z97/H97, Sky/Kaby/Coffee lake or X99 chipset, you also want:
 * Lilu
 * NvidiaGraphicsFixup
 
-All can be downloaded from [here] (https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
+All can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) or [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
 
 ## Step 4 - Setting up the config.plist
 For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. You can also use [Clover Configurator Cloud (it's little outdated but still good)](http://cloudclovereditor.altervista.org/cce/index.php). 
