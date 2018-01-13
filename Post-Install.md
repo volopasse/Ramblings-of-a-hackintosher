@@ -76,15 +76,23 @@ Now let's copy over the config.plist we used on your install media.
 Practically you should be set up on this part.
 
 ## Step 4 - USB setup
-If you're on a 200-series mobo you want to get [XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-200-series-injector.kext/Contents)
+You can download USBInjectAll [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ).
 
-If you're on a X79/X99 mobo you want to get [XHCI-x99-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-x99-injector.kext/Contents)
+If you're on a 200-series mobo you want to get [XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-200-series-injector.kext/Contents).
 
-### KernelAndKextPatches
-To make all the USB ports on your build function, you need to apply a certain patch.
-We need to replace `837d8c10` with `837d8c1b` for more info [click here](../master/Tips.md#usbinjectall)
+If you're on a X79/X99 mobo you want to get [XHCI-x99-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-x99-injector.kext/Contents).
 
-If you're still experiencing USB 3.0/3.1 conflicts
+You should have either USBInjectAll, XHCI-200-series-injector.kext or XHCI-x99-injector.kext. You should never have more USB/XHCI injector.
+
+To make all the USB ports on your build work, you need to raise the port limit. (more info [here](../master/Tips.md#usbinjectall))
+
+Go to Kernel and Kext Patches and add a new KextsToPatch entry with the following info:
+```
+Name:    com.apple.driver.usb.AppleUSBXHCIPCI
+Find:    837d8c10
+Replace: 837d8c1b
+Comment: change 15 port limit to 26 in XHCI kext
+```
 
 NOTE: all these steps should be taken in combination with having the [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) kext.
 
