@@ -69,7 +69,11 @@ If you have a Z97/H97, Sky/Kaby/Coffee lake or X99 chipset, you also want:
 All can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). Full kext spreadsheet [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/).
 
 ## Step 4 - Setting up the config.plist
+<<<<<<< HEAD
 For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. You can also use [Clover Configurator Cloud (it's a little outdated but still good)](http://cloudclovereditor.altervista.org/cce/index.php). 
+=======
+For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. You can also use [Clover Configurator Cloud (it's a little outdated but still functional)](http://cloudclovereditor.altervista.org/cce/index.php). 
+>>>>>>> 337af3d7d918bcabda15debaf0a02f23d786e1a2
 
 * In Boot: select Verbose (-v) and debug=0x100.
 * In Devices, under USB, select Inject, Add ClockID and FixOwnership. 

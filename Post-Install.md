@@ -37,11 +37,11 @@ Now we're going to install our kexts (kernel extensions), just like we did in th
 First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk you installed High Sierra on.
 
 ### Here are some general kexts you will definitely need:
-* FakeSMC (This is needed to boot **any** hackintosh.)
-* Lilu (Kext patch platform)
-* AppleALC (For audio)
-* USBInjectAll (More info [here](.../master/Tips.md#usbinjectall))
-* A LAN kext (we will go into more detail about this later.)
+* [FakeSMC](https://github.com/kozlek/HWSensors) (This is needed to boot **any** hackintosh. This basically fakes the macOS License)
+* [Lilu](https://github.com/vit9696/Lilu) (Kext patch platform)
+* [AppleALC](https://github.com/vit9696/AppleALC) (For audio)
+* [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) (More info [here](.../master/Tips.md#usbinjectall))
+* A LAN kext (We will go into more detail about this later.)
 
 You can find the latest compiled kexts in [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)
 Or you can find official compiled by kext owner in [here](https://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
@@ -64,4 +64,22 @@ If you have the iMac15,1 and up (iMac17,1, iMac18,x) or MacPro6,1 SMBIOS, you wi
 
 All kexts can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 
-## Step 3 - Config
+## Step 3 - Setting up the config.plist
+Yet again, for ease of use you'll have to install [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. Again you can also use [Clover Configurator Cloud (it's a little outdated but still functional)](http://cloudclovereditor.altervista.org/cce/index.php). 
+
+First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the install media and the disk you installed High Sierra on.
+
+Now let's copy over the config.plist we used on our install media.
+
+## Step 4 - USB setup
+If you're on a 200-series mobo you want to get [XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-200-series-injector.kext/Contents)
+
+If you're on a X79/X99 mobo you want to get [XHCI-x99-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-x99-injector.kext/Contents)
+
+### KernelAndKextPatches
+To make all the USB ports on your build function, you need to apply a certain patch.
+We need to replace `837d8c10` with `837d8c1b` for more info [click here](../master/Tips.md#usbinjectall)
+
+If you're still experiencing USB 3.0/3.1 conflicts
+
+NOTE: all these steps should be taken in combination with having the [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) kext.
