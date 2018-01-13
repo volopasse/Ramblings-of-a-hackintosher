@@ -65,7 +65,7 @@ After restart, go to System Preferences > Sound > Output. You should see output 
 ## Troubleshooting
 If you see them but audio is not working, try one of the different layouts that corresponds to your codec.
 
-If you don't see any audio devices at all. Download [IOREG](http://mac.softpedia.com/get/System-Utilities/IORegistryExplorer.shtml) and search for `HDEF`. If you don't get any results, search for `HDAS` and `HZAL`.
+If you don't see any audio devices at all. Download [IOREG](http://mac.softpedia.com/get/System-Utilities/IORegistryExplorer.shtml) and search for `HDEF`. If you don't get any results, search for `HDAS` and `AZAL`.
 
 If you get a result with either, go to the ACPI section and click the `List Of Patches` dropdown button. Select either `change AZAL to HDEF` or `change HDAS to HDEF`. Reboot and see if audio devices are present and audio output is working.
 
