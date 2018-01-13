@@ -6,7 +6,7 @@
 ## Step 1 - Installing clover to disk
 This process is pretty similar to installing clover to the bootable usb in the pre-install section
 
-Download the latest version of clover from [here](https://github.com/Dids/clover-builder/releases/) (click `Clover_vx.x_rxxxx.pkg`, should be ~18mb)
+Download the latest version of clover from [here](https://github.com/Dids/clover-builder/releases/latest/) (click `Clover_vx.x_rxxxx.pkg`, should be ~18mb)
 
 Right click (or CMD+click) on the package and click Open, you will get a prompt telling you that the software is from an unidentified developer instead. ([how to disable this](http://osxdaily.com/2016/09/27/allow-apps-from-anywhere-macos-gatekeeper/))
 
@@ -99,3 +99,18 @@ NOTE: all these steps should be taken in combination with having the [USBInjectA
 ## Step 5 - Install graphics drivers
 If you're using an AMD GPU you can skip this step.
 
+If you have an Nvidia Card, you need the Nvidia Webdrivers for Graphics Acceleration. You can download the Webdriver that corresponds with your version [here](https://cookiemonster.pro/nvidia_driver_table).
+
+Install the driver and open your config.plist in Clover Configurator. Go to System Parameters and check NvidiaWeb, save and reboot.
+
+If your WebDrivers are not working (you can see this by clicking the nvidia driver button in the top bar), you  need to check if your NVRAM is working the way it should be by doing the following:
+
+* Open Terminal and do the following one line at a time:
+    * `sudo -s`
+    * `nvram -c`
+    * `nvram myvar=test`
+    * `exit`
+* Reboot
+* Open Terminal and do `nvram -p | grep -i myvar`
+
+If you don't get any output, install EmuVariableUefi-64.efi and the RC Scripts via the [latest clover install package](https://github.com/Dids/clover-builder/releases/latest/).
