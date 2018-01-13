@@ -88,7 +88,7 @@ Comment: Change 15 port limit to 24 in XHCI kext 10.13
 
 ## Step 5 - BIOS/UEFI settings
 
-Change the following settings:
+Change the following settings before boot into macOS installer:
 
 * Virtualization : Enabled
 * VT-d : Disabled
