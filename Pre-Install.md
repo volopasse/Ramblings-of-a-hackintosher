@@ -102,14 +102,13 @@ Change the following settings before boot into macOS installer:
 * Fast Boot : Disabled
 * OS Type: Other OS
 * Wake on LAN : Disabled
-* Based on  the GPU you’re using change the following settings:
-
-Dedicated graphics card:
+Based on  the GPU you’re using change the following settings:
+- Dedicated graphics card:
 * Integrated Graphics : Disabled 
 * Graphics: PEG/PCIe Slot 1
 * Initial Display Output : PCIe 1 Slot
 
-Intel iGPU:
+- Intel iGPU:
 * Integrated Graphics : Enabled
 * Graphics: IGD/Integrated/iGPU/CPU Graphics
 * DVMT Pre-Allocated : 128M
