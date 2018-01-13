@@ -113,7 +113,7 @@ Based on the GPU you’re using, change the following settings:
 - Intel iGPU:
   - Integrated Graphics : Enabled
   - Graphics: IGD/Integrated/iGPU/CPU Graphics
-  - DVMT Pre-Allocated : 128M (If you cannot change this, check out the info [here](../master/Tips,md#intelgraphicsdvmtfixup))
+  - DVMT Pre-Allocated : 128M (If you cannot change this, check out the info [here](../master/Tips.md#intelgraphicsdvmtfixup))
 
 All done! You can now boot into the macOS installer.
 Checkout how to install macOS on a mac [here](https://support.apple.com/en-us/HT204904).
