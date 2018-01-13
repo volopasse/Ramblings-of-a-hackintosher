@@ -46,4 +46,4 @@ This kext features the following:
 * Fixes an issue related to a DVMT panic when entering the installation screen.
 * Fixes the need for "FakeID = 0x12345678" in the config.plist.
 
-You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). Howto install [here](../master/Tips.md#how-to-install-kexts)
+You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). How to install [here](../master/Tips.md#how-to-install-kexts)
