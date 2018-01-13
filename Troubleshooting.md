@@ -47,8 +47,11 @@ But first, let try to check your system first.
 Open the terminal and do the following one line at a time:
 
 `sudo -s
+
 nvram -c
+
 nvram myvar=test
+
 exit`
 
 Now reboot. After than open terminal and run this nvram -p | grep -i myvar
