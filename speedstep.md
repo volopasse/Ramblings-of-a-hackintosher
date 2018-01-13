@@ -1,10 +1,17 @@
 # Power Management
 
-Native macOS power management delivers the best combination of processor and graphics performance and efficiency. The ingredients are an installed processor a XCPM enabling ssdt, a compatible system definition and the native power management kext. Native power management does not require specific BIOS settings or anything more than installing one power management ssdt.
+Native macOS power management delivers the best combination of processor and graphics performance and efficiency. 
+
+## Necessities:
+* A CPU 
+* A XCPM enabling SSDT
+* A compatible System Definition (SMBIOS) 
+
+Native power management does not require specific BIOS settings or anything more than installing one power management ssdt.
 
 To be clear, native power management is not mandatory. The consequences are not severe. Performance is similar, however, higher temps (~10 C), more power (5-10 W) and sleep problems are likely.
 
-So there's 2 ways to fix Power Management
+So there's 2 ways to fix Power Management.
 
 **For Haswell to latest generation Intel CPU (desktop only):**
 
@@ -12,7 +19,9 @@ So there's 2 ways to fix Power Management
 
   - Clover Bootloader v4307 and newer
 
-    Enable PluginType in config.plist - ACPI - SSDT - Generate![PluginType](https://i.imgur.com/0ut6Ule.png)
+    Enable PluginType in config.plist - ACPI - SSDT - Generate - PluginType
+
+    https://i.imgur.com/0ut6Ule.png
 
 - **Notes**
 

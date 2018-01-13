@@ -47,6 +47,8 @@ Find:    786d6c2e7a6c
 Replace: 7a6d6c2e7a6c
 ```
 
+Remove any AppleHDA related KextsToPatch entry.
+
 ## Installing the kexts
 First of all, check if your codec is supported [here](https://github.com/vit9696/AppleALC/wiki/Supported-codecs), if it is, write down the layout(s) for your codec. (Most codecs support layout 1.)
 
