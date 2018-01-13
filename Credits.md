@@ -10,4 +10,6 @@
 
 * [CorpNewt](https://github.com/corpnewt) for a [really good audio guide](https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/) which [ours](../master/Audio.md) is based off.
 
-* [CodeRobe] for his [license](https://github.com/coderobe/AzulPatcher4600/blob/master/LICENSE.txt)
+* [CodeRobe](https://github.com/coderobe/) for his [license](https://github.com/coderobe/AzulPatcher4600/blob/master/LICENSE.txt).
+
+* [jaymonkey](https://www.tonymacx86.com/members/jaymonkey.195809/) for [his iMessage guide](https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/).
