@@ -38,9 +38,9 @@ First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk
 
 ### Here are some general kexts you will definitely need:
 * FakeSMC (This is needed to boot **any** hackintosh.)
-* Lilu ()
+* Lilu (Kext patch platform)
 * AppleALC (For audio)
-* USBInjectAll (More info [here])
+* USBInjectAll (More info [here](.../master/Tips.md#usbinjectall))
 * A LAN kext (we will go into more detail about this later.)
 
 You can find the latest compiled kexts in [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)
@@ -48,10 +48,11 @@ Or you can find official compiled by kext owner in [here](https://docs.google.co
 
 ### LAN Kext
 Check your motherboard specifications and look for the LAN Chipset. This could be one of the following:
-* Intel® GbE LAN chip
-* Realtek RTL8111
-* Realtek RTL8100
-* Something else (check the kext repo for a fitting kext)
+* Intel® GbE LAN chip ([IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet))
+* Realtek RTL8111 ([RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X))
+* Atheros E2200 ([AtherosE2200](https://github.com/Mieze/AtherosE2200Ethernet))
+* Realtek RTL8100 ([RealtekRTL8100](https://github.com/Mieze/RealtekRTL8100))
+* Something else (check the [kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) for a fitting kext)
 
 ### Graphics Kexts
 If you do not have an SMBIOS listed [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained) or  if you do not have an AMD gpu, skip this step.
@@ -60,5 +61,7 @@ If you have an AMD GPU, make sure to get `WhateverGreen.kext` and Lilu.
 (Disclaimer: This works on some cards. There are often extra steps that need to take place for you to get full graphics acceleration.)
 
 If you have the iMac15,1 and up (iMac17,1, iMac18,x) or MacPro6,1 SMBIOS, you will need to follow the instructions [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained).
+
+All kexts can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 
 ## Step 3 - Config
