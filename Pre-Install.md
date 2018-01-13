@@ -76,12 +76,12 @@ For ease of use, we are going to download [Clover Configurator](http://mackie100
 * In GUI, under Scan, select Custom, Entries and Tool.
 * In SMBIOS, click the dropdown button and select [a SMBIOS that corresponds with your system](../master/Tips.md#choosing-a-smbios).
 * If you have an Intel CPU with an iGPU, click the drop-down menu under ig-platform-id and select an id that matches your iGPU.
-* Under Kernel and Kext Patches, check Apple RTC, AppleIntelCPUPM and KernelPM. Also create a new KextsToPatch entry that looks like this:
+* Under Kernel and Kext Patches, check Apple RTC, AppleIntelCPUPM and KernelPM. Also add the following patch to your KextsToPatch:
 ```
-Name: AppleUSBXHCIPCI
-Find: 837d8c10
+Comment: change 15 port limit to 26 in XHCI kext
+Name:    com.apple.driver.usb.AppleUSBXHCIPCI
+Find:    837d8c10
 Replace: 837d8c1b
-Comment: Change 15 port limit to 24 in XHCI kext 10.13
 ```
 * In System Paremeters, set Inject Kexts to Yes, check Inject System ID and click Generate New next to Custom UUID. Copy the generated UUID and paste it into smUUID in the SMBIOS section.
 * In Rt Variables, click Generate, set BooterConfig to 0x28 and CSRActiveConfig to 0x3E7.
