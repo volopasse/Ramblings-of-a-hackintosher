@@ -14,7 +14,7 @@
 - NvidiaWeb system parameters not inject
 - No native NVRAM support
 
-\---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------
 
 **Black screen when using iMac15,1 or iMac17,1 or MacPro6,1 system definition**
 
@@ -59,3 +59,7 @@ Now reboot. After than open terminal and run this nvram -p | grep -i myvar
 If you get any output from that last command (after a reboot) then your NVRAM works!
 
 If not you have to emulate NVRAM by install EmuVariableUefi-64.efi and RC scripts via Clover Bootloader installer
+
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
