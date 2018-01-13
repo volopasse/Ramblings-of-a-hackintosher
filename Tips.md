@@ -4,6 +4,8 @@ Open Terminal and run `diskutil list`, this will show you all your available Vol
 
 If you have only one EFI partition, you can also run `diskutil mount EFI`.
 
+You can also mount your EFI partition by Clover Configurator too.
+
 ## How to install kexts
 A small disclaimer first, please try to inject kexts whenever you can. There is a possibility that if you update, your kexts will be deleted because they're in a place they're not supposed to be in if you install them to either `/Library/Extensions` or `/System/Library/Extensions`. You should only install kexts to one of these locations if the author of the kexts tell you to do so.
 
