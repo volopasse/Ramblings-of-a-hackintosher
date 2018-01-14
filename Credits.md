@@ -8,8 +8,13 @@
 * [Pig](https://github.com/piiiggg) for the [kext spreadsheet](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/) and contributing to this repo.
 * [Meize](https://github.com/Mieze) for [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet), [RealtekRTL8100](https://github.com/Mieze/RealtekRTL8100), [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) and [AtherosE2200](https://github.com/Mieze/AtherosE2200Ethernet).
 
-* [CorpNewt](https://github.com/corpnewt) for a [really good audio guide](https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/) which [ours](../master/Audio.md) is based off.
+* [CorpNewt](https://github.com/corpnewt) for a [really good audio guide](https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/) which [ours](../master/Audio.md) is based on.
 
 * [CodeRobe](https://github.com/coderobe/) for his [license](https://github.com/coderobe/AzulPatcher4600/blob/master/LICENSE.txt).
 
 * [jaymonkey](https://www.tonymacx86.com/members/jaymonkey.195809/) for [his iMessage guide](https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/).
+
+* All the contributers for contributing to this project
+[Bisquitue](https://github.com/Bisquitue)
+[camielverdult](https://github.com/camielverdult)
+[piiiggg](https://github.com/piiiggg)
