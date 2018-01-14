@@ -57,6 +57,8 @@ Install both to kexts/other. How to [here](../master/Tips.md#how-to-mount-efi). 
 Open your config.plist with [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and go to Devices > Audio. You will see a box with a down arrow. In that box you want to enter a supported layout that works with your audio codec. Save and restart. 
 
 After restart, go to System Preferences > Sound > Output. You should see output devices, here's an example of what you should see:
+
+
 ![alt text](../master/Pictures/Audio%20Devices.png)
 
 ## Troubleshooting
