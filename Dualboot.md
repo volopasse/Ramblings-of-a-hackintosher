@@ -23,7 +23,7 @@ When you have a working macOS with Clover Bootloader and you want to install Win
 When you want to install macOS without losing Windows data. You need to re-size EFI partition to 300MBs, then you can install macOS or Disk Utility will fail.
 
 1. Download your favorite partition tool. (I'll use [MiniTool Partition Wizard](https://www.partitionwizard.com/free-partition-manager.html))
-2. Normally, Windows will create EFI partition with only 100MBs. [You will need to re-size to 300MBs, learn how to do that with Mini Partition Wizard.](https://www.partitionwizard.com/help/resize-partition.html)
+2. Normally, Windows will create EFI partition with only 100MBs. You will need to re-size to 300MBs (take from C: partition), [learn how to do that with Mini Partition Wizard.](https://www.partitionwizard.com/help/resize-partition.html)
 3. Create a partition for macOS and format to NTFS, macOS can't create a partition from free space so you have to do it now.
 4. Now boot into macOS installer with Clover Bootloader, use Disk Utility.app erase that partition
 5. Exit Disk Utility.app and install macOS.
