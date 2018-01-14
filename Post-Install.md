@@ -37,7 +37,7 @@ Now we're going to install our kexts (kernel extensions), just like we did in th
 First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk you installed High Sierra on.
 
 ### Here are some general kexts you will definitely need:
-* [FakeSMC](https://github.com/kozlek/HWSensors) (This is needed to boot **any** hackintosh. This basically fakes the macOS License)
+* [FakeSMC](https://github.com/kozlek/HWSensors) (This is needed to boot **any** hackintosh. This kexts spoofs the presence of a valid SMC chip and stops the trigger of DontStealMacOS.kext when booting on non-mac hardware.)
 * [Lilu](https://github.com/vit9696/Lilu) (Kext patch platform)
 * [AppleALC](https://github.com/vit9696/AppleALC) (For audio)
 * [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) (More info [here](.../master/Tips.md#usbinjectall))
