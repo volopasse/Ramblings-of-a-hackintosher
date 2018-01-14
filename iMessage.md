@@ -50,19 +50,12 @@ StartupDrive being the name of the macOS partition and Username being your User 
 
 Open your config.plist in Clover Configurator and go to SMBIOS. Click the arrow up and arrow down button, you should now see a menu with different SMBIOSes. Check [here]() for more info on how to choose an SMBIOS.
 
-Once you've selected an SMBIOS that corresponds with your hardware, we are going to generate a UUID. Go to System Parameters > Custom UUID and click `Generate New`. Copy the UUID you just generated and paste it into SMBIOS > smUUID. 
+Once you've selected an SMBIOS that corresponds with your hardware, we are going to generate a UUID. Go to System Parameters > Custom UUID and click `Generate New`. Copy the UUID you just generated and paste it into SMBIOS > smUUID. Now go to the Rt Variables section and click Generate. In the Info tab below ROM and MLB, copy ROM from info to ROM and copy MLB from info to MLB.
 
-**Step 4: ROM value**
+It should something like this: (The values are **not** supposed to be the same, do not copy these.)
 
-Open System Profiler - Network, you should see your MAC Address like this 88:88:a8:88:8a:88, now put it to Clover Configurator - Rt Variables - ROM without ":" and all letter must be uppercase. When done you should have something like 8888A8888A88. 
+![alt text](../master/Pictures/ROM&MLB.png)
 
-Now save your settings and reboot. After that try to login to iMessage
-
-**Step 5: Troubleshooting**
-
-- If you getting Customer Code after a failed login then try everything from step 1 again
-- If you getting failed to login error then check your BSD name, try to login again few more times or try everything from step 1 again
-
-
+Reboot
 
 Credit: This guide is based from [jaymonkey guide](https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/)
