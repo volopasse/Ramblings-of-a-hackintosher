@@ -142,6 +142,6 @@ A partition table is a table maintained on disk by the operating system describi
 
 GPT is used for UEFI OSes, MBR on the other hand is common to be used for Legacy OSes. Windows supports both, only it's standard partition table is set to MBR. macOS doesn't like MBR a lot, so that's why you need to convert your windows disk to GPT.
 
-There is [software](https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt) around that can do this for you, without having to wipe the entire disk and losing all your data.
+There is [software](https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt) around that can do this for you, without having to wipe the entire disk and losing all your data. (Disclaimer: This will not work unless you have Windows 10 Creator's Update (version 1703) or later (check by running `winver` in Run or typing it in Cortana/Start menu). It has been embedded in Windows' systems.)
 
 You should run this program on your windows disk, so that it's converted to GPT. Now you're ready to install macOS on there
