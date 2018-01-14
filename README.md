@@ -26,6 +26,7 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 * [Kext spreadsheet](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
 * [Latest Clover](https://github.com/Dids/clover-builder/releases/latest)
 * [Nvidia Web Drivers](https://cookiemonster.pro/nvidia_driver_table)
+* [Vanilla Hackintosh discord](http://discord.io/hackintosh)
 
 # Some questions
 
@@ -48,3 +49,8 @@ I will not do this, please don't ask anyone but a good friend to do this for you
 ## Something broke/ isn't working (correctly)! What do I do?
 
 I recommend you check out this page [here](../master/Troubleshooting.md)
+
+## Contact
+If you feel the need to say something about the guide you can do that in the hackintosh discord server.
+
+http://discord.io/hackintosh
