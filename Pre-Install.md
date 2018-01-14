@@ -1,5 +1,8 @@
 # Pre-Install
 
+## Pre-word
+If you do not have a Mac computer, you can use a VM or check out this guide [here](https://www.reddit.com/r/hackintosh/comments/76szrl/guide_installing_macosx_from_the_internet/) by [midi1996](https://www.reddit.com/user/midi1996).
+
 ## Necessities:
 * 8GB+ USB stick
 * Computer running MacOS (If you do not have a computer running MacOS, ask a friend/family member or check out how to make a Virtual Machine running MacOS on windows [here](https://techsviewer.com/install-macos-high-sierra-vmware-windows/).)
