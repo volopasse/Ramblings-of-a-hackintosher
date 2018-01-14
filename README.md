@@ -9,7 +9,7 @@ In this guide we don't cover AMD CPU's, this guide is primarily focussed around 
 
 This guide is meant for desktop PC's, you could follow the same steps for laptops but most laptops will require extra patches and fixes.
 
-We are not "professional" hackintoshers in any way. We know how to get a hackintosh working and we would like to spread my knowledge.
+We are not "professional" hackintoshers in any way. We know how to get a hackintosh working and we would like to spread our knowledge.
 
 # Table of contents
 * [Pre-Install](../master/Pre-Install.md)
