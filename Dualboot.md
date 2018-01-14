@@ -18,7 +18,7 @@ When you have a working macOS with Clover Bootloader and you want to install Win
 
 5. Then install on that free space, Windows will override boot priority when install. You can fix it later.
 
-####Windows -> macOS####
+#### Windows -> macOS
 
 When you want to install macOS without losing Windows data. You need to re-size EFI partition to 300MBs, then you can install macOS or Disk Utility will fail.
 
