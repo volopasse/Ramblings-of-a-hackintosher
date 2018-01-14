@@ -48,11 +48,11 @@ StartupDrive being the name of the macOS partition and Username being your User 
 
 ## Step 3: Generate SMBIOS value
 
-Open your config.plist in Clover Configurator and go to SMBIOS. Click the arrow up and arrow down button, you should now see a menu with different SMBIOSes. Check [here]() for more info on how to choose an SMBIOS.
+Open your config.plist in Clover Configurator and go to SMBIOS. Click the arrow up and arrow down button, you should now see a menu with different SMBIOSes. Click [here](../master/Tips.md#choosing-a-smbios) for more info on how to choose an SMBIOS.
 
-Once you've selected an SMBIOS that corresponds with your hardware, we are going to generate a UUID. Go to System Parameters > Custom UUID and click `Generate New`. Copy the UUID you just generated and paste it into SMBIOS > smUUID. Now go to the Rt Variables section and click Generate. In the Info tab below ROM and MLB, copy ROM from info to ROM and copy MLB from info to MLB.
+Once you've selected an SMBIOS that corresponds with your hardware, we are going to generate a UUID. Go to `System Parameters > Custom UUID` and click `Generate New`. Copy the UUID you just generated and paste it into `SMBIOS > smUUID`. Now go to the Rt Variables section and click Generate. In the Info tab below ROM and MLB, copy ROM from info to ROM and copy MLB from info to MLB.
 
-It should something like this: (The values are **not** supposed to be the same, do not copy these.)
+It should look like something like this: (The values are **not** supposed to be the same, do not copy these.)
 
 ![alt text](../master/Pictures/ROM&MLB.png)
 
