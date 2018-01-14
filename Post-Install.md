@@ -99,12 +99,11 @@ NOTE: all these steps should be taken in combination with having the [USBInjectA
 ## Step 5 - Install graphics drivers
 If you're using an AMD GPU you can skip this step.
 
-If you have an Nvidia Card, you need the Nvidia Webdrivers for Graphics Acceleration. You can download the Webdriver that corresponds with your version [here](https://cookiemonster.pro/nvidia_driver_table).
+If you have an NVIDIA Card, you need the NVIDIA WebDrivers for Graphics Acceleration. You can download the corresponding WebDriver from [this link](https://cookiemonster.pro/nvidia_driver_table).
 
 Install the driver and open your config.plist in Clover Configurator. Go to System Parameters and check NvidiaWeb, save and reboot.
 
-If your WebDrivers are not working (you can see this by clicking the nvidia driver button in the top bar), you  need to check if your NVRAM is working the way it should be. You can do this [here](../master/Tips,md#nvidia-web-drivers-not-kicking-in).
-
+If your WebDrivers are not functioning properly (you check this by clicking the NVIDIA driver button in the top bar),you  need to check if your NVRAM is working the way it should be. For more in-depth [click here](../master/Tips,md#nvidia-web-drivers-not-kicking-in).
 
 ## Step 6 - Audio
 Check out the guide we made on audio [here](../master/Audio.md).
