@@ -4,7 +4,7 @@ This file will be focused around setting up audio.
 
 ## Necessities:
 * AppleALC & Lilu (both can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ))
-* Your codec
+* Your codec (you can get this from your motherboard's specification page)
 * [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic)
 * A mounted EFI partition (howto [here](../master/Tips.md#how-to-mount-efi))
 
@@ -50,11 +50,11 @@ Replace: 7a6d6c2e7a6c
 Remove any AppleHDA, VoodooHDA,... related KextsToPatch entry.
 
 ## Installing the kexts
-First of all, check if your codec is supported [here](https://github.com/vit9696/AppleALC/wiki/Supported-codecs), if it is, write down the layout(s) for your codec. (Most codecs support layout 1.)
+First of all, check if your codec is supported [here](https://github.com/vit9696/AppleALC/wiki/Supported-codecs), if it is, write down the layout(s) for your codec. (most audio codecs support layout 1)
 
 Install both to kexts/other. How to [here](../master/Tips.md#how-to-mount-efi). Make sure that you're injecting kexts. (more info on installing kexts [here](../master/Tips.md#how-to-install-kexts))
 
-Open your config.plist with [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and go to Devices > Audio. You will see a box with a down arrow. In that box you want to enter the layout for your codec and restart. 
+Open your config.plist with [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and go to Devices > Audio. You will see a box with a down arrow. In that box you want to enter a supported layout that works with your audio codec. Save and restart. 
 
 After restart, go to System Preferences > Sound > Output. You should see output devices, here's an example of what you should see:
 * Internal Speakers
