@@ -140,7 +140,7 @@ If you don't get any output fromt the last command, install EmuVariableUefi-64.e
 Before we go into this section, you must know the difference between GPT and MBR Partition Tables.
 A partition table is a table maintained on disk by the operating system describing the partitions on that disk.
 
-GPT is used for UEFI OS'es, MBR on the other hand is common to be used for Legacy OS'es. Now windows supports both, only it's standard is set to MBR. macOS doesn't like MBR a lot, so that's why you need to convert your disk to GPT.
+GPT is used for UEFI OSes, MBR on the other hand is common to be used for Legacy OSes. Windows supports both, only it's standard partition table is set to MBR. macOS doesn't like MBR a lot, so that's why you need to convert your windows disk to GPT.
 
 There is [software](https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt) around that can do this for you, without having to wipe the entire disk and losing all your data.
 
