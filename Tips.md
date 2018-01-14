@@ -135,3 +135,13 @@ If you have NvidiaWeb checked in your config and webdrivers are still not workin
 * Open Terminal and do `nvram -p | grep -i myvar`
 
 If you don't get any output fromt the last command, install EmuVariableUefi-64.efi and the RC Scripts via the [latest clover install package](https://github.com/Dids/clover-builder/releases/latest/).
+
+## Installing macOS on a windows drive (dualboot)
+Before we go into this section, you must know the difference between GPT and MBR Partition Tables.
+A partition table is a table maintained on disk by the operating system describing the partitions on that disk.
+
+GPT is used for UEFI OS'es, MBR on the other hand is common to be used for Legacy OS'es. Now windows supports both, only it's standard is set to MBR. macOS doesn't like MBR a lot, so that's why you need to convert your disk to GPT.
+
+There is [software](https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt) around that can do this for you, without having to wipe the entire disk and losing all your data.
+
+You should run this program on your windows disk, so that it's converted to GPT. Now you're ready to install macOS on there
