@@ -43,7 +43,8 @@ Easy! Right?
  2. Mount it OR open it with 7zip/winrar(ew)
  3. Plug a 8GB USB and format it as FAT32
  4. JUST copy the contents of the ISO into the root of your USB drive
- 5. DONE
+ 5. Boot it on your computer (make sure it's set to UEFI mode)
+ 6. DONE
 
 ***
 
@@ -61,7 +62,7 @@ You need this:
 
 What you need to do
 
-1. Open [MPW]
+1. Open MPW
 2. Check your partitions for the EFI partition
  * On some systems it may be named EFI, on others (like Sony) SYSTEM
  * It's a FAT32 partition
