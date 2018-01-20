@@ -20,6 +20,9 @@ So let's say you want to rename HDAS to HDEF, please search if you even have HDE
 Be **very** careful while entering the patching info.
 
 ## Choosing a SMBIOS
+<!-- ### What's SMBIOS -->
+<!-- Let's understand what SMBIOS is. On clover, the SMBIOS will mask your system as an iMac, Macbook or Mac Pro. -->
+
 There are a lot of SMBIOSes, you need to pick the correct one for your hardware. Here are some examples:
 * iMac14,1 for Haswell (ix-4xxx) systems **without** a dgpu.
 * iMac14,2 for Haswell (ix-4xxx) systems **with** a dgpu.
