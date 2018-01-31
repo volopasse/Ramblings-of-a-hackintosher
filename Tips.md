@@ -20,8 +20,7 @@ So let's say you want to rename HDAS to HDEF, please search if you even have HDE
 Be **very** careful while entering the patching info.
 
 ## Choosing a SMBIOS
-<!-- ### What's SMBIOS -->
-<!-- Let's understand what SMBIOS is. On clover, the SMBIOS will mask your system as an iMac, Macbook or Mac Pro. -->
+An SMBIOS will mask your system as an iMac, Macbook or Mac Pro.
 
 There are a lot of SMBIOSes, you need to pick the correct one for your hardware. Here are some examples:
 * iMac14,1 for Haswell (ix-4xxx) systems **without** a dgpu.
@@ -148,3 +147,24 @@ GPT is used for UEFI OSes, MBR on the other hand is common to be used for Legacy
 There is [software](https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt) around that can do this for you, without having to wipe the entire disk and losing all your data. (Disclaimer: This will not work unless you have Windows 10 Creator's Update (version 1703) or later (check by running `winver` in Run or typing it in Cortana/Start menu). It has been embedded in Windows' systems.)
 
 You should run this program on your windows disk, so that it's converted to GPT. Now you're ready to install macOS on there
+
+## AptioMemoryFix & AptioInputFix explained
+If you wanted to boot macos succesfully, you needed one of the following:
+* OsxAptioFix
+* OsxAptioFix**2**
+* OsxAptioFix-Free2000 (generally used with X99)
+
+These fixed some issues with the macos kernel and memory.
+
+There now is a new EFI driver to replace all of these, called AptioMemoryFix. This driver goes paired with AptioInputFix. It offers native NVRAM, fixing certain boot issues and a lot more things, which I will not go into detail to since this is very complex.
+
+Here's some advice about the new driver by someone who knows how it works: (Credits to Reddestdream)
+
+![alt text](../master/Pictures/The%20new%20hotness.png)
+
+Me and a lot of hackintoshers advice you to switch over to the new efi drivers.
+
+### Sounds good! Where do I get it?
+AptioMemoryFix and AptioInputFix are both able to be installed via the clover install package (latest [here](https://github.com/Dids/clover-builder/releases/latest)).
+
+You can take a look at [the repo on github](https://github.com/vit9696/AptioFixPkg) for more information.

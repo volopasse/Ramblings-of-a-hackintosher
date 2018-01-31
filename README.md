@@ -11,6 +11,8 @@ This guide is meant for desktop PC's, you could follow the same steps for laptop
 
 We are not "professional" hackintoshers in any way. We know how to get a hackintosh working and we would like to spread our knowledge.
 
+This guide is made by a few people. All have different opinions and different approaches.
+
 # Table of contents
 * [Pre-Install](../master/Pre-Install.md)
 * [Post-Install](../master/Post-Install.md)
