@@ -105,7 +105,7 @@ Change the following settings before you boot into the macOS installer:
 * UEFI Booting set to Enabled and set Priority over Legacy
 * Secure Boot : Disabled
 * Fast Boot : Disabled
-* OS Type: Other OS
+* OS Type: Other OS (you may want to try Windows 10, a lot of hackers recommend this)
 * Wake on LAN : Disabled
 
 Based on the GPU you’re using, change the following settings:
