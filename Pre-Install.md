@@ -1,7 +1,7 @@
 # Pre-Install
 
 ## Pre-word
-If you do not have a Mac computer, you can use a VM or check out this guide [here](https://www.reddit.com/r/hackintosh/comments/76szrl/guide_installing_macosx_from_the_internet/) by [midi1996](https://www.reddit.com/user/midi1996).
+If you do not have a Mac computer, you can use a VM or check out this guide [here](https://github.com/camielverdult/Ramblings-of-a-hackintosher-High-Sierra/blob/master/InternetInstall.md#install-macosx-directly-from-the-internet).
 
 ## Necessities:
 * 8GB+ USB stick
