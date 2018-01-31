@@ -156,7 +156,7 @@ If you wanted to boot macos succesfully, you needed one of the following:
 
 These fixed some issues with the macos kernel and memory.
 
-There's now is a new EFI driver to replace OsxAptioFix2, called AptioMemoryFix. It shims the AMI Keycode protocol onto the Apple KeyMap protocols and fixes the global timer to prevent pointer corrdinate overflows.
+There's now is a new EFI driver to replace OsxAptioFix2, called AptioMemoryFix. It shims the AMI Keycode protocol onto the Apple KeyMap protocols and fixes the global timer to prevent pointer coordinate overflows.
 
 Here's some advice about the new driver by someone who knows how it works: (Credits to Reddestdream)
 
