@@ -156,7 +156,7 @@ If you wanted to boot macos succesfully, you needed one of the following:
 
 These fixed some issues with the macos kernel and memory.
 
-There now is a new EFI driver to replace all of these, called AptioMemoryFix. This driver goes paired with AptioInputFix. It offers native NVRAM, fixing certain boot issues and a lot more things, which I will not go into detail to since this is very complex.
+There's now is a new EFI driver to replace OsxAptioFix2, called AptioMemoryFix. It shims the AMI Keycode protocol onto the Apple KeyMap protocols and fixes the global timer to prevent pointer corrdinate overflows.
 
 Here's some advice about the new driver by someone who knows how it works: (Credits to Reddestdream)
 
