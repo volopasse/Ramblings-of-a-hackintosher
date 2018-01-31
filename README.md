@@ -24,6 +24,7 @@ This guide is made by a few people. All have different opinions and different ap
 * [Credits/Acknowledgements](../master/Credits.md)
 
 # Useful links
+* [Vanilla guide](https://www.reddit.com/r/hackintosh/comments/68p1e2/ramblings_of_a_hackintosher_a_sorta_brief_vanilla/) by [CorpNewt](https://www.reddit.com/user/corpnewt).
 * [Kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 * [Kext spreadsheet](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
 * [Latest Clover](https://github.com/Dids/clover-builder/releases/latest)
