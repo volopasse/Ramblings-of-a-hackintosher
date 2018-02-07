@@ -76,6 +76,7 @@ All can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwA
 ## Step 4 - Setting up the config.plist
 For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. You can also use [Clover Configurator Cloud (it's a little outdated but still functional)](http://cloudclovereditor.altervista.org/cce/index.php). 
 
+* Start with a new, empty Clover Configurator file.
 * In Boot: select Verbose (-v) and debug=0x100.
 * In Devices, under USB, select Inject, Add ClockID and FixOwnership. 
 * In GUI, under Scan, select Custom, Entries and Tool.
