@@ -14,14 +14,14 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 This guide is made by a few people. All have different opinions and different approaches.
 
 # Table of contents
-* [Pre-Install](../master/Pre-Install.md)
-* [Post-Install](../master/Post-Install.md)
-* [Tips](../master/Tips.md)
-* [iMessage/Facetime](../master/iMessage.md)
-* [Audio](../master/Audio.md)
-* [Power Management](../master/Speedstep.md)
-* [Troubleshooting](../master/Troubleshooting.md)
-* [Credits/Acknowledgements](../master/Credits.md)
+* [Pre-Install](Pre-Install.md)
+* [Post-Install](Post-Install.md)
+* [Tips](Tips.md)
+* [iMessage/Facetime](iMessage.md)
+* [Audio](Audio.md)
+* [Power Management](Speedstep.md)
+* [Troubleshooting](Troubleshooting.md)
+* [Credits/Acknowledgements](Credits.md)
 
 # Useful links
 * [Vanilla guide](https://www.reddit.com/r/hackintosh/comments/68p1e2/ramblings_of_a_hackintosher_a_sorta_brief_vanilla/) by [CorpNewt](https://www.reddit.com/user/corpnewt).
@@ -43,7 +43,7 @@ More info can be found [here](https://www.lifewire.com/what-is-hackintosh-832719
 
 You will need a list of your computer's specifications, a general idea of how an operating system works and a high pain tolerance.
 
-More instructions [here](../master/Pre-Install.md).
+More instructions [here](Pre-Install.md).
 
 ## Will you guide me through every single step personally?
 
@@ -51,7 +51,7 @@ I will not do this, please don't ask anyone but a good friend to do this for you
 
 ## Something broke/ isn't working (correctly)! What do I do?
 
-I recommend you check out this page [here](../master/Troubleshooting.md)
+I recommend you check out this page [here](Troubleshooting.md)
 
 ## Contact
 If you feel the need to say something about the guide you can do that in the hackintosh discord server.

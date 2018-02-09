@@ -59,7 +59,7 @@ CloverEFI
 ```
 
 ## Step 3 - Downloading Kexts
-Mount the EFI partition of your USB (howto [here](../master/Tips.md#how-to-mount-efi))
+Mount the EFI partition of your USB (howto [here](Tips.md#how-to-mount-efi))
 
 We are now going to install some kernel extensions (often referred to as "kexts") necessary for booting at all. These include the following:
 * FakeSMC
@@ -69,7 +69,7 @@ If you have the iMac15,1;, iMac17,1;, iMac18,x or MacPro6,1, you also want:
 * Lilu
 * NvidiaGraphicsFixup
 
-More info on that [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained),
+More info on that [here](Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained),
 
 All can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). Full kext spreadsheet [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/).
 
@@ -80,7 +80,7 @@ For ease of use, we are going to download [Clover Configurator](http://mackie100
 * In Boot: select Verbose (-v) and debug=0x100.
 * In Devices, under USB, select Inject, Add ClockID and FixOwnership. 
 * In GUI, under Scan, select Custom, Entries and Tool.
-* In SMBIOS, click the dropdown button and select [a SMBIOS that corresponds with your system](../master/Tips.md#choosing-a-smbios).
+* In SMBIOS, click the dropdown button and select [a SMBIOS that corresponds with your system](Tips.md#choosing-a-smbios).
 * If you have an Intel CPU with an iGPU, click the drop-down menu under ig-platform-id and select an id that matches your iGPU.
 * Under Kernel and Kext Patches, check Apple RTC, AppleIntelCPUPM and KernelPM. Also add the following patch to your KextsToPatch:
 ```
@@ -117,9 +117,9 @@ Based on the GPU you’re using, change the following settings:
 - Intel iGPU:
   - Integrated Graphics : Enabled
   - Graphics: IGD/Integrated/iGPU/CPU Graphics
-  - DVMT Pre-Allocated : 128M (If you cannot change this, check out the info [here](../master/Tips.md#intelgraphicsdvmtfixup))
+  - DVMT Pre-Allocated : 128M (If you cannot change this, check out the info [here](Tips.md#intelgraphicsdvmtfixup))
 
 All done! You can now boot into the macOS installer.
 Checkout how to install macOS on a mac [here](https://support.apple.com/en-us/HT204904).
 
-If you get an error while booting, check [troubleshooting](../master/Trobleshooting.md).
+If you get an error while booting, check [troubleshooting](Trobleshooting.md).

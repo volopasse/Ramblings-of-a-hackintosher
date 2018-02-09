@@ -11,7 +11,7 @@ This only work on Clover v4307 or newer.
 
 Open your config.plist in Clover Configurator and go to the ACPI section. In there, under SSDT (bottom left), check PluginType.
 
-![alt text](../master/Pictures/PluginType.png)
+![alt text](Pictures/PluginType.png)
 
 ## For Ivy Bridge or older generation Intel CPUs or laptops:
 

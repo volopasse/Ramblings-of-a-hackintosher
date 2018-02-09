@@ -32,15 +32,15 @@ For booting Legacy:
 Select your USB drive and click Install.
 
 ## Step 2 - Kexts
-Now we're going to install our kexts (kernel extensions), just like we did in the [Pre-Install](../master/Pre-Install.md#step-3---downloading-kexts).
+Now we're going to install our kexts (kernel extensions), just like we did in the [Pre-Install](Pre-Install.md#step-3---downloading-kexts).
 
-First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the disk you installed High Sierra on.
+First, [mount the EFI partition](Tips.md#how-to-mount-efi) of the disk you installed High Sierra on.
 
 ### Here are some general kexts you will definitely need:
 * [FakeSMC](https://github.com/kozlek/HWSensors) (This is needed to boot **any** hackintosh. This kexts spoofs the presence of a valid SMC chip and stops the trigger of DontStealMacOS.kext when booting on non-mac hardware.)
 * [Lilu](https://github.com/vit9696/Lilu) (Kext patch platform)
 * [AppleALC](https://github.com/vit9696/AppleALC) (For audio)
-* [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) (More info [here](.../master/Tips.md#usbinjectall))
+* [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) (More info [here](.Tips.md#usbinjectall))
 * A LAN kext (We will go into more detail about this later.)
 
 You can find the latest compiled kexts in [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)
@@ -55,19 +55,19 @@ Check your motherboard specifications and look for the LAN Chipset. This could b
 * Something else (check the [kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) for a fitting kext)
 
 ### Graphics Kexts
-If you do not have an SMBIOS listed [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained) or  if you do not have an AMD gpu, skip this step.
+If you do not have an SMBIOS listed [here](Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained) or  if you do not have an AMD gpu, skip this step.
 
 If you have an AMD GPU, make sure to get `WhateverGreen.kext` and Lilu. 
 (Disclaimer: This works on some cards. There are often extra steps that need to take place for you to get full graphics acceleration.)
 
-If you have the iMac15,1 and up (iMac17,1, iMac18,x) or MacPro6,1 SMBIOS, you will need to follow the instructions [here](../master/Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained).
+If you have the iMac15,1 and up (iMac17,1, iMac18,x) or MacPro6,1 SMBIOS, you will need to follow the instructions [here](Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained).
 
 All kexts can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ)
 
 ## Step 3 - Setting up the config.plist
 Yet again, for ease of use you'll have to install [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. Again you can also use [Clover Configurator Cloud (it's a little outdated but still functional)](http://cloudclovereditor.altervista.org/cce/index.php). 
 
-First, [mount the EFI partition](../master/Tips.md#how-to-mount-efi) of the install media and the disk you installed High Sierra on.
+First, [mount the EFI partition](Tips.md#how-to-mount-efi) of the install media and the disk you installed High Sierra on.
 
 Now let's copy over the config.plist we used on your install media.
 
@@ -84,7 +84,7 @@ If you're on a X79/X99 mobo you want to get [XHCI-x99-injector.kext](https://git
 
 You should have either USBInjectAll, XHCI-200-series-injector.kext or XHCI-x99-injector.kext. You should never have more USB/XHCI injector.
 
-To make all the USB ports on your build work, you need to raise the port limit. (more info [here](../master/Tips.md#usbinjectall))
+To make all the USB ports on your build work, you need to raise the port limit. (more info [here](Tips.md#usbinjectall))
 
 Go to Kernel and Kext Patches and add a new KextsToPatch entry with the following info:
 ```
@@ -103,7 +103,7 @@ If you have an NVIDIA Card, you need the NVIDIA WebDrivers for Graphics Accelera
 
 Install the driver and open your config.plist in Clover Configurator. Go to System Parameters and check NvidiaWeb, save and reboot.
 
-If your WebDrivers are not functioning properly (you check this by clicking the NVIDIA driver button in the top bar),you  need to check if your NVRAM is working the way it should be. For more in-depth [click here](../master/Tips,md#nvidia-web-drivers-not-kicking-in).
+If your WebDrivers are not functioning properly (you check this by clicking the NVIDIA driver button in the top bar),you  need to check if your NVRAM is working the way it should be. For more in-depth [click here](Tips,md#nvidia-web-drivers-not-kicking-in).
 
 ## Step 6 - Audio
-Check out the guide we made on audio [here](../master/Audio.md).
+Check out the guide we made on audio [here](Audio.md).

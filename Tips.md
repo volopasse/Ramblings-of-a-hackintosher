@@ -9,7 +9,7 @@ You can also mount your EFI partition with Clover Configurator.
 ## How to install kexts
 A small disclaimer first, please try to inject kexts whenever you can. There is a possibility that if you update, your kexts will be deleted because they're in a place they're not supposed to be in if you install them to either `/Library/Extensions` or `/System/Library/Extensions`. You should only install kexts to one of these locations if the author of the kexts tell you to do so.
 
-To inject a kext, [mount your EFI]((../master/Tips.md#how-to-mount-efi)) and go to /EFI/EFI/Clover/kexts/Other and place your kext(s) in there. Also make sure that `InjectKexts` is set to `Yes` inside of your config.plist.
+To inject a kext, [mount your EFI]((Tips.md#how-to-mount-efi)) and go to /EFI/EFI/Clover/kexts/Other and place your kext(s) in there. Also make sure that `InjectKexts` is set to `Yes` inside of your config.plist.
 
 ## How to know if you need to hot-patch DSDT
 Download [IOREG](http://mac.softpedia.com/get/System-Utilities/IORegistryExplorer.shtml) and search for what a patch tells you to replace in it's comment.
@@ -58,7 +58,7 @@ This kext features the following:
 * Fixes an issue related to a DVMT panic when entering the installation screen.
 * Fixes the need for "FakeID = 0x12345678" in the config.plist.
 
-You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). How to install [here](../master/Tips.md#how-to-install-kexts)
+You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). How to install [here](Tips.md#how-to-install-kexts)
 
 ## USBInjectAll
 This kext injects all available USB ports to the OS. This is absolutely necessary when installing, you will get the `Still waiting for root device...` hang otherwise.
@@ -93,7 +93,7 @@ Replace: 837d8c1b
 ```
 
 DSDT Patches (All of these are Clover Configurator friendly, raw patches [here](https://github.com/RehabMan/OS-X-USB-Inject-All/blob/master/config_patches.plist#L8-L53)):
-(DISCLAIMER: These patches should only be used when they are needed. More info [here](../master/Tips.md#how-to-know-if-you-need-to-hot-patch-dsdt))
+(DISCLAIMER: These patches should only be used when they are needed. More info [here](Tips.md#how-to-know-if-you-need-to-hot-patch-dsdt))
 
 ```
 Comment: change _OSI to XOSI
@@ -160,7 +160,7 @@ There's now is a new EFI driver to replace OsxAptioFix2, called AptioMemoryFix. 
 
 Here's some advice about the new driver by someone who knows how it works: (Credits to Reddestdream)
 
-![alt text](../master/Pictures/The%20new%20hotness.png)
+![alt text](Pictures/The%20new%20hotness.png)
 
 Me and a lot of hackintoshers advice you to switch over to the new efi drivers.
 

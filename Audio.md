@@ -6,7 +6,7 @@ This file will be focused around setting up audio.
 * AppleALC & Lilu (both can be downloaded from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ))
 * Your codec (you can get this from your motherboard's specification page)
 * [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic)
-* A mounted EFI partition (howto [here](../master/Tips.md#how-to-mount-efi))
+* A mounted EFI partition (howto [here](Tips.md#how-to-mount-efi))
 
 ## Cleanup
 If you tried **anything** for audio before you tried this, we need to remove old audio attempts first.
@@ -52,14 +52,14 @@ Remove any AppleHDA, VoodooHDA,... related KextsToPatch entry.
 ## Installing the kexts
 First of all, check if your codec is supported [here](https://github.com/vit9696/AppleALC/wiki/Supported-codecs), if it is, write down the layout(s) for your codec. (most audio codecs support layout 1)
 
-Install both to kexts/other. How to [here](../master/Tips.md#how-to-mount-efi). Make sure that you're injecting kexts. (more info on installing kexts [here](../master/Tips.md#how-to-install-kexts))
+Install both to kexts/other. How to [here](Tips.md#how-to-mount-efi). Make sure that you're injecting kexts. (more info on installing kexts [here](Tips.md#how-to-install-kexts))
 
 Open your config.plist with [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and go to Devices > Audio. You will see a box with a down arrow. In that box you want to enter a supported layout that works with your audio codec. Save and restart. 
 
 After restart, go to System Preferences > Sound > Output. You should see output devices, here's an example of what you should see:
 
 
-![alt text](../master/Pictures/Audio%20Devices.png)
+![alt text](Pictures/Audio%20Devices.png)
 
 ## Troubleshooting
 If you see them but audio is not working, try one of the different layouts that corresponds to your codec.
