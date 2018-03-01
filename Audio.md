@@ -8,10 +8,10 @@ This file will be focused around setting up audio.
 * [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic)
 * A mounted EFI partition (how to [here](Tips.md#how-to-mount-efi))
 
-## Cleanup
+## Remove old audio patch
 If you tried **anything** for audio before you tried this, we need to remove old audio attempts first.
 
-If you don't want to touch your system file and have some free time, re-install macOS to remove old audio patch is a better way
+If you don't want to touch your system file or have some free time, re-install macOS to remove old audio patch is a better way
 
 We're looking for:
 * realtekALC.kext
