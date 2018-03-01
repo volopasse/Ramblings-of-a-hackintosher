@@ -60,12 +60,12 @@ CloverEFI
 ## Step 3 - Downloading Kexts
 Mount the EFI partition of your USB (how to [here](Tips.md#how-to-mount-efi))
 
+Also, check out [how to install kext](/Post-Install.md#step-2---kexts) when you have some free time
+
 We are now going to install some kernel extensions (often referred to as "kexts") necessary for booting at all. These include the following:
 * FakeSMC
 * USBInjectAll
 * [XHCI-200-series-injector.kext](https://cdn.discordapp.com/attachments/251043252046659586/363747073763442691/XHCI-200-series-injector.kext.zip) (for 200/300-series motherboard)
-
-More info on that [here](Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained),
 
 All can be downloaded from [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/).
 
