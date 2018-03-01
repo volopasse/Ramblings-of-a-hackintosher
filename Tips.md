@@ -4,12 +4,12 @@ Open Terminal and run `diskutil list`, this will show you all your available Vol
 
 If you have only one EFI partition, you can also run `diskutil mount EFI`.
 
-You can also mount your EFI partition with Clover Configurator.
+You can also mount your EFI partition with Clover Configurator, which it's easy and faster.
 
 ## How to install kexts
-A small disclaimer first, please try to inject kexts whenever you can. There is a possibility that if you update, your kexts will be deleted because they're in a place they're not supposed to be in if you install them to either `/Library/Extensions` or `/System/Library/Extensions`. You should only install kexts to one of these locations if the author of the kexts tell you to do so.
+A small disclaimer first, please try to inject kexts whenever you can. There is a possibility that if you update, your kexts will be deleted because they're in a place they're not supposed to be in if you install them to either `/Library/Extensions` or `/System/Library/Extensions`. You should only install kexts to /EFI/Clover/kexts/Other/
 
-To inject a kext, [mount your EFI]((Tips.md#how-to-mount-efi)) and go to /EFI/EFI/Clover/kexts/Other and place your kext(s) in there. Also make sure that `InjectKexts` is set to `Yes` inside of your config.plist.
+To inject a kext, [mount your EFI]((Tips.md#how-to-mount-efi)) and go to /EFI/Clover/kexts/Other and place your kext(s) in there. Also make sure that `InjectKexts` is set to `Yes` inside of your config.plist.
 
 ## How to know if you need to hot-patch DSDT
 Download [IOREG](http://mac.softpedia.com/get/System-Utilities/IORegistryExplorer.shtml) and search for what a patch tells you to replace in it's comment.
@@ -27,6 +27,7 @@ There are a lot of SMBIOSes, you need to pick the correct one for your hardware.
 * iMac14,2 for Haswell (ix-4xxx) systems **with** a dgpu.
 * iMac15,1 for Z97 motherboads.
 * iMac17,1 for Skylake (ix-6xxx).
+* iMac18,1 for Kaby-Lake i3s (i3-7xxx) systems.
 * iMac18,2 for Kaby-Lake i5s (i5-7xxx) systems.
 * iMac18,3 for Kaby-Lake i7s (i7-7xxx) systems.
 * iMac18,2 for Coffee-Lake i5s (i5-8xxx) systems.
@@ -35,7 +36,7 @@ There are a lot of SMBIOSes, you need to pick the correct one for your hardware.
 
 ## NvidiaGraphicsFixup and some SMBIOSes explained
 Because of the way how vanilla iMacs work, a small piece of a kernel extension that comes with macOS needs to be modified to prevent a black screen on some SMBIOSes after booting. Here is the list of affected SMBIOSes:
-* iMac15,1 and up (iMac17,1, iMac18,x)
+* iMac15,1 and up (iMac17,1)
 * MacPro6,1
 
 You do not have to manually modify anything inside of the kext that causes this issue since [lvs1974](https://github.com/lvs1974) made a kext, called [NvidiaGraphicsFixup](https://github.com/lvs1974/NvidiaGraphicsFixup), to patch this issue. You will need to install Lilu and NvidiaGraphicsFixup to apply this patch. You can download NvidiaGraphicsFixup and Lilu [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ).
@@ -46,13 +47,14 @@ NvidiaGraphicsFixup can do a lot of things:
 * Injects IOVARendererID into GPU properties (required for Shiki-based solution for non-freezing Intel and/or any discrete GPU)
 * Allows to use ports HDMI, DP, Digital DVI with audio (Injects @0connector-type - @5connector-type properties into GPU)
 
+So even if you not using any affected SMBIOS, you should install NvidiaGraphicsFixup.kext too
+
 ## IntelGraphicsDVMTFixup
+
 Quoted from [the IntelGraphicsDVMTFixup Github repo](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup):
 `
 A common problem with Broadwell/Skylake/KabyLake is relatively small DVMT-prealloc setting by PC OEMs. The Apple framebuffer kexts generally assume 64mb or larger, and most PC OEMs use only 32mb. And often, there is no way to change it easily due to limited BIOS, locked down BIOS, etc.
 `
-
-In other words, this kext is meant for users who have now ay to change the pre-allocated DVMT.
 
 This kext features the following:
 * Fixes an issue related to a DVMT panic when entering the installation screen.

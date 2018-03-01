@@ -2,11 +2,11 @@
 
 Native macOS power management delivers the best combination of processor and graphics performance and efficiency. 
 
-Native power management does not require you to change specific BIOS settings. You will only need to instal one power management ssdt.
+Native power management does not require you to change specific BIOS settings. You will only need to instal one power management SSDT.
 
 Power management is not a must, however, working power management will result in lower temps and less energy usage.
 
-## For Haswell or newer (desktop only)
+## For Haswell or newer
 This only work on Clover v4307 or newer.
 
 Open your config.plist in Clover Configurator and go to the ACPI section. In there, under SSDT (bottom left), check PluginType.

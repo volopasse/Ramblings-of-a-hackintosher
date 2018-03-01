@@ -1,9 +1,5 @@
 # INFO
-Due to a lot of people not reading guides anymore, I dropped this project and I stopped helping people. It makes me sad to see that people really don't want to put effort into making a hackintosh and in most case will fall back to someone who can hold their hand through the process.
-
-I am sorry to the people who benefited from this repo and did research before asking their questions. I have a lot of other things which I'm currently prioritising over this project due to the fact that people don't really show interest and/or effort into the process.
-
-If people really need my help with a problem, you can send me a message or ping me in the hackintosh server (@camiel#1337).
+Hi, I'm Pig. This is a fork of @camielverdult hackintosh guide, I will continue maintaining this guide for /r/hackintosh subreddit and people of hackintosh Discord server
 
 # Install High Sierra on a hackintosh
 
@@ -36,7 +32,7 @@ This guide is made by a few people. All have different opinions and different ap
 * [Kext spreadsheet](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/)
 * [Latest Clover](https://github.com/Dids/clover-builder/releases/latest)
 * [Nvidia Web Drivers](https://cookiemonster.pro/nvidia_driver_table)
-* [Vanilla Hackintosh discord](http://discord.io/hackintosh)
+* [Hackintosh Discord server](http://discord.io/hackintosh)
 
 # Some questions
 
@@ -54,7 +50,7 @@ More instructions [here](Pre-Install.md).
 
 ## Will you guide me through every single step personally?
 
-I will not do this, please don't ask anyone but a good friend to do this for you. You can always ask for help from anyone with some experience. Please don't be that person who wants his hand held through the process of this. If you want to get mac running the easy way, I recommend you check out [this](https://www.apple.com/mac/).
+I will not do this, please don't ask anyone but a good friend to do this for you. You can always ask for help from Discord server or anyone with some experience. Please don't be that person who wants his hand held through the process of this. If you want to get mac running the easy way, I recommend you check out [this](https://www.apple.com/mac/).
 
 ## Something broke/ isn't working (correctly)! What do I do?
 
