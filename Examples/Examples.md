@@ -5,16 +5,15 @@ These are examples for configs and such. Do **not** copy these directly, these a
 ## haswell_config.plist
 This config.plist is an example for Haswell systems. This config includes:
 * InjectKexts = Yes
-* NvidiaWeb
+* NvidiaWeb (For Nvidia GPU only)
 * XHCI port limit patch + USB injection
 * A fully setup SMBIOS
 * Apple RTC, AppleIntelCPUPM & KernelPM
-* A setup GUI
-* Audio layout 1 injection
-* `-v`, `-xcpm`, `dart=0` & `debug=0x100` boot arguments
-* MATS table dropped (this is needed for some Gigabyte motherboards)
+* Audio layout injection
+* `-v` & `debug=0x100` boot arguments
+* DMAR, MATS table dropped (this is needed for some Gigabyte motherboards)
 * XMP Detection
-* FixShutdown
+* FixShutdown (If you have problem when trying to shut down)
 * Disabled SIP
 
 ## Kaby Lake config.plist
@@ -24,13 +23,13 @@ This config.plist is an example for Kaby lake systems. This config includes:
 * iGPU injection and ig-platform-id
 * XHCI port limit patch + USB injection
 * Apple RTC, AppleIntelCPUPM & KernelPM
-* A fully setup SMBIOS and ROM & MLB
-* NvidiaWeb
-* Audio layout 1 injection
-* `-v`, `-xcpm`, `dart=0` & `debug=0x100` boot arguments
+* A fully setup SMBIOS
+* NvidiaWeb (For Nvidia GPU only)
+* Audio layout injection
+* `-v` & `debug=0x100` boot arguments
 * DMAR table dropped (needed for skylake)
 * HDAS to HDEF rename for audio
-* FixShutdown
+* FixShutdown (If you have problem when trying to shut down)
 * XMP detection
 * System ID injection
 * Disabled SIP
