@@ -13,7 +13,7 @@ Open Terminal, run this command (run first command and type password, then copy 
 
 `sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist`
 
-`sudo rm -rf /Library/Preferences/SystemConfiguration/preferences.plist`
+`rm -rf /Library/Preferences/SystemConfiguration/preferences.plist`
 
 Now reboot!
 
@@ -33,33 +33,33 @@ Open Terminal, run this command (run first command and type password, then copy 
 
 `sudo rm -rf ~/Library/Caches/com.apple.iCloudHelper*`
 
-`sudo rm -rf ~/Library/Caches/com.apple.Messages*`
+`~/Library/Caches/com.apple.Messages*`
 
-`sudo rm -rf ~/Library/Caches/com.apple.imfoundation.IMRemoteURLConnectionAgent*`
+`~/Library/Caches/com.apple.imfoundation.IMRemoteURLConnectionAgent*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.iChat*`
+`~/Library/Preferences/com.apple.iChat*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.icloud*`
+`~/Library/Preferences/com.apple.icloud*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.imagent*`
+` ~/Library/Preferences/com.apple.imagent*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.imessage*`
+`~/Library/Preferences/com.apple.imessage*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.imservice*`
+`~/Library/Preferences/com.apple.imservice*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.ids.service*`
+`~/Library/Preferences/com.apple.ids.service*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.madrid.plist*`
+`~/Library/Preferences/com.apple.madrid.plist*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.imessage.bag.plist*`
+`~/Library/Preferences/com.apple.imessage.bag.plist*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.identityserviced*`
+`~/Library/Preferences/com.apple.identityserviced*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.ids.service*`
+`~/Library/Preferences/com.apple.ids.service*`
 
-`sudo rm -rf ~/Library/Preferences/com.apple.security*`
+`~/Library/Preferences/com.apple.security*`
 
-`sudo rm -rf ~/Library/Messages`
+`~/Library/Messages`
 
 After that, empty your trash (if you have) then reboot.
 
