@@ -17,6 +17,7 @@ We are not "professional" hackintoshers in any way. We know how to get a hackint
 This guide is made by a few people. All have different opinions and different approaches.
 
 # Table of contents
+* [Picking hardware for macOS](Hardware.md)
 * [Pre-Install](Pre-Install.md)
 * [Post-Install](Post-Install.md)
 * [Tips](Tips.md)
