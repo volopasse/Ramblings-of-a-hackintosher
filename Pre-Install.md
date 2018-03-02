@@ -2,8 +2,8 @@
 
 ## Necessities:
 * 8GB+ USB stick
-* Computer running macOS (If you do not have a Mac computer, you can setup a [VM](https://techsviewer.com/install-macos-high-sierra-vmware-windows/) or check out this guide [here](https://github.com/camielverdult/Ramblings-of-a-hackintosher-High-Sierra/blob/master/InternetInstall.md#install-macosx-directly-from-the-internet).)
-* A lot of time (remember: This is not something you do in 30 minutes and are done with forever.)
+* Computer running macOS (If you do not have a Mac computer, you can setup a [VM](https://techsviewer.com/install-macos-high-sierra-vmware-windows/) or check out this guide [here](InternetInstall.md#install-macosx-directly-from-the-internet).)
+* A lot of time (This is not something you do in 30 minutes and are done with forever.)
 * A copy of the **full** High Sierra installer (Can be downloaded with App Store or [here](https://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/edit#gid=90089690))
 
 ## Step 1 - Making a bootable USB
@@ -20,7 +20,7 @@ Rename your USB to "USB".
 ## Step 2
 Open up App Store on your Mac OS VM or computer and search for Install High Sierra
 
-Check if you have the full installer, the size should be 4.8GB in total.
+Check if you have the full installer, the size should be 4 - 5GB in total.
 
 Open Terminal and run the following command ([for older OS installer](https://support.apple.com/en-us/HT201372))
 
@@ -65,7 +65,7 @@ Also, check out [how to install kext](Tips.md#how-to-install-kexts) when you hav
 We are now going to install some kernel extensions (often referred to as "kexts") necessary for booting at all. These include the following:
 * FakeSMC
 * USBInjectAll
-* [XHCI-200-series-injector.kext](https://cdn.discordapp.com/attachments/251043252046659586/363747073763442691/XHCI-200-series-injector.kext.zip) (for 200/300-series motherboard)
+* [XHCI-200-series-injector.kext](https://github.com/piiiggg/Ramblings-of-a-hackintosher-High-Sierra/blob/master/Stuff/XHCI-200-series-injector.kext.zip) (for 200/300-series motherboard)
 
 All can be downloaded from [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/).
 

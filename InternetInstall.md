@@ -18,7 +18,7 @@ To begin with, make sure you have this:
 * A Hackable/hacked computer
 	* If you already installed macOS and need reinstalling, your clover folder will be needed, so no need to make a new one
 * A **fast** internet
-	* 20Mbps to get this procedure done in an hour and half, the faster the better. Having less than that means you’ll be waiting even more (to put it into perspective, a fast laptop with an nvme SSD and an i7 6th gen HQ cpu, but with 4.7Mbps internet speed, will take about 3 to 4 hours, an equally specced device with a 20Mbps internet will take about an hour)
+	* 20Mbps to get this procedure done in an hour and half, the faster the better. Having less than that means you’ll be waiting even more (to put it into perspective, a fast laptop with an nvme SSD, but with 4.7Mbps internet speed, will take about 3 to 4 hours, an equally specced device with a 20Mbps internet will take about an hour)
 * An access to a **LAN** cable or a reliable WiFi connection
 	- I recommend a good LAN cable than WiFi, since most LAN devices now are compatible (mostly intel and Realtek), they are fast and very reliable with low possibilities of cuttings or disturbances. Wifi on the other hand needs extra patches and/or kexts and may or may not work OOB, but if you know how to make it work and really don’t have a LAN access, you’re free to try it.
 * A 4GB USB

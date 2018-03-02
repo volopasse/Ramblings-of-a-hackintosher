@@ -8,7 +8,7 @@ This process is pretty similar to installing clover to the bootable usb in the p
 
 Download the latest version of clover from [here](https://github.com/Dids/clover-builder/releases/latest/) (click `Clover_vx.x_rxxxx.pkg`, should be ~18mb)
 
-Right click (or CMD+click) on the package and click Open, you will get a prompt telling you that the software is from an unidentified developer instead.
+Right click (or CMD/Ctrl + right click) on the package and click Open, you will get a prompt telling you that the software is from an unidentified developer instead.
 
 Click Continue, Continue, Agree and Agree. Now, click Customize and select the following for booting Clover UEFI:
 ```
@@ -41,7 +41,7 @@ First, [mount the EFI partition](Tips.md#how-to-mount-efi) of the disk you insta
 * [Lilu](https://github.com/vit9696/Lilu/releases) (Kext inject platform)
 * [AppleALC](https://github.com/vit9696/AppleALC/releases) (For audio) (Need Lilu too)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) (More info [here](.Tips.md#usbinjectall))
-* [XHCI-200-series-injector.kext](https://cdn.discordapp.com/attachments/251043252046659586/363747073763442691/XHCI-200-series-injector.kext.zip) (for 200/300-series motherboard) (Need USBInjectAll too)
+* [XHCI-200-series-injector.kext](https://github.com/piiiggg/Ramblings-of-a-hackintosher-High-Sierra/blob/master/Stuff/XHCI-200-series-injector.kext.zip) (for 200/300-series motherboard) (Need USBInjectAll too)
 * A LAN kext (We will go into more detail about this later.)
 
 You can find the latest compiled kexts in [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) (Massive thanks to GoldFish64 for setting up and maintaining his kext repo.)
@@ -105,4 +105,4 @@ For HDMI Audio, check [here](HDMI-Audio.md)
 
 ## Step 7 - Other
 
-You may need to fix [iMessage/FaceTime](iMessage.md), [CPU SpeedStep](Speedstep.md) or checkout some [Tips](Tips.md)
+You may need to fix [iMessage/FaceTime](iMessage.md), [CPU SpeedStep](Speedstep.md), [Install dual-boot Windows with macOS](Multiboot.md) or checkout some [Tips](Tips.md)

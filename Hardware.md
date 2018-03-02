@@ -1,6 +1,6 @@
 # Hardware
 
-Hello, I'll guide you how to pick a correct hardware part for your new Hackintosh.
+Follow this guide to pick a correct hardware part for your new Hackintosh.
 
 ## Motherboard:
 

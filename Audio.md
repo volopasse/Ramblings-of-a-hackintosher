@@ -52,7 +52,7 @@ Replace: 7a6d6c2e7a6c
 Remove any AppleHDA, VoodooHDA,... related KextsToPatch entry.
 
 ## Installing the kexts
-First of all, check if your codec is supported [here](https://github.com/vit9696/AppleALC/wiki/Supported-codecs), if it is, write down the layout(s) for your codec. (most audio codecs support layout 1)
+First of all, check if your codec is supported [here](https://github.com/vit9696/AppleALC/wiki/Supported-codecs), if it is, write down the layout(s) for your codec.
 
 Install both to kexts/other. How to [here](Tips.md#how-to-mount-efi). Make sure that you're injecting kexts. (more info on installing kexts [here](Tips.md#how-to-install-kexts))
 
