@@ -22,6 +22,7 @@ This guide is made by a few people. All have different opinions and different ap
 * [Post-Install](Post-Install.md)
 * [Troubleshooting](Troubleshooting.md)
 * [Experiment test](Experiment.md)
+* [Multiboot](Multiboot.md)
 * [iMessage/Facetime](iMessage.md)
 * [Audio](Audio.md)
 * [HDMI Audio](HDMI-Audio.md)
