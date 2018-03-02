@@ -1,3 +1,5 @@
+# Multiboot
+
 So a lot of people here (and there) think that multibooting is quite hard with macOS, which actually the case with some systems (stupid mobos) and quite tricky in legacy mode, but as far as you're using UEFI, it's very ***VERY*** easy.
 
 To begin with, I will start with UEFI mode, which is the easiest setup to do. This guide will cover different situations, and I will try to implement linux too for people who are into that. I don't know if I will put a legacy dualboot (with GPT, and not MBR) until I do some extensive tests.
@@ -9,7 +11,7 @@ To begin with, I will start with UEFI mode, which is the easiest setup to do. Th
 **PLEASE READ THOUGHTFULLY BEFORE ASKING.**
 ***
 
-# UEFI+ GPT
+# UEFI + GPT
 
 To understand how it works, unlike the old legacy days where there was a sector that the bios had to read to load the bootloader, UEFI systems need an `EFI program/application` that is either the bootloader or the one that will load the bootloader (like clover, clover is not a real bootloader most of the time, it loads macOS's `boot.efi` which is the real macOS bootloader) which is presented as a `file` instead of a sector. This eases fixing boot issues and can help save and recover boot elements by simply copying them else where and can be edited. All the files are in a FAT32 formatted partition, mostly EFI partition on system disks, or any FAT32 partitions even on MBR formatted disks.
 
@@ -94,7 +96,7 @@ Well since you're using linux, I bet you have your way with `gdisk`,`parted` and
 
 For this situation: 
 
-1. Install macOS first and partition your drives to HFS+/APFS partitions. ***DO NOT MAKE A FAT32 DISK FOR EITHER WINDOWS OR LINUX, KEEP IT HFS+/APFS (better HFS+, highly recommended).*** *Reason:* stupidly from Apple, when you make a FAT32 partition, it converts the GPT to a hybrid MBR, and it's meant usually for Bootcamp purposes, since Windows (on pre-2016 Apple device) is generally installed in legacy, and windows is picky so it prefers MBR on legacy and strictly GPT on UEFI. So keep in mind not to make a FAT32 partition.
+1. Install macOS first and partition your drives to HFS+ partitions. ***DO NOT MAKE A FAT32 DISK FOR EITHER WINDOWS OR LINUX, KEEP IT HFS+.*** *Reason:* stupidly from Apple, when you make a FAT32 partition, it converts the GPT to a hybrid MBR, and it's meant usually for Bootcamp purposes, since Windows (on pre-2016 Apple device) is generally installed in legacy, and windows is picky so it prefers MBR on legacy and strictly GPT on UEFI. So keep in mind not to make a FAT32 partition.
 2. Once done and it's all prepared, make your Windows install with bootcamp utility (it will be made for Legacy and UEFI installing) or use unetbootin for linux (or do both). Also remember your 2nd partition's size.
 3. Boot to your second OS installer
 4. On windows installer, usually in the disk selection step, you'll a 619MB partition (if on HFS+, on APFS, you'll just see a block with your macOS partition size), that's your macOS Recovery HD, and right after it, you'll see a partition with the size you wanted to give to windows, select it, select "Delete" (you can choose format, but it wont make some extra partitions for windows, nor recommended), then choose the unallocated space, hit next and it will automatically make needed partitions and install windows. 
@@ -104,7 +106,7 @@ On Linux, if you want to dualboot, just make sure you choose the correct partiti
 
 ## Fix Clover
 
-On some cases, especially laptops, they are hard coded to start `\EFI\Microsoft\Boot\bootmgfw.efi` instead of `\EFI\BOOT\BOOTX64.EFI`, and this to lock the computer (somewhat) to M$'s botnet OS. To fix that you can:
+On some cases, if you can't boot after install 2nd OS, especially laptops, they are hard coded to start `\EFI\Microsoft\Boot\bootmgfw.efi` instead of `\EFI\BOOT\BOOTX64.EFI`, and this to lock the computer (somewhat) to M$'s botnet OS. To fix that you can:
 
 * Mount EFI partition, rename `bootmgfw.efi` in `EFI > Microsoft > Boot` to anything else than `bootmgfw.efi` (like bootmgfww.efi or something). Remember that naming. Now, the computer will not find `bootmgfw.efi` and look for `bootx64.efi` or whatever is the next boot option.
 * Rename `CLOVERX64.EFI` to `bootmgfw.efi` then rename M$'s `bootmgfw.efi` to anything else, then copy the fake `bootmgfw.efi` to `EFI > Microsoft > Boot`. On some laptops it is needed to force load anything named `bootmgfw.efi` to boot anything.
@@ -125,7 +127,7 @@ On some cases, especially laptops, they are hard coded to start `\EFI\Microsoft\
 
 **Keep in mind:**
 
-* On ANY windows cumulative or seasonal update/upgrade, your fake `bootmgfw.efi` will be replaced by a new one, or if you renamed it, a new one will be copied over, so you will need to rename/replace that file.
+* On ANY windows cumulative or seasonal update/upgrade, your fake `bootmgfw.efi` will be replaced by a new one, or if you renamed it, a new one will be copied over, so you will need to rename/replace that file. (It won't be a problem if you don't have this problem before)
 * If you like to use Grub2 to load linux, make sure you load GRUB2 from Clover and not the opposite (feasible, works sometimes, not recommended).
 
 Now you will get to CLOVER screen but without windows access mostly (I'm sure you dont need to rename grubx64 for linux users, as most OEMs dont lock the firmware on it). So to add ANY EFI program to the boot list, you need to add this `Custom Entry` to clover's `config.plist` as shown here:
