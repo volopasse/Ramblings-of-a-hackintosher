@@ -20,14 +20,14 @@ This guide is made by a few people. All have different opinions and different ap
 * [Picking hardware for macOS](Hardware.md)
 * [Pre-Install](Pre-Install.md)
 * [Post-Install](Post-Install.md)
-* [Tips](Tips.md)
+* [Troubleshooting](Troubleshooting.md)
 * [Experiment test](Experiment.md)
 * [iMessage/Facetime](iMessage.md)
 * [Audio](Audio.md)
 * [HDMI Audio](HDMI-Audio.md)
 * [Power Management](Speedstep.md)
 * [SMBIOS](SMBIOS.md)
-* [Troubleshooting](Troubleshooting.md)
+* [Tips](Tips.md)
 * [Credits/Acknowledgements](Credits.md)
 
 # Useful links
