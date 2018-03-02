@@ -14,6 +14,6 @@ You can open Clover Configurator - SMBIOS, click to the button on the left side 
 
 ## Notes:
 
-- **iMac15,1**, **iMac17,1**, **MacPro 6,1**: For some reason, Apple graphics policy kext not allow those SMBIOS to use NVIDIA GPU. This has been fixed by NvidiaGraphicsFixup.kext
+- **iMac15,1**, **iMac17,1**, **MacPro 6,1**: For some reason, Apple graphics policy kext not allow those SMBIOS to use NVIDIA GPU. [This has been fixed by NvidiaGraphicsFixup.kext](Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained)
 - If your series number not matching with your SMBIOS, your system won't boot. Clover Configurator always generate correct series number for your SMBIOS.
 - Apple will save your SMBIOS information into your iCloud account if you login with your account, make sure you logout any service before changing SMBIOS
