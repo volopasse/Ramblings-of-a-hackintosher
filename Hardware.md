@@ -1,10 +1,12 @@
+# Hardware
+
 Hello, I'll guide you how to pick a correct hardware part for your new Hackintosh.
 
-***Motherboard:***
+## Motherboard:
 
 - **Brand:** ASUS, ASRock, Gigabyte
 
-  MSI: There is some problem with MSI & OsxAptioFixDrv, better to stay away from it.
+  For MSI: There is some problem with MSI & OsxAptioFixDrv, better to stay away from it.
 
 - **Chipset:** Intel 300/200/100/5/6/7/8/9-series
 
@@ -37,7 +39,7 @@ Hello, I'll guide you how to pick a correct hardware part for your new Hackintos
 - **USB port:** Use Intel controller to prevent sleep/wake problem
 
 
-***CPU:***
+## CPU:
 
 - Core i3/i5/i7: Native support to the latest 8th generation
 - Xeon/Core i9
@@ -45,13 +47,13 @@ Hello, I'll guide you how to pick a correct hardware part for your new Hackintos
 - AMD: You may want to check [this](https://forum.amd-osx.com/viewforum.php?f=35)
 
 
-***Storage:***
+## Storage:
 
 - SATA
-- NVMe: native support since macOS 10.13
+- NVMe: native support since macOS 10.13, need some patch if you use macOS 10.12
 
 
-***GPU/iGPU:***
+## GPU/iGPU:
 
 - Intel:
   - Intel UHD 630
@@ -73,16 +75,14 @@ Hello, I'll guide you how to pick a correct hardware part for your new Hackintos
 - AMD: https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/
 
 
-***Mouse/keyboard:***
+## Mouse/keyboard:
 
 Better to use Logitech or Apple input device to prevent sleep/wake problem, some keyboard from Corsair,... may prevent sleep on macOS
 
-
-***Wi-Fi/Bluetooth card:***
+## Wi-Fi/Bluetooth card:
 
 - Fenvi FV-T919: https://www.aliexpress.com/item/Fenvi-FV-T919-802-11AC-Desktop-Wifi-Card-802-11-A-B-G-N-AC-BCM94360CD/32778371977.html
 - BCM94360CS2: https://www.ebay.com/itm/BT4-0-BCM94360CS2-PCI-E-867Mbps-802-11AC-Dual-Band-Wifi-PCI-Express-Adapter-Card/361828095572
 - BCM94360CD: https://www.amazon.com/PC-Hackintosh-Continuity-BCM94360CD-Bluetooth/dp/B012LOT512/
-
-
+- BCM94352Z (for M.2 port): https://www.ebay.com/itm/Broadcom-BCM94352Z-M-2-NGFF-802-11AC-867Mbps-BT-4-0-DW1560-for-Mac-Hackintosh-/252319175707
 

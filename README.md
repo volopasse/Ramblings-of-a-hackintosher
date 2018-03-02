@@ -1,9 +1,9 @@
 # INFO
-Hi, I'm Pig. This is a fork of @camielverdult hackintosh guide, I will continue maintaining this guide for /r/hackintosh subreddit and people of hackintosh Discord server
+Hi, I'm Pig. This is a fork of @camielverdult hackintosh guide, I will continue maintaining this guide for /r/hackintosh subreddit and people of [hackintosh Discord server](http://discord.io/hackintosh)
 
-# Install High Sierra on a hackintosh
+# Install macOS on a hackintosh
 
-You've read it, this guide/repo will guide you on how to install High Sierra to your desktop computer (laptop could work too, I am not going to do that in this guide though since laptops aren't in the general 
+You've read it, this guide/repo will guide you on how to install macOS to your desktop computer (laptop could work too, I am not going to do that in this guide though since laptops aren't in the general 
 level of difficulty hackintoshing wise).
 
 # Disclaimer
@@ -50,6 +50,24 @@ More info can be found [here](https://www.lifewire.com/what-is-hackintosh-832719
 You will need a list of your computer's specifications, a general idea of how an operating system works and a high pain tolerance.
 
 More instructions [here](Pre-Install.md).
+
+### What are kexts?
+
+Kext files are essentially drivers for Mac OS X. "Kext" stands for Kernel Extension; kext files "extend" Mac OS X's kernel, the core part of the operating system, by providing additional code to be loaded when your computer boots. "Hackintoshes" often require special kexts to enable sound, ethernet, and more. Some Hackintosh-specific kexts are modified versions of existing Mac OS X kexts, such as AppleHDA.kext. Other kexts are extra additions to the normal list of kexts that OS X runs on startup. In the end, all of these Hackintosh kexts serve the same purpose: to add support to hardware that isn't officially supported by Apple.
+
+Technically, kexts aren't individual files. In fact, .kext "files" are essentially packaged like .zip files. If you copy a .kext file onto a Windows installation, it becomes a folder. That's because that's what kexts are-- folders. Much like Apple's .app files, you can access the inside of a kext by right-clicking the kext file and clicking "Show Package Contents". Once you've entered the contents of the kext file, you will be able to edit the plist (settings) files and make other modifications, if necessary. Editing the contents of kext files is occasionally necessary to activate certain graphics card kexts or fix glitchy kexts. However, we won't go into that process here.
+
+For more [here](http://www.macbreaker.com/2012/01/what-are-kexts.html)
+
+## What is Clover?
+
+What is Clover about? Obviously not about the grass growing on a meadow for the cows' pleasure. It is about a software, a boot loader of a new type, that allows Mac OS X to run on a common PC.
+
+Apple restricts the usage of its operating system to its own devices, arguing that it can not provide functionality on devices it didn't produce in the first place. Well, users will take the risk. No commercial advantage is taken in order to avoid other legal complications. A non-Apple computer into which Mac OS X is installed is called *Hackintosh*; the label's origin is self-explanatory.
+
+In order to start a hackintosh, a special boot loader is needed. There is a big variety of boot loaders, but they can be divided into two groups: FakeEFI and RealEFI.
+
+For more [here](https://clover-wiki.zetam.org/Preface)
 
 ## Will you guide me through every single step personally?
 

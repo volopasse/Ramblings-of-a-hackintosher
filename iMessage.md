@@ -75,4 +75,4 @@ Now save your settings and reboot. After that try to login to iMessage
 
 
 
-Credit: This guide is based on [jaymonkey guide](https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/)
+

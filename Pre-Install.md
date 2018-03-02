@@ -107,8 +107,8 @@ Change the following settings before you boot into the macOS installer:
 Based on the GPU you’re using, change the following settings:
 - Dedicated graphics card:
   - Integrated Graphics : Disabled 
-  - Graphics: PEG/PCIe Slot 1
-  - Initial Display Output : PCIe 1 Slot
+  - Graphics: PEG/PCIe 
+  - Initial Display Output : PCIe
 - Intel iGPU:
   - Integrated Graphics : Enabled
   - Graphics: IGD/Integrated/iGPU/CPU Graphics

@@ -1,8 +1,9 @@
 # Install macOS/X directly from the internet
 
-**SKILL LEVEL:** ★★★☆☆
-
 Some of us encounter that moment in our macOSx86 journey when we want to install macOS without any macOS access or just too lazy and to setup all that crap that needs space and whatnot, and thankfully there is a simple solution that is already available on real macs which is Internet Recovery. However, unlike real macs, we will need to download the recovery and make a USB installer of it and run it with our beloved Clover. Also this method has been around for a good long time, but since a lot of people didn't know it, sharing is caring.
+
+This method not for everyone because it's hard, only use this if you don't have a real Mac, VM
+
 ***
 ### Disclamer
 *This guide is for experienced people, novice fellows can still follow this (usually since a lot of them don’t have access to a macOS device) but will need some extra researches and finding on their own.*
@@ -72,7 +73,7 @@ Clean up your clover folder as shown here:
     	           <files/folders>
         - Boot
                > BOOTX64.EFI (or you can reanme CLOVERX64.EFI to BOOTX64.EFI)
-    
+
 
 8. Add your LAN card kext under CLOVER > EFI > CLOVER > kexts > Other >
 	- Realtek https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/ 

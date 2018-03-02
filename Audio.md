@@ -1,11 +1,11 @@
-# AppleALC for audio
+# Audio
 
 This file will be focused around setting up audio.
 
 ## Necessities:
 * AppleALC.kext & Lilu.kext
 * Your codec (you can get this from your motherboard's specification page)
-* [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic)
+* [Clover Configurator](http://mackie100projects.altervista.org/download-clover-configurator/)
 * A mounted EFI partition (how to [here](Tips.md#how-to-mount-efi))
 
 ## Remove old audio patch

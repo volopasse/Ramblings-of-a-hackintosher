@@ -102,3 +102,7 @@ If your WebDrivers are not apply after reboot (you check this by clicking the NV
 Check out the guide we made on audio [here](Audio.md).
 
 For HDMI Audio, check [here](HDMI-Audio.md)
+
+## Step 7 - Other
+
+You may need to fix [iMessage/FaceTime](iMessage.md), [CPU SpeedStep](Speedstep.md) or checkout some [Tips](Tips.md)

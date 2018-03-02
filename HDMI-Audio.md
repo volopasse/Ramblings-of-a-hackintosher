@@ -12,14 +12,14 @@ For AMD user, upgrade to macOS 10.13 for best native kext support from Apple to 
 **Requirements:**
 
 - WhateverGreen.kext, Lilu.kext installed
-- config.plist - Graphics - RadeonDeInit (For some AMD GPU only)
+- config.plist - Graphics - RadeonDeInit (For some AMD GPU only, [what GPU did I need?](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/))
 
 ## NVIDIA
 
 **Requirements:**
 
 - NvidiaGraphicsFixup.kext, Lilu.kext installed
-- config.plist - System Parameters - NvidiaWeb (For 10xx/9xx/750/750Ti)
+- config.plist - System Parameters - NvidiaWeb (If you use Web Driver)
 
 **Notes:**
 

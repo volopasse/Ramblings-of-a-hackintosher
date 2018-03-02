@@ -25,7 +25,7 @@ So I'll divide this guide into these situations:
 
 ***
 
-## I- I have two disks and each OS is on a drive
+## I have two disks and each OS is on a drive
 
 This is straightforward:
 
@@ -48,7 +48,7 @@ Easy! Right?
 
 ***
 
-## II- I have 1 disk with windows/lx and I don't want to remove/reinstall them
+## I have 1 disk with windows/lx and I don't want to remove/reinstall them
 
 This situation is widely faced when you get a new laptop or coming from a "normal" setup.
 
@@ -90,7 +90,7 @@ Well since you're using linux, I bet you have your way with `gdisk`,`parted` and
 3. I dont know what you're still doing here, go do it now.
 
 ***
-## III- I have a blank disk or with macOS installed on it and I want to install windows/lx next to macOS
+## I have a blank disk or with macOS installed on it and I want to install windows/lx next to macOS
 
 For this situation: 
 
