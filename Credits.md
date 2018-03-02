@@ -7,15 +7,11 @@
 * [GoldFish64](https://github.com/Goldfish64) for the [kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ).
 * [Pig](https://github.com/piiiggg) for the [kext spreadsheet](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/) and contributing to this repo.
 * [Mieze](https://github.com/Mieze) for [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet), [RealtekRTL8100](https://github.com/Mieze/RealtekRTL8100), [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) and [AtherosE2200](https://github.com/Mieze/AtherosE2200Ethernet).
-
 * [CorpNewt](https://github.com/corpnewt) for a [really good audio guide](https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/) which [ours](Audio.md) is based on.
-
 * [CodeRobe](https://github.com/coderobe/) for his [license](https://github.com/coderobe/AzulPatcher4600/blob/master/LICENSE.txt).
-
 * [jaymonkey](https://www.tonymacx86.com/members/jaymonkey.195809/) for [his iMessage guide](https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/).
-
-* [midi1996](https://www.reddit.com/user/midi1996) for the guide on [how to install without a mac](https://www.reddit.com/r/hackintosh/comments/76szrl/guide_installing_macosx_from_the_internet/).
-
+* [midi1996](https://www.reddit.com/user/midi1996) for the guide on [how to install without a mac](https://www.reddit.com/r/hackintosh/comments/76szrl/guide_installing_macosx_from_the_internet/)
+* fusion71au for his help on [multiboot guide](Multiboot.md)
 * All the contributers for contributing to this project
 [Bisquitue](https://github.com/Bisquitue)
 [camielverdult](https://github.com/camielverdult)

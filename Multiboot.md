@@ -92,11 +92,11 @@ Well since you're using linux, I bet you have your way with `gdisk`,`parted` and
 3. I dont know what you're still doing here, go do it now.
 
 ***
-## I have a blank disk or with macOS installed on it and I want to install windows/lx next to macOS
+## I have a blank disk or with macOS installed on it and I want to install Windows/Linux next to macOS
 
 For this situation: 
 
-1. Install macOS first and partition your drives to HFS+ partitions. ***DO NOT MAKE A FAT32 DISK FOR EITHER WINDOWS OR LINUX, KEEP IT HFS+.*** *Reason:* stupidly from Apple, when you make a FAT32 partition, it converts the GPT to a hybrid MBR, and it's meant usually for Bootcamp purposes, since Windows (on pre-2016 Apple device) is generally installed in legacy, and windows is picky so it prefers MBR on legacy and strictly GPT on UEFI. So keep in mind not to make a FAT32 partition.
+1. Install macOS first and partition your drives for another OS to HFS+ partitions. ***DO NOT MAKE A FAT32 DISK FOR EITHER WINDOWS OR LINUX, KEEP IT HFS+.*** *Reason: stupidly from Apple, when you make a FAT32 partition, it converts the GPT to a hybrid MBR*, and it's meant usually for Bootcamp purposes, since Windows (on pre-2016 Apple device) is generally installed in legacy, and windows is picky so it prefers MBR on legacy and strictly GPT on UEFI. So keep in mind not to make a FAT32 partition.
 2. Once done and it's all prepared, make your Windows install with bootcamp utility (it will be made for Legacy and UEFI installing) or use unetbootin for linux (or do both). Also remember your 2nd partition's size.
 3. Boot to your second OS installer
 4. On windows installer, usually in the disk selection step, you'll a 619MB partition (if on HFS+, on APFS, you'll just see a block with your macOS partition size), that's your macOS Recovery HD, and right after it, you'll see a partition with the size you wanted to give to windows, select it, select "Delete" (you can choose format, but it wont make some extra partitions for windows, nor recommended), then choose the unallocated space, hit next and it will automatically make needed partitions and install windows. 
@@ -190,7 +190,7 @@ http://www.insanelymac.com/forum/topic/298027-guide-aio-guides-for-hackintosh/?p
 https://clover-wiki.zetam.org/configuration/gui#gui_custom
 ***
 
-## InS - QnA
+## Q & A
 
 This section will gather known issues and will to fix them.
 
@@ -217,45 +217,6 @@ https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt << Good news! No 
 1. Hit "S" to open shell command
 2. Follow this album https://imgur.com/a/U4lgW (note: these pics were taken when I made a guide for Win7/8.X installation on Legacy to UEFI (quite the complicated stuff), and we had to download `bootx64.efi`, on Windows 10 installer, you dont need to download it, it's already in its folder)
 
->I'm stuck in windows and I need to edit stuff on EFI, how do I do that?
-
-1. Open Command Prompt as administrator (or PowerShell if you're "modern")
-2. Type `mountvol X: /s`. This will mount the EFI partition to `X:`, you can change the letter to anything else as long as it's not used
-3. Download Explorer++ (9oo9le 1t)
-4. Run it as administrator
-5. ...
-6. Edit
-
->... but I need to edit my config.plist dude! How can I do that????
-
-1. Copy your config.plist somewhere else than the EFI partition
-2. Use either:
-	* Geany (9oo9le)
-	* Sublime Text (9oo9le)
-	* jsPlistor http://tustin2121.github.io/jsPlistor/ (a JS plist editor, you need to open the config and copy its contents to the "Import" box)
-	* CCE http://cloudclovereditor.altervista.org/cce/index.php (A better alternative to CC and it's used on the wed directly, you'll just need to upload your file)
-3. Save
-4. Replace your old one using Explorer++
-5. Hope you didnt break it.
-
 ***
 
-... > *TO BE UPDATED*
 
-***
-
-# Legacy + GPT
-
-\*\*\*TO DO***
-***
-
-Sources for this guide and credits:
-
-* fusion71au for his guides and help
-* InsanelyMac to host stuff
-* Apple for their crappyexpensive laptops that made us hackintosh
-* Every user than helped in the links I gave above
-
-This guide will be updated for more information later.
-
-GOOD LUCK!

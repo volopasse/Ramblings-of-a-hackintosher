@@ -1,10 +1,23 @@
 # Tips
 ## How to mount EFI
+###macOS
+
 Open Terminal and run `diskutil list`, this will show you all your available Volumes. Look up your disk's name and remember the disk identifier that corresponds with your disk (this should look something like diskX). Once you're sure you have the right disk identifier that corresponds with your disk, run `diskutil mount diskXs1`, with the X being your disk number.
 
 If you have only one EFI partition, you can also run `diskutil mount EFI`.
 
-You can also mount your EFI partition with Clover Configurator, which it's easy and faster.
+You can also mount your EFI partition with Clover Configurator, which it's easy and faster way.
+
+###Windows:
+
+1. Open Command Prompt as administrator (or PowerShell if you're "modern")
+2. Type `mountvol X: /s`. This will mount the EFI partition to `X:`, you can change the letter to anything else as long as it's not used
+3. Download [Explorer++](https://explorerplusplus.com/download)
+4. Run it as administrator
+5. ...
+6. Edit
+
+Also, to edit your config.plist on Windows, you can use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php). Backup the old one before edit it
 
 ## How to install kexts
 A small disclaimer first, please try to inject kexts whenever you can. There is a possibility that if you update, your kexts will be deleted because they're in a place they're not supposed to be in if you install them to either `/Library/Extensions` or `/System/Library/Extensions`. You should only install kexts to /EFI/Clover/kexts/Other/
