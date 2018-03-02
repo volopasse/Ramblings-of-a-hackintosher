@@ -58,7 +58,7 @@ This situation is widely faced when you get a new laptop or coming from a "norma
 
 You need this:
 
-* Minitool Partition Wizard [MPW](https://www.partitionwizard.com/free-partition-manager.html)
+* [Minitool Partition Wizard](https://www.partitionwizard.com/free-partition-manager.html)
 * Your computer
 * Your brain
 
