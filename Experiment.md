@@ -40,6 +40,8 @@ If you got kernel panic after enable VT-d, try to disable it. It's not working w
 
 You may can playing normal video, audio,... But with DRM content like iTunes movies, Apple Music,... Some will not working because your iGPU/dGPU can't working with those DRM content. Also this will fix rendering issue on Final Cut Pro X
 
+This guide only working on macOS 10.13, older macOS/OS X can causing black screen,...
+
 ### iGPU
 
 - Install Shiki.kext, IntelGraphicsFixup.kext, Lilu.kext
