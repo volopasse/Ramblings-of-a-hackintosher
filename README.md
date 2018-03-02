@@ -51,7 +51,7 @@ You will need a list of your computer's specifications, a general idea of how an
 
 More instructions [here](Pre-Install.md).
 
-### What are kexts?
+## What are kexts?
 
 Kext files are essentially drivers for Mac OS X. "Kext" stands for Kernel Extension; kext files "extend" Mac OS X's kernel, the core part of the operating system, by providing additional code to be loaded when your computer boots. "Hackintoshes" often require special kexts to enable sound, ethernet, and more. Some Hackintosh-specific kexts are modified versions of existing Mac OS X kexts, such as AppleHDA.kext. Other kexts are extra additions to the normal list of kexts that OS X runs on startup. In the end, all of these Hackintosh kexts serve the same purpose: to add support to hardware that isn't officially supported by Apple.
 
