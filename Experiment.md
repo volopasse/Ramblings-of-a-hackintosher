@@ -18,7 +18,7 @@ Here's some advice about the new driver by someone who knows how it works: (Cred
 
 ![alt text](Pictures/The%20new%20hotness.png)
 
-Me and a lot of hackintoshers advice you to switch over to the new efi driver. But if you can't booting when using this new efi driver then you should use the old one.
+Remember to remove old efi driver when using the new one. And if you can't booting when using this new efi driver then you should use the old one.
 
 ### Sounds good! Where do I get it?
 
