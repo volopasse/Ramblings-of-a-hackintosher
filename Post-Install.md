@@ -106,3 +106,5 @@ For HDMI Audio, check [here](HDMI-Audio.md)
 ## Step 7 - Other
 
 You may need to fix [iMessage/FaceTime](iMessage.md), [CPU SpeedStep](Speedstep.md), [Install dual-boot Windows with macOS](Multiboot.md) or checkout some [Tips](Tips.md)
+
+If you want something little risky, checkout our [experiment test](Experiment.md)

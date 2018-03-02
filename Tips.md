@@ -19,9 +19,6 @@ So let's say you want to rename HDAS to HDEF, please search if you even have HDE
 
 Be **very** careful while entering the patching info.
 
-## Choosing a SMBIOS
-Now move to [here](SMBIOS.md)
-
 ## NvidiaGraphicsFixup and some SMBIOSes explained
 Because of the way how vanilla iMacs work, a small piece of a kernel extension that comes with macOS needs to be modified to prevent a black screen on some SMBIOSes after booting. Here is the list of affected SMBIOSes:
 * iMac15,1 and up (iMac17,1)
@@ -36,10 +33,6 @@ NvidiaGraphicsFixup can do a lot of things:
 * Allows to use ports HDMI, DP, Digital DVI with audio (Injects @0connector-type - @5connector-type properties into GPU)
 
 So even if you not using any affected SMBIOS, you should install NvidiaGraphicsFixup.kext too
-
-## Black screen after install Web Driver
-
-Yes, SMBIOS could be a problem but if you installed NvidiaGraphicsFixup.kext, Lilu.kext and still get blackscreen. You should use other display cable/other output port on your GPU (tested with some cases, and happened with me too)
 
 ## IntelGraphicsDVMTFixup
 
@@ -118,41 +111,3 @@ Comment: change XHC1 to XHC
 Find:    58484331
 Replace: 5848435f
 ```
-
-## Nvidia Web drivers not kicking in
-If you have NvidiaWeb checked in your config and webdrivers are still not working, try the following:
-
-* Open Terminal and do the following one line at a time:
-    * `sudo -s`
-    * `nvram -c`
-    * `nvram myvar=test`
-    * `exit`
-* Reboot
-* Open Terminal and do `nvram -p | grep -i myvar`
-
-If you don't get any output fromt the last command, install EmuVariableUefi-64.efi and the RC Scripts via the [latest clover install package](https://github.com/Dids/clover-builder/releases/latest/).
-
-For some case, you need to remove -v boot flag if you using High Sierra in order to apply NVIDIA Web Driver.
-
-## AptioMemoryFix & AptioInputFix explained
-If you wanted to boot macos succesfully, you needed one of the following:
-* OsxAptioFix
-* OsxAptioFix**2**
-* OsxAptioFix-Free2000 (generally used with X99)
-
-These fixed some issues with the macos kernel and memory.
-
-There's now is a new EFI driver to replace OsxAptioFix2, called AptioMemoryFix. It shims the AMI Keycode protocol onto the Apple KeyMap protocols and fixes the global timer to prevent pointer coordinate overflows. This *should* also cure NVRAM in most cases.
-
-I really, **really** recommend you to use this new driver. The old ones are busted and do not provide the level of patching this one brings.
-
-Here's some advice about the new driver by someone who knows how it works: (Credits to Reddestdream)
-
-![alt text](Pictures/The%20new%20hotness.png)
-
-Me and a lot of hackintoshers advice you to switch over to the new efi drivers.
-
-### Sounds good! Where do I get it?
-AptioMemoryFix and AptioInputFix are both able to be installed via the clover install package (latest [here](https://github.com/Dids/clover-builder/releases/latest)).
-
-You can take a look at [the repo on github](https://github.com/vit9696/AptioFixPkg) for more information.

@@ -21,6 +21,7 @@ This guide is made by a few people. All have different opinions and different ap
 * [Pre-Install](Pre-Install.md)
 * [Post-Install](Post-Install.md)
 * [Tips](Tips.md)
+* [Experiment test](Experiment.md)
 * [iMessage/Facetime](iMessage.md)
 * [Audio](Audio.md)
 * [HDMI Audio](HDMI-Audio.md)
