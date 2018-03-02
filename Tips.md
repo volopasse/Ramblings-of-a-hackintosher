@@ -20,7 +20,7 @@ So let's say you want to rename HDAS to HDEF, please search if you even have HDE
 Be **very** careful while entering the patching info.
 
 ## NvidiaGraphicsFixup and some SMBIOSes explained
-Because of the way how vanilla iMacs work, a small piece of a kernel extension that comes with macOS needs to be modified to prevent a black screen on some SMBIOSes after booting. Here is the list of affected SMBIOSes:
+Because of the way how vanilla real Mac work, a small piece of a kernel extension that comes with macOS needs to be modified to prevent a black screen on some SMBIOSes after booting. Here is the list of affected SMBIOSes:
 * iMac15,1 and up (iMac17,1)
 * MacPro6,1
 
