@@ -25,6 +25,7 @@ This guide is made by a few people. All have different opinions and different ap
 * [Audio](Audio.md)
 * [HDMI Audio](HDMI-Audio.md)
 * [Power Management](Speedstep.md)
+* [SMBIOS](SMBIOS.md)
 * [Troubleshooting](Troubleshooting.md)
 * [Credits/Acknowledgements](Credits.md)
 

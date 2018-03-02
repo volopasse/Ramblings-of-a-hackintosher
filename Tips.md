@@ -20,19 +20,7 @@ So let's say you want to rename HDAS to HDEF, please search if you even have HDE
 Be **very** careful while entering the patching info.
 
 ## Choosing a SMBIOS
-An SMBIOS will mask your system as an iMac, Macbook or Mac Pro.
-
-There are a lot of SMBIOSes, you need to pick the correct one for your hardware. Here are some examples:
-* iMac14,1 for Haswell (ix-4xxx) systems **without** a dgpu.
-* iMac14,2 for Haswell (ix-4xxx) systems **with** a dgpu.
-* iMac15,1 for Z97 motherboads.
-* iMac17,1 for Skylake (ix-6xxx).
-* iMac18,1 for Kaby-Lake i3s (i3-7xxx) systems.
-* iMac18,2 for Kaby-Lake i5s (i5-7xxx) systems.
-* iMac18,3 for Kaby-Lake i7s (i7-7xxx) systems.
-* iMac18,2 for Coffee-Lake i5s (i5-8xxx) systems.
-* iMac18,3 for Coffee-Lake i7s (i7-8xxx) systems.
-* MacPro6,1 for X99, X299, X399 motherboards.
+Now move to [here](SMBIOS.md)
 
 ## NvidiaGraphicsFixup and some SMBIOSes explained
 Because of the way how vanilla iMacs work, a small piece of a kernel extension that comes with macOS needs to be modified to prevent a black screen on some SMBIOSes after booting. Here is the list of affected SMBIOSes:
@@ -48,6 +36,10 @@ NvidiaGraphicsFixup can do a lot of things:
 * Allows to use ports HDMI, DP, Digital DVI with audio (Injects @0connector-type - @5connector-type properties into GPU)
 
 So even if you not using any affected SMBIOS, you should install NvidiaGraphicsFixup.kext too
+
+## Black screen after install Web Driver
+
+Yes, SMBIOS could be a problem but if you installed NvidiaGraphicsFixup.kext, Lilu.kext and still get blackscreen. You should use other display cable/other output port on your GPU (tested with some cases, and happened with me too)
 
 ## IntelGraphicsDVMTFixup
 

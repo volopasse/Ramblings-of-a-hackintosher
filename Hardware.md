@@ -82,6 +82,7 @@ Better to use Logitech or Apple input device to prevent sleep/wake problem, some
 
 - Fenvi FV-T919: https://www.aliexpress.com/item/Fenvi-FV-T919-802-11AC-Desktop-Wifi-Card-802-11-A-B-G-N-AC-BCM94360CD/32778371977.html
 - BCM94360CS2: https://www.ebay.com/itm/BT4-0-BCM94360CS2-PCI-E-867Mbps-802-11AC-Dual-Band-Wifi-PCI-Express-Adapter-Card/361828095572
+- BCM94360CD: https://www.amazon.com/PC-Hackintosh-Continuity-BCM94360CD-Bluetooth/dp/B012LOT512/
 
 
 
