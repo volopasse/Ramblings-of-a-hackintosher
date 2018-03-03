@@ -52,7 +52,7 @@ This guide only working on macOS 10.13, older macOS/OS X can causing black scree
 
 - Install Shiki.kext, WhateverGreen.kext, IntelGraphicsFixup.kext, Lilu.kext
 - Add `shikigva=4`, `-rad4200` boot arg into config.plist
-- Add some ACPI hotpatch: `HECI -> IMEI`, `GFX0 -> IGPU` , `PEGP -> GFX0` 
+- Add some ACPI hotpatch: `HECI -> IMEI`, `GFX0 -> IGPU`
 - Enable Inject Intel and add ig-platform-id of your iGPU to config.plist - Graphics
 - Enable Integrated Graphics (a.k.a. iGPU), iGPU Multi-Monitor and set DVMT to 128M in BIOS/UEFI settings
 
