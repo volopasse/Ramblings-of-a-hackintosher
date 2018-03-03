@@ -2,7 +2,7 @@
 
 ## AptioMemoryFix & AptioInputFix explained
 
-If you wanted to boot macos succesfully, you needed one of the following:
+If you wanted to boot macOS succesfully, you needed one of the following:
 
 - OsxAptioFix
 - OsxAptioFix**2**
