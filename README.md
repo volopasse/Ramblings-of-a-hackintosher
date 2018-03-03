@@ -1,3 +1,5 @@
+Forked from https://github.com/camielverdult/Ramblings-of-a-hackintosher-High-Sierra
+
 # Install macOS on a hackintosh
 
 You've read it, this guide/repo will guide you on how to install macOS to your desktop computer (laptop could work too, I am not going to do that in this guide though since laptops aren't in the general 
