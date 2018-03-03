@@ -45,7 +45,6 @@ Install Clover to the ESP
 Drivers64UEFI
     OsxAptioFix2Drv-64 or OsxAptioFix3Drv-64 (If you can't boot then install other one and remove the old one)
     OsxAptioFix2Drv-free2000.efi (For X99/X299 or MSI mobo, download from Stuff folder)
-    apfs
 ```
 
 For booting Legacy:
