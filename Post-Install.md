@@ -56,7 +56,7 @@ Check your motherboard specifications and look for the LAN Chipset. This could b
 * Something else (check the [kext repo](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ) for a fitting kext)
 
 ## Step 3 - Setting up the config.plist
-Yet again, for ease of use you'll have to install [Clover Configurator](http://mackie100projects.altervista.org/download-mac.php?version=classic) and configure our config.plist with that. Again you can also use [Clover Configurator Cloud (it's a little outdated but still functional)](http://cloudclovereditor.altervista.org/cce/index.php). 
+Yet again, for ease of use you'll have to install [Clover Configurator](http://mackie100projects.altervista.org/download-clover-configurator/) and configure our config.plist with that. Again you can also use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php). 
 
 First, [mount the EFI partition](Tips.md#how-to-mount-efi) of the install media and the disk you installed High Sierra on.
 
@@ -67,7 +67,7 @@ Now let's copy over the config.plist we used on your install media.
 Practically you should be set up on this part.
 
 ## Step 4 - USB setup
-You can download USBInjectAll [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ).
+You can download USBInjectAll [here](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/).
 
 If you're on a 200-series mobo you want to get [XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-200-series-injector.kext/Contents).
 
