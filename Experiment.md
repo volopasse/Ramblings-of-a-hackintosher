@@ -70,7 +70,13 @@ After that, to check your hardware encoding working or not. [Download this](Stuf
 
 Then it's working
 
+## Use older NVIDIA Web Driver for latest macOS
 
+For some reason, NVIDIA causing latest Web Driver lag for Skylake and Kaby Lake users. To prevent it, we need to install older Web Driver and use it.
+
+- First, [download this](https://github.com/corpnewt/Web-Driver-Toolkit/archive/master.zip)
+- Then open Terminal, type `chmod +x Run.command`. Remember to point Run.command to your location you save it
+- Now Ctrl + Right click, open it.
 
 
 
