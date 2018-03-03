@@ -41,21 +41,21 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
 
 ## CPU:
 
-- Core i3/i5/i7: Native support to the latest 8th generation
-- Xeon/Core i9
-- Pentium: SpeedStep may not working properly and you will need to FakeCPUID to make it boot
-- AMD: You may want to check [this](https://forum.amd-osx.com/viewforum.php?f=35)
+- **Core i3/i5/i7**: Native support to the latest 8th generation
+- **Xeon/Core i9**
+- **Pentium**: SpeedStep may not working properly and you will need to FakeCPUID to make it boot
+- **AMD**: You may want to check [this](https://forum.amd-osx.com/viewforum.php?f=35)
 
 
 ## Storage:
 
-- SATA
-- NVMe: native support since macOS 10.13, need some patch if you use macOS 10.12
+- **SATA**
+- **NVMe/PCI-e**: native support since macOS 10.13, need some patch if you use macOS 10.12
 
 
 ## GPU/iGPU:
 
-- Intel:
+- **Intel**:
   - Intel UHD 630
   - Intel HD 630
   - Intel HD 530
@@ -64,7 +64,7 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
   - Intel HD 4000
   - Intel HD 3000
 
-- NVIDIA:
+- **NVIDIA**:
   - 6-series and older may have some native support from Apple
   - 7-series and newer may need to use Web Driver for it, some card like GT 710 has native support from Apple
 
@@ -72,7 +72,7 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
 
   GTX 1060 problem: https://www.tonymacx86.com/threads/05-02-added-temporary-fix-pascal-gtx-1060-glitching-after-waking-from-sleep.220670/
 
-- AMD: https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/
+- **AMD**: https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/
 
 
 ## Mouse/keyboard:
@@ -81,8 +81,8 @@ Better to use Logitech or Apple input device to prevent sleep/wake problem, some
 
 ## Wi-Fi/Bluetooth card:
 
-- Fenvi FV-T919: https://www.aliexpress.com/item/Fenvi-FV-T919-802-11AC-Desktop-Wifi-Card-802-11-A-B-G-N-AC-BCM94360CD/32778371977.html
-- BCM94360CS2: https://www.ebay.com/itm/BT4-0-BCM94360CS2-PCI-E-867Mbps-802-11AC-Dual-Band-Wifi-PCI-Express-Adapter-Card/361828095572
-- BCM94360CD: https://www.amazon.com/PC-Hackintosh-Continuity-BCM94360CD-Bluetooth/dp/B012LOT512/
-- BCM94352Z (for M.2 port): https://www.ebay.com/itm/Broadcom-BCM94352Z-M-2-NGFF-802-11AC-867Mbps-BT-4-0-DW1560-for-Mac-Hackintosh-/252319175707
+- **Fenvi FV-T919**: https://www.aliexpress.com/item/Fenvi-FV-T919-802-11AC-Desktop-Wifi-Card-802-11-A-B-G-N-AC-BCM94360CD/32778371977.html
+- **BCM94360CS2**: https://www.ebay.com/itm/BT4-0-BCM94360CS2-PCI-E-867Mbps-802-11AC-Dual-Band-Wifi-PCI-Express-Adapter-Card/361828095572
+- **BCM94360CD**: https://www.amazon.com/PC-Hackintosh-Continuity-BCM94360CD-Bluetooth/dp/B012LOT512/
+- **BCM94352Z** (for M.2 port, mostly laptop): https://www.ebay.com/itm/Broadcom-BCM94352Z-M-2-NGFF-802-11AC-867Mbps-BT-4-0-DW1560-for-Mac-Hackintosh-/252319175707
 
