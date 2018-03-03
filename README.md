@@ -70,7 +70,7 @@ For more [here](https://clover-wiki.zetam.org/Preface)
 
 ## Will you guide me through every single step personally?
 
-I will not do this, please don't ask anyone but a good friend to do this for you. You can always ask for help from Discord server or anyone with some experience. Please don't be that person who wants his hand held through the process of this. If you want to get mac running the easy way, I recommend you check out [this](https://www.apple.com/mac/).
+No, you can always ask for help from Discord server or anyone with some experience.
 
 ## Something broke/ isn't working (correctly)! What do I do?
 
