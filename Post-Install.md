@@ -88,15 +88,20 @@ Comment: change 15 port limit to 26 in XHCI kext
 NOTE: all these steps should be taken in combination with having the [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) kext.
 
 ## Step 5 - Install graphics drivers
-- If you have an AMD GPU, make sure to get `WhateverGreen.kext` and Lilu. 
+### AMD
 
-(Disclaimer: This works on some cards. There are often extra steps that need to take place for you to get full graphics acceleration.)
+- Install `WhateverGreen.kext` and `Lilu`
+- Enable RadeonDeInit, config.plist - Graphics - RadeonDeInit. [Need for some AMD GPU only](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/).
 
-- If you have an NVIDIA Card, you need the NVIDIA WebDrivers for Graphics Acceleration. You can download the corresponding WebDriver from [this link](https://cookiemonster.pro/nvidia_driver_table). Also, download `NvidiaGraphicsFixup.kext` and Lilu
+### NVIDIA
 
-Install the driver and open your config.plist in Clover Configurator. Go to System Parameters and check NvidiaWeb, save and reboot.
+- Install `NvidiaGraphicsFixup.kext` and `Lilu`
+- You need the NVIDIA WebDrivers for Graphics Acceleration. You can download the corresponding WebDriver from [this link](https://cookiemonster.pro/nvidia_driver_table).
+- Enable NvidiaWeb and Inject System ID.
 
 If your WebDrivers are not apply after reboot (you check this by clicking the NVIDIA driver button in the top bar), you need to check if your NVRAM is working the way it should be. For more in-depth [click here](Tips,md#nvidia-web-drivers-not-kicking-in).
+
+If you using NVIDIA GPU like 7/6-series or older, you may don't need to install Web Driver, it's native support by Apple.
 
 ## Step 6 - Audio
 Check out the guide we made on audio [here](Audio.md).
@@ -105,7 +110,7 @@ For HDMI Audio, check [here](HDMI-Audio.md)
 
 ## Step 7 - Other
 
-You may need to fix [iMessage/FaceTime](iMessage.md), [CPU SpeedStep](Speedstep.md), [Install dual-boot Windows with macOS](Multiboot.md) or checkout some [Tips](Tips.md)
+You may need to setup [iMessage/FaceTime](iMessage.md), [CPU SpeedStep](Speedstep.md), [Multiboot guide](Multiboot.md) or checkout some [Tips](Tips.md)
 
 If you want something little risky, checkout our [experiment test](Experiment.md)
 
