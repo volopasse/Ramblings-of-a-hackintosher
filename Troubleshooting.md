@@ -38,3 +38,7 @@ For some case, you need to remove -v boot flag if you using High Sierra in order
 
 ## Massive ACPI kernel panic on Gigabyte boards
 You can fix this by dropping the MATS table in your config.plist. Open your config.plist with Clover Configurator and Go to ACPI > Drop Tables (bottom left). Click the + button and set Signature to `MATS`.
+
+## Kernel Panic
+
+***updating....***
