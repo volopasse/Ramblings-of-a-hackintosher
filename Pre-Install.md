@@ -70,7 +70,7 @@ We are now going to install some kernel extensions (often referred to as "kexts"
 All can be downloaded from [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/).
 
 ## Step 4 - Setting up the config.plist
-For ease of use, we are going to download [Clover Configurator](mackie100projects.altervista.org/download-clover-configurator/) and configure our config.plist with that. You can also use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php). 
+For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-clover-configurator/) and configure our config.plist with that. You can also use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php). 
 
 * Start with a new, empty Clover Configurator file.
 * In Boot: select Verbose (-v) and debug=0x100.
