@@ -190,7 +190,7 @@ http://www.insanelymac.com/forum/topic/298027-guide-aio-guides-for-hackintosh/?p
 https://clover-wiki.zetam.org/configuration/gui#gui_custom
 ***
 
-## Q & A
+## FAQ
 
 This section will gather known issues and will to fix them.
 
