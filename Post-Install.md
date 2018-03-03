@@ -2,6 +2,7 @@
 
 ## Necessities:
 * macOS installed
+* apfs.efi installed from [Pre-install guide](Pre-Install.md)
 
 ## Step 1 - Installing clover to disk
 This process is pretty similar to installing clover to the bootable usb in the pre-install section

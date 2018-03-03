@@ -57,7 +57,16 @@ CloverEFI
     CloverEFI 64-bits SATA
 ```
 
-## Step 3 - Downloading Kexts
+## Step 4 - Install apfs.efi
+
+New macOS High Sierra require to install apfs.efi in order to boot into macOS with new APFS file-system
+
+You can install apfs.efi to /EFI/Clover/drivers64UEFI
+
+Latest apfs.efi can be found [here](https://github.com/piiiggg/apfs.efi)
+
+## Step 5 - Downloading Kexts
+
 Mount the EFI partition of your USB (how to [here](Tips.md#how-to-mount-efi))
 
 Also, check out [how to install kext](Tips.md#how-to-install-kexts) when you have some free time
@@ -69,7 +78,7 @@ We are now going to install some kernel extensions (often referred to as "kexts"
 
 All can be downloaded from [here](http://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/).
 
-## Step 4 - Setting up the config.plist
+## Step 6 - Setting up the config.plist
 For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-clover-configurator/) and configure our config.plist with that. You can also use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php). 
 
 * Start with a new, empty Clover Configurator file.
@@ -87,7 +96,7 @@ Replace: 837D8C1B
 * In System Paremeters, set Inject Kexts to Yes, check Inject System ID
 * In Rt Variables, click Generate, set BooterConfig to 0x28 and CSRActiveConfig to 0x67.
 
-## Step 5 - BIOS/UEFI settings
+## Step 7 - BIOS/UEFI settings
 
 Change the following settings before you boot into the macOS installer:
 
