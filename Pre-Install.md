@@ -82,10 +82,10 @@ All can be downloaded from [here](http://docs.google.com/spreadsheets/d/1WQ87XQK
 For ease of use, we are going to download [Clover Configurator](http://mackie100projects.altervista.org/download-clover-configurator/) and configure our config.plist with that. You can also use [Clover Configurator Cloud](http://cloudclovereditor.altervista.org/cce/index.php). 
 
 * Start with a new, empty Clover Configurator file.
-* In Boot: select Verbose (-v) and debug=0x100.
+* In Boot: select Verbose (-v), debug=0x100 and -disablegfxfirmware if you using 6th gen Intel CPU or up
 * In Devices, under USB, select Inject, Add ClockID and FixOwnership. 
 * In SMBIOS, click the dropdown button and select [a SMBIOS that corresponds with your system](SMBIOS.md).
-* If you have an Intel CPU with an iGPU, click the drop-down menu under ig-platform-id and select an id that matches your iGPU.
+* If you have an Intel CPU with an iGPU, click the drop-down menu under ig-platform-id and [select an id that matches your iGPU](ig-platform-id.md). 
 * Under Kernel and Kext Patches, check Apple RTC, AppleIntelCPUPM and KernelPM. Also add the following patch to your KextsToPatch:
 ```
 Comment: Change 15 port limit to 24 in XHCI kext 10.13
