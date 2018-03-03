@@ -6,7 +6,7 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
 
 - **Brand:** ASUS, ASRock, Gigabyte
 
-  For MSI: There is some problem with MSI & OsxAptioFixDrv, better to stay away from it.
+  MSI: There is some problem with MSI & OsxAptioFixDrv, better to stay away from it.
 
 - **Chipset:** Intel 300/200/100/5/6/7/8/9-series
 
