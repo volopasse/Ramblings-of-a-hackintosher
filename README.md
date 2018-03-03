@@ -1,6 +1,3 @@
-# INFO
-Hi, I'm Pig. This is a fork of @camielverdult hackintosh guide, I will continue maintaining this guide for /r/hackintosh subreddit and people of [hackintosh Discord server](http://discord.io/hackintosh)
-
 # Install macOS on a hackintosh
 
 You've read it, this guide/repo will guide you on how to install macOS to your desktop computer (laptop could work too, I am not going to do that in this guide though since laptops aren't in the general 
