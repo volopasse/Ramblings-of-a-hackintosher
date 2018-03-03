@@ -51,5 +51,7 @@ macOS require 64MB DVMT-Memory for booting with iGPU, you can change it in BIOS/
 
 ![alt text](Pictures/kext-kp.jpg "Kext outdated KP")
 
+As you can see, this is a problem causing by Lilu.
+
 Just disabled this kext by press Space when Clover preparing to boot, then update your kext and reboot.
 
