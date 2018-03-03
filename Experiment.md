@@ -76,7 +76,8 @@ For some reason, latest NVIDIA Web Driver causing lag on Skylake and Kaby Lake s
 
 Also, when Apple releases an update for macOS. You don't need to wait till NVIDIA release their Web Driver, you can patch older Web Driver and use it.
 
-- You need to disable SIP first, config.plist - Rt Variables - CsrActiveConfig - 0x67 - Save & reboot. Then, [download this](https://github.com/corpnewt/Web-Driver-Toolkit/archive/master.zip) and unzip 
+- You need to disable SIP first, config.plist - Rt Variables - CsrActiveConfig - 0x67 - Save & reboot.
+- Then, [download this](https://github.com/corpnewt/Web-Driver-Toolkit/archive/master.zip) and unzip 
 - Open Terminal, type `chmod +x Run.command`. Remember to point `Run.command` to your location you save it
 - Now Ctrl + Right click, open it.
 - You need to remove any Web Drivers you was install to your hack first, press `R` and go
