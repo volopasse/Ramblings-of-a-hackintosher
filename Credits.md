@@ -12,6 +12,7 @@
 * [jaymonkey](https://www.tonymacx86.com/members/jaymonkey.195809/) for [his iMessage guide](https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/).
 * [midi1996](https://www.reddit.com/user/midi1996) for the guide on [how to install without a mac](https://www.reddit.com/r/hackintosh/comments/76szrl/guide_installing_macosx_from_the_internet/)
 * fusion71au for his help on [multiboot guide](Multiboot.md)
+* tonymacx86 for NVIDIA Web Driver table
 * All the contributers for contributing to this project
   - [Bisquitue](https://github.com/Bisquitue)
   - [camielverdult](https://github.com/camielverdult)
