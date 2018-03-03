@@ -9,9 +9,8 @@
 Open Terminal, run this command (run first command and type password, then copy & paste and run the rest)
 
 
-`sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist`
-
-`rm -rf /Library/Preferences/SystemConfiguration/preferences.plist`
+`sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
+rm -rf /Library/Preferences/SystemConfiguration/preferences.plist`
 
 Now reboot!
 
