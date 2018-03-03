@@ -72,11 +72,11 @@ For more [here](https://clover-wiki.zetam.org/Preface)
 
 ## Will you guide me through every single step personally?
 
-No, you can always ask for help from Discord server or anyone with some experience.
+No, you can always ask for help from the Discord server or anyone with some experience.
 
 ## Why is this better than Uni/Multibeast?
 
-I won't say Uni/Multibeast is bad, they compile their package with too much outdated kext. Some pre-install kext can causing problem and you may not even know where's the problem when you got kernel panic or something like that. Yes, the idea is good at some points but this is hackintosh, it's not some thing like Windows and you can just install and let it go.
+I won't say Uni/Multibeast is bad, they compile their package with too many outdated kext. Some pre-install kexts can cause problems and you may not even know where the problem is when you get kernel panics or something like that. Yes, the idea is good at some points but this is hackintosh, it's not some thing like Windows and you can just install and let it go.
 
 ## Something broke/ isn't working (correctly)! What do I do?
 
