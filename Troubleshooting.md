@@ -46,6 +46,7 @@ You can fix this by dropping the MATS table in your config.plist. Open your conf
 ![alt text](Pictures/dvmt-kp.jpg "DVMT KP")
 
 macOS require 64MB DVMT-Memory for booting with iGPU, you can change it in BIOS/UEFI settings. 
+If your BIOS/UEFI locked it or you can't find it then, [here is your solution](Tips.md#intelgraphicsdvmtfixup)
 
 ### Kext outdated
 
