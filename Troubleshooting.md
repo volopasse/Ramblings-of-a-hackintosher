@@ -5,7 +5,7 @@ You should use other display cable/other output port on your GPU (tested with so
 
 Check [this if you using NVIDIA GPU](Tips.md#nvidiagraphicsfixup-and-some-smbioses-explained)
 
-## Nvidia Web drivers not apply after reboot
+## NVIDIA Web drivers not apply after reboot
 If you have NvidiaWeb checked in your config and webdrivers are still not working, try the following:
 
 - Open Terminal and do the following one line at a time:
