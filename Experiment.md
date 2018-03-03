@@ -87,6 +87,7 @@ Also, when Apple releases an update for macOS. You don't need to wait till NVIDI
 - After patching it, install the patched installer then reboot. 
 - Now open `Run.command` again, press `P` and `Set to Current Build Number`
 - Wait till it's done and reboot again. Now older Web Driver should working!
+- Disable Automatically check for updates on NVIDIA Driver Manager.
 
 
 
