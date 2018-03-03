@@ -10,6 +10,7 @@ Open Terminal, run this command (run first command and type password, then copy 
 
 
 `sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
+
 rm -rf /Library/Preferences/SystemConfiguration/preferences.plist`
 
 Now reboot!
