@@ -70,13 +70,22 @@ After that, to check your hardware encoding working or not. [Download this](Stuf
 
 Then it's working
 
-## Use older NVIDIA Web Driver for latest macOS
+## Patching older NVIDIA Web Driver
 
-For some reason, NVIDIA causing latest Web Driver lag for Skylake and Kaby Lake users. To prevent it, we need to install older Web Driver and use it.
+For some reason, latest NVIDIA Web Driver causing lag on Skylake and Kaby Lake systems. To prevent it, we need to install older Web Driver and use it.
 
-- First, [download this](https://github.com/corpnewt/Web-Driver-Toolkit/archive/master.zip)
-- Then open Terminal, type `chmod +x Run.command`. Remember to point Run.command to your location you save it
+Also, when Apple releases an update for macOS. You don't need to wait till NVIDIA release their Web Driver, you can patch older Web Driver and use it.
+
+- You need to disable SIP first, config.plist - Rt Variables - CsrActiveConfig - 0x67 - Save & reboot. Then, [download this](https://github.com/corpnewt/Web-Driver-Toolkit/archive/master.zip) and unzip 
+- Open Terminal, type `chmod +x Run.command`. Remember to point `Run.command` to your location you save it
 - Now Ctrl + Right click, open it.
+- You need to remove any Web Drivers you was install to your hack first, press `R` and go
+- After removed, download older Web Driver. Press `S` then type this build number `17C2205` 
+- Wait till it's done, press `I` then press `Yes` then `Set To Current Build Number`
+- Drag and drop your older installer into Terminal
+- After patching it, install the patched installer then reboot. 
+- Now open `Run.command` again, press `P` and `Set to Current Build Number`
+- Wait till it's done and reboot again. Now older Web Driver should working!
 
 
 
