@@ -89,6 +89,12 @@ Comment: change 15 port limit to 26 in XHCI kext
 NOTE: all these steps should be taken in combination with having the [USBInjectAll](https://github.com/RehabMan/OS-X-USB-Inject-All) kext.
 
 ## Step 5 - Install graphics drivers
+### iGPU
+
+- Install `IntelGraphicsFixup.kext` and Lilu
+- Enable Inject Intel and [choose ig-platform-id](ig-platform-id.md) from config.plist - Graphics
+- For Skylake & Kaby Lake & Coffee Lake user: add -disablegfxfirmware boot arg
+
 ### AMD
 
 - Install `WhateverGreen.kext` and `Lilu`
