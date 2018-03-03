@@ -41,4 +41,15 @@ You can fix this by dropping the MATS table in your config.plist. Open your conf
 
 ## Kernel Panic
 
-***updating....***
+### Dynamic Video Memory Technology (DVMT)
+
+![alt text](Pictures/dvmt-kp.jpg "DVMT KP")
+
+macOS require 64MB DVMT-Memory for booting with iGPU, you can change it in BIOS/UEFI settings. 
+
+### Kext outdated
+
+![alt text](Pictures/kext-kp.jpg "Kext outdated KP")
+
+Just disabled this kext by press Space when Clover preparing to boot, then update your kext and reboot.
+
