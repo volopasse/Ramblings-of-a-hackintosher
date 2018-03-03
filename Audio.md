@@ -3,7 +3,7 @@
 This file will be focused around setting up audio.
 
 ## Necessities:
-* AppleALC.kext & Lilu.kext
+* `AppleALC.kext` & `Lilu.kext`
 * Your codec (you can get this from your motherboard's specification page)
 * [Clover Configurator](http://mackie100projects.altervista.org/download-clover-configurator/)
 * A mounted EFI partition (how to [here](Tips.md#how-to-mount-efi))
@@ -59,7 +59,6 @@ Install both to kexts/other. How to [here](Tips.md#how-to-mount-efi). Make sure 
 Open your config.plist with [Clover Configurator](http://mackie100projects.altervista.org/download-clover-configurator/) and go to Devices > Audio. You will see a box with a down arrow. In that box you want to enter a supported layout that works with your audio codec. Save and restart. 
 
 After restart, go to System Preferences > Sound > Output. You should see output devices, here's an example of what you should see:
-
 
 ![alt text](Pictures/Audio%20Devices.png)
 
