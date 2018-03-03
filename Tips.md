@@ -43,7 +43,7 @@ This kext features the following:
 * Fixes an issue related to a DVMT panic when entering the installation screen.
 * Fixes the need for "FakeID = 0x12345678" in the config.plist.
 
-You can download the latest compiled kext from [here](https://1drv.ms/f/s!AiP7m5LaOED-mo9XA4Ml-69cwAsikQ). How to install [here](Tips.md#how-to-install-kexts)
+You can download the latest compiled kext from [here](https://docs.google.com/spreadsheets/d/1WQ87XQKgJVPPub_CbjoHsUscgyxrGg3DWzZz7Nnf_RU/edit#gid=0). How to install [here](Tips.md#how-to-install-kexts)
 
 ## USBInjectAll
 This kext injects all available USB ports to the OS. This is absolutely necessary when installing, you will get the `Still waiting for root device...` hang otherwise.
