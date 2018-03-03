@@ -34,7 +34,7 @@ To begin with, make sure you have this:
 
 Now that you have prepared the above, we'll need to boot to windows now (we'll talk about macOS/X way later).
 
-1. Downlaod [BootDiskUtility from cvad](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5). (Check the InsanelyMac thread [here]( http://www.insanelymac.com/forum/topic/283190-bdutilityexe-make-clover-bootflash-with-macos-distr-under-windows/))
+1. Download [BootDiskUtility from cvad](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5). (Check the InsanelyMac thread [here]( http://www.insanelymac.com/forum/topic/283190-bdutilityexe-make-clover-bootflash-with-macos-distr-under-windows/))
 2. Extract it and open BootDiskUtility
 3. Go to *DL Center* > hit *Update* > when it’s done, select in *HD Recovery for Mac OS X* your desired macOS/X version (goes from 10.9 up to 10.13, in the time of writing) > hit DL
 	- ~~For some reason, if you do not select Update, you’ll see the 10.7 recovery if you want it for older systems~~
