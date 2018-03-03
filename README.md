@@ -39,7 +39,7 @@ This guide is made by a few people. All have different opinions and different ap
 * [NVIDIA Web Drivers](https://cookiemonster.pro/nvidia_driver_table)
 * [Hackintosh Discord server](http://discord.io/hackintosh)
 
-# Some questions
+# Q & A
 
 ## What is a hackintosh?
 

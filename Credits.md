@@ -15,4 +15,5 @@
 * All the contributers for contributing to this project
   - [Bisquitue](https://github.com/Bisquitue)
   - [camielverdult](https://github.com/camielverdult)
-  - [piiiggg](https://github.com/piiiggg)
+  - [Pig](https://www.reddit.com/user/piiggggg/)
+
