@@ -2,9 +2,7 @@
 
 **Requirement:**
 
-- Clover Bootloader only
-- Working NVRAM
-- Clover Configurator: http://mackie100projects.altervista.org
+- Working NVRAM, [how to check](Troubleshooting.md#nvidia-web-drivers-not-apply-after-reboot)
 
 **Step 1: Set correct BSD name**
 
