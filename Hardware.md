@@ -1,12 +1,12 @@
 # Hardware
 
-Follow this guide to pick a correct hardware part for your new Hackintosh.
+Follow this guide to pick a correct piece of hardware for your new Hackintosh.
 
 ## Motherboard:
 
 - **Brand:** ASUS, ASRock, Gigabyte
 
-  MSI: There is some problem with MSI & OsxAptioFixDrv, better to stay away from it.
+  MSI: There are some problems with MSI & OsxAptioFixDrv, better to stay away from it.
 
 - **Chipset:** Intel 300/200/100/5/6/7/8/9-series
 
@@ -16,7 +16,7 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
 
 - **Audio codec:** Check out [this list](https://github.com/vit9696/AppleALC/wiki/Supported-codecs)
 
-- **Network:** Almost any ethernet controller are supported like: 
+- **Network:** Almost any ethernet controller is supported, such as: 
 
   - Intel 82578 LC/DM/DC
   - Intel 82579 LM/V
@@ -30,11 +30,11 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
   - Qualcomm Atheros Killer E2400
   - Qualcomm Atheros Killer E2500
 
-  Stay away from mainboard have wifi/bt built-in, it's hard to make it working with macOS
+  Stay away from mainboards that have wifi/bt built-in, as it's hard to make them work with macOS.
 
 - **Thunderbolt port:** Intel controller only
 
-  Other controllers: Some report says ASMedia Thunderbolt controller working with macOS too, but I'm not 100% sure about it
+  Other controllers: Some reports say ASMedia Thunderbolt controller works with macOS too, but I'm not 100% sure about it.
 
 - **USB port:** Use Intel controller to prevent sleep/wake problem
 
@@ -44,13 +44,13 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
 
 - **Core i3/i5/i7**: Native support to the latest 8th generation
 - **Xeon/Core i9**
-- **Pentium**: SpeedStep may not working properly and you will need to FakeCPUID to make it boot-
+- **Pentium**: SpeedStep may not work properly and you will need FakeCPUID to make it boot-
 - **AMD**: You may want to check [this](https://forum.amd-osx.com/viewforum.php?f=35)
 
 ## Storage:
 
 - **SATA**
-- **NVMe/PCI-e**: native support since macOS 10.13, need some patch if you use macOS 10.12
+- **NVMe/PCI-e**: Native support since macOS 10.13, need a patch if you use macOS 10.12
 
 
 ## GPU/iGPU:
@@ -65,8 +65,8 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
   - Intel HD 3000
 
 - **NVIDIA**:
-  - 6-series and older may have some native support from Apple
-  - 7-series and newer may need to use Web Driver for it, some card like GT 710 has native support from Apple
+  - 6-series and older may have some native support from Apple.
+  - 7-series and newer may need to use the Web Driver. Some cards like the GT 710 have native support from Apple.
 
   ASUS GTX 750TI problem: https://www.tonymacx86.com/threads/successful-yosemite-install-with-asus-gtx-750-ti-but-with-hdmi-not-working-on-nvidia-web-drivers-3.148657/
 
@@ -77,7 +77,7 @@ Follow this guide to pick a correct hardware part for your new Hackintosh.
 
 ## Mouse/keyboard:
 
-Better to use Logitech or Apple input device to prevent sleep/wake problem, some keyboard from Corsair,... may prevent sleep on macOS
+Better to use Logitech or Apple input devices to prevent sleep/wake problems. Some keyboards from Corsair may prevent sleep on macOS.
 
 ## Wi-Fi/Bluetooth card:
 
