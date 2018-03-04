@@ -29,12 +29,13 @@ To inject a kext, [mount your EFI]((Tips.md#how-to-mount-efi)) and go to /EFI/Cl
 ## How to know if you need to hot-patch DSDT
 Download [IOREG](http://mac.softpedia.com/get/System-Utilities/IORegistryExplorer.shtml) and search for what a patch tells you to replace in it's comment.
 
-- Example:
 So let's say you want to rename HDAS to HDEF, please search if you even have HDEF first and if you do, this patch is not needed. If you do not have HDEF, apply the patch and reboot. You should now see HDEF in your IOREG
 
 Be **very** careful while entering the patching info.
 
 Some example of hotpatch:
+
+- 
 
 
 ## IntelGraphicsDVMTFixup
