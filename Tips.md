@@ -34,6 +34,9 @@ So let's say you want to rename HDAS to HDEF, please search if you even have HDE
 
 Be **very** careful while entering the patching info.
 
+Some example of hotpatch:
+
+
 ## IntelGraphicsDVMTFixup
 
 Quoted from [the IntelGraphicsDVMTFixup Github repo](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup):
