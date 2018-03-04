@@ -47,6 +47,7 @@ This guide only working on macOS 10.13, older macOS/OS X can causing black scree
 - Install Shiki.kext, IntelGraphicsFixup.kext, Lilu.kext
 - Add `shikigva=1` boot arg into config.plist
 - Add `-disablegfxfirmware` if you using Skylake or up
+- Enable Inject Intel and add [ig-platform-id](ig-platform-id.md) to config.plist - Graphics
 - Add some [ACPI hotpatch](https://github.com/piiiggg/Ramblings-of-a-hackintosher-High-Sierra/blob/master/Tips.md#how-to-know-if-you-need-to-hot-patch-dsdt): `HECI -> IMEI`, `GFX0 -> IGPU` 
 
 ### AMD
