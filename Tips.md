@@ -35,8 +35,11 @@ Be **very** careful while entering the patching info.
 
 Some example of hotpatch:
 
-- 
+![alt text](Pictures/hotpatch.png)
 
+- GFX0 to IGPU: Fix iGPU, HDMI Audio from iGPU. Fix iGPU graphics crashing
+- AZAL/HDAS to HDEF: This will rename to match your Audio Codec same like real Mac
+- ....
 
 ## IntelGraphicsDVMTFixup
 
