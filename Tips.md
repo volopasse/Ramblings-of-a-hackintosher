@@ -22,6 +22,8 @@ Also, to edit your config.plist on Windows, you can use [Clover Configurator Clo
 ## How to install kexts
 A small disclaimer first, please try to inject kexts whenever you can. There is a possibility that if you update, your kexts will be deleted because they're in a place they're not supposed to be in if you install them to either `/Library/Extensions` or `/System/Library/Extensions`. You should only install kexts to /EFI/Clover/kexts/Other/
 
+If you have two version of the same kext like 1.2.0 and 1.3.0 on both EFI and /S/L/E then system will crashing/kernel panic, so only install your kext at one place
+
 To inject a kext, [mount your EFI]((Tips.md#how-to-mount-efi)) and go to /EFI/Clover/kexts/Other and place your kext(s) in there. Also make sure that `InjectKexts` is set to `Yes` inside of your config.plist.
 
 ## How to know if you need to hot-patch DSDT
