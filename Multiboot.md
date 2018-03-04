@@ -50,7 +50,7 @@ Easy! Right?
 
 ***
 
-## I have 1 disk with windows/lx and I don't want to remove/reinstall them
+## I have 1 disk with Windows/Linux and I don't want to remove/reinstall them
 
 This situation is widely faced when you get a new laptop or coming from a "normal" setup.
 
