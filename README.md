@@ -27,6 +27,7 @@ This guide is made by a few people. All have different opinions and different ap
 * [HDMI Audio](HDMI-Audio.md)
 * [Power Management](Speedstep.md)
 * [SMBIOS](SMBIOS.md)
+* [ig-platform-id list](ig-platform-id.md)
 * [Tips](Tips.md)
 * [Credits/Acknowledgements](Credits.md)
 
