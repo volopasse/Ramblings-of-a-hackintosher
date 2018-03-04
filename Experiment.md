@@ -1,6 +1,6 @@
 # Experiment test for hackintosh
 
-## AptioMemoryFix & AptioInputFix explained
+## AptioMemoryFix & AptioInputFix
 
 If you wanted to boot macOS succesfully, you needed one of the following:
 
