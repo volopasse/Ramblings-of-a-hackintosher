@@ -94,4 +94,6 @@ Also, when Apple releases an update for macOS. You don't need to wait till NVIDI
 - Disable Automatically check for updates on NVIDIA Driver Manager.
 
 
+## Enable hibernate
 
+W.I.P.

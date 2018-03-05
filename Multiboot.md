@@ -188,6 +188,11 @@ Save your config.plist and try it out. You can replace path with `\EFI\grub\grub
 http://www.insanelymac.com/forum/topic/298027-guide-aio-guides-for-hackintosh/?p=2029540
 
 https://clover-wiki.zetam.org/configuration/gui#gui_custom
+
+# Legacy + GPT
+
+W.I.P.
+
 ***
 
 ## FAQ

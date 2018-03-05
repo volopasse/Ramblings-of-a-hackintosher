@@ -11,15 +11,15 @@ For AMD user, upgrade to macOS 10.13 for best native kext support from Apple to 
 
 **Requirements:**
 
-- WhateverGreen.kext, Lilu.kext installed
-- config.plist - Graphics - RadeonDeInit (For some AMD GPU only, [what GPU did I need?](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/))
+- `WhateverGreen.kext`, `Lilu.kext` installed
+- `config.plist` - `Graphics` - `RadeonDeInit` (For some AMD GPU only, [what GPU did I need?](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/))
 
 ## NVIDIA
 
 **Requirements:**
 
-- NvidiaGraphicsFixup.kext, Lilu.kext installed
-- config.plist - System Parameters - NvidiaWeb (If you use Web Driver)
+- `NvidiaGraphicsFixup.kext`, `Lilu.kext` installed
+- `config.plist` - `System Parameters` - `NvidiaWeb` (If you use Web Driver)
 
 **Notes:**
 
@@ -41,13 +41,12 @@ For AMD user, upgrade to macOS 10.13 for best native kext support from Apple to 
 
 **Requirements:**
 
-- IntelGraphicsFixup.kext, Lilu.kext installed
-- config.plist - Graphics - Inject Intel
-- config.plist - Graphics - ig-platform-id (Pick the correct one for your iGPU)
+- `IntelGraphicsFixup.kext`, `Lilu.kext` installed
+- `config.plist` - `Graphics` - `Inject Intel` & [ig-platform-id](ig-platform-id.md) (Pick the correct one for your iGPU)
 
 **Notes:**
 
-- HD 540: System Preferences/Sound/Output; HDMI shows as DP, DP shows as HDMI
-- HD 540: Supports 1x display, boot fails with 2x display; 2nd display hot plug works
-- HD 4600/HD 4400/Mobile - no native support ([check this](https://www.tonymacx86.com/threads/fix-hd4200-hd4400-hd4600-hd5600-on-10-11.175797/))
-- HD 2000/HD 2500, not supported
+- **HD 540**: System Preferences/Sound/Output; HDMI shows as DP, DP shows as HDMI
+- **HD 540**: Supports 1x display, boot fails with 2x display; 2nd display hot plug works
+- **HD 4600/HD 4400/Mobile**: no native support ([check this](https://www.tonymacx86.com/threads/fix-hd4200-hd4400-hd4600-hd5600-on-10-11.175797/))
+- **HD 2000/HD 2500**: not supported

@@ -8,7 +8,7 @@ Follow this guide to pick a correct piece of hardware for your new Hackintosh.
 
   MSI: There are some problems with MSI & OsxAptioFixDrv, better to stay away from it.
 
-- **Chipset:** Intel 300/200/100/5/6/7/8/9-series
+- **Chipset:** Intel 300/200/100/9/8/7/6/5-series
 
   X299: https://www.tonymacx86.com/threads/skylake-x-x299-live-the-future-now-on-macos-sierra-10-12-successful-build-extended-guide.229354/
 
