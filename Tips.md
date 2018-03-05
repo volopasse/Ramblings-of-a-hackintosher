@@ -37,7 +37,7 @@ Some example of hotpatch:
 
 ![alt text](Pictures/hotpatch.png)
 
-- GFX0 to IGPU: Fix iGPU, HDMI Audio from iGPU. Fix iGPU graphics crashing
+- GFX0 to IGPU: Fix HDMI Audio from iGPU. Fix iGPU graphics crashing, allow hardware encoding on iGPU
 - AZAL/HDAS to HDEF: This will rename to match your Audio Codec same like real Mac
 - ....
 
