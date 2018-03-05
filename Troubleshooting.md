@@ -57,3 +57,10 @@ As you can see, this is a problem causing by Lilu.
 
 Just disabled this kext by press Space when Clover preparing to boot, then update your kext and reboot.
 
+## ACPI error
+
+![alt text](Pictures/bios-uefi.jpg "Error causing by ACPI error")
+
+This will happened when you using a bad ACPI system. Check your DSDT, config.plist, Clover Hotpatch,...
+
+If you using edited DSDT.aml, you may want to generate and patch it again. Each time you change some thing in BIOS/UEFI or update it, ACPI change too. It'll causing stuck at boot like the picture
