@@ -48,3 +48,18 @@ sudo ~/ssdtPRGen.sh
 NOTE: The Power Management SSDT should always be SSDT.aml. If you have an SSDT.aml there already, rename it SSDT-1.aml, etc...
 
 8. Reboot
+
+### How to generate a SSDT with ssdtPRGen.sh for K-series CPU
+
+1. Doing 1,2, 3 step
+
+2. To generate SSDT follow your overclock speed, i7-7700k = CPU, 4800 = 4,8GHz. Change it as your system
+
+   `sudo sh ssdtPRGen.sh -p 'i7-7700k' -turbo 4800`
+
+3. Doing 5, 6, 7 step
+
+***Notes:***
+
+- For some reasons, ssdtPRGen.sh script can't generate your CPU SpeedStep. Try to create your own User Defined.cfg, for more [here](https://github.com/Piker-Alpha/ssdtPRGen.sh)
+
