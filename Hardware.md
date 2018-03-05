@@ -43,6 +43,7 @@ Follow this guide to pick a correct piece of hardware for your new Hackintosh.
 
 
 - **Core i3/i5/i7**: Native support to the latest 8th generation
+- **Core 2 Duo**: Require SSE4.1 or higher
 - **Xeon/Core i9**
 - **Pentium**: SpeedStep may not work properly and you will need FakeCPUID to make it boot-
 - **AMD**: You may want to check [this](https://forum.amd-osx.com/viewforum.php?f=35)
