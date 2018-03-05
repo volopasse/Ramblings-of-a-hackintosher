@@ -118,3 +118,15 @@ Comment: change XHC1 to XHC
 Find:    58484331
 Replace: 5848435f
 ```
+
+## Update macOS
+
+Follow these simple steps will help you to update to newer macOS version.
+
+1. Update Clover Configurator
+2. Update kext, apfs.efi
+3. Uninstall NVIDIA Web Driver (for NVIDIA GPU) (may not need anymore)
+4. Open App Store and download the update
+5. Start to install it, when App Store reboot your machine. Boot Clover into `macOS install` partition, if you can't find it then press F3. It'll showing up
+6. Wait
+7. Reboot and install newest NVIDIA Web Driver (for NVIDIA GPU)
