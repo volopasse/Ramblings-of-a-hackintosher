@@ -2,7 +2,7 @@
 
 ### Notes:
 
-- Some Apple products using Sandy Bridge CPU with higher version of Intel HD, same thing with Haswell (Apple magic?)
+- Some Apple products using Sandy Bridge CPU with higher version of Intel HD, same thing with Haswell & Broadwell (Apple magic?)
 - Coffee Lake need some FakePCIID and using Kaby Lake ig-platform-id because Apple don't have any Coffee Lake product
 
 ## Sandy Bridge
