@@ -98,13 +98,13 @@ NOTE: All these steps should be taken in combination with having the [USBInjectA
 ### AMD
 
 - Install `WhateverGreen.kext` and `Lilu.kext`
-- Enable RadeonDeInit: config.plist - Graphics - RadeonDeInit. [Needed for some AMD GPUs only](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/).
+- Enable `RadeonDeInit`: `config.plist` - `Graphics`. [Needed for some AMD GPUs only](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/).
 
 ### NVIDIA
 
 - Install `NvidiaGraphicsFixup.kext` and `Lilu.kext`
 - You need the NVIDIA WebDrivers for Graphics Acceleration. You can download the corresponding WebDriver from [this link](https://cookiemonster.pro/nvidia_driver_table).
-- Enable NvidiaWeb and Inject System ID.
+- Enable `NvidiaWeb` and `Inject System ID`: config.plist - System Parameters
 
 If your WebDrivers are not applied after reboot (you check this by clicking the NVIDIA driver button in the top bar), you need to check if your NVRAM is working the way it should be. For more in-depth [click here](Tips,md#nvidia-web-drivers-not-kicking-in).
 
