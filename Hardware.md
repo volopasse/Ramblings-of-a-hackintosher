@@ -46,6 +46,7 @@ Stay away from mainboards that have wifi/bt built-in, as it's hard to make them 
 - **NVIDIA**:
   - 6-series and older may have some native support from Apple.
   - 7-series and newer may need to use the Web Driver. Some cards like the GT 710 have native support from Apple.
+  
   ASUS GTX 750TI problem: https://www.tonymacx86.com/threads/successful-yosemite-install-with-asus-gtx-750-ti-but-with-hdmi-not-working-on-nvidia-web-drivers-3.148657/
   
   GTX 1060 problem: https://www.tonymacx86.com/threads/05-02-added-temporary-fix-pascal-gtx-1060-glitching-after-waking-from-sleep.220670/
