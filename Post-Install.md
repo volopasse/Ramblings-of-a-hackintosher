@@ -91,9 +91,9 @@ NOTE: All these steps should be taken in combination with having the [USBInjectA
 ### iGPU
 
 - Install `IntelGraphicsFixup.kext` and `Lilu.kext`
-- Add some ACPI hotpatch: `HECI -> IMEI`, `GFX0 -> IGPU`
-- Enable Inject Intel and [choose ig-platform-id](ig-platform-id.md) from config.plist - Graphics
-- For Skylake & Kaby Lake & Coffee Lake users: add `-disablegfxfirmware` boot arg
+- Add some [ACPI hotpatch](Tips.md#how-to-know-if-you-need-to-hot-patch-dsdt): `HECI -> IMEI`, `GFX0 -> IGPU`
+- Enable `Inject Intel` and [choose ig-platform-id](ig-platform-id.md) from config.plist - Graphics
+- For Skylake or newer users: add `-disablegfxfirmware` boot arg
 
 ### AMD
 
