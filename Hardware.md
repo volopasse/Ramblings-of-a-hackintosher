@@ -2,9 +2,12 @@
 Follow this guide to pick a correct piece of hardware for your new Hackintosh.
 ## Motherboard:
 - **Brand:** ASUS, ASRock, Gigabyte
+
   MSI: There are some problems with MSI & OsxAptioFixDrv, better to stay away from it.
 - **Chipset:** Intel 300/200/100/9/8/7/6/5-series
+
   X299: https://www.tonymacx86.com/threads/skylake-x-x299-live-the-future-now-on-macos-sierra-10-12-successful-build-extended-guide.229354/
+  
   AMD: https://forum.amd-osx.com/viewforum.php?f=35
 - **Audio codec:** Check out [this list](https://github.com/vit9696/AppleALC/wiki/Supported-codecs)
 - **Ethernet:** Almost any ethernet controller is supported, such as: 
@@ -22,6 +25,7 @@ Follow this guide to pick a correct piece of hardware for your new Hackintosh.
 
 Stay away from mainboards that have wifi/bt built-in, as it's hard to make them work with macOS.
 - **Thunderbolt port:** Intel controller only
+
   Other controllers: Some reports say ASMedia Thunderbolt controller works with macOS too, but I'm not 100% sure about it.
 - **USB port:** Use Intel controller to prevent sleep/wake problem
 
