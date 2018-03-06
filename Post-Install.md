@@ -90,18 +90,19 @@ NOTE: All these steps should be taken in combination with having the [USBInjectA
 ## Step 5 - Install graphics drivers
 ### iGPU
 
-- Install `IntelGraphicsFixup.kext` and Lilu
+- Install `IntelGraphicsFixup.kext` and `Lilu.kext`
+- Add some ACPI hotpatch: `HECI -> IMEI`, `GFX0 -> IGPU`
 - Enable Inject Intel and [choose ig-platform-id](ig-platform-id.md) from config.plist - Graphics
-- For Skylake & Kaby Lake & Coffee Lake users: add -disablegfxfirmware boot arg
+- For Skylake & Kaby Lake & Coffee Lake users: add `-disablegfxfirmware` boot arg
 
 ### AMD
 
-- Install `WhateverGreen.kext` and `Lilu`
+- Install `WhateverGreen.kext` and `Lilu.kext`
 - Enable RadeonDeInit: config.plist - Graphics - RadeonDeInit. [Needed for some AMD GPUs only](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/).
 
 ### NVIDIA
 
-- Install `NvidiaGraphicsFixup.kext` and `Lilu`
+- Install `NvidiaGraphicsFixup.kext` and `Lilu.kext`
 - You need the NVIDIA WebDrivers for Graphics Acceleration. You can download the corresponding WebDriver from [this link](https://cookiemonster.pro/nvidia_driver_table).
 - Enable NvidiaWeb and Inject System ID.
 
