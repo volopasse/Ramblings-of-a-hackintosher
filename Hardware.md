@@ -19,6 +19,7 @@ Follow this guide to pick a correct piece of hardware for your new Hackintosh.
   - Qualcomm Atheros Killer E220x
   - Qualcomm Atheros Killer E2400
   - Qualcomm Atheros Killer E2500
+
 Stay away from mainboards that have wifi/bt built-in, as it's hard to make them work with macOS.
 - **Thunderbolt port:** Intel controller only
   Other controllers: Some reports say ASMedia Thunderbolt controller works with macOS too, but I'm not 100% sure about it.
